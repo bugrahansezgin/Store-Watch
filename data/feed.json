@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T14:28:27+00:00",
+ "generatedAt": "2026-09-29T14:31:19+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -13,7 +13,7 @@
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
-   "ratingCount": 9863,
+   "ratingCount": 9851,
    "genre": "Social Networking",
    "descriptionHash": "ca67ea567c4c",
    "screenshots": [
@@ -24,7 +24,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "lastChecked": "2026-09-29T14:31:19+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -39,7 +39,7 @@
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
-   "ratingCount": 478850,
+   "ratingCount": 478546,
    "genre": "Entertainment",
    "descriptionHash": "494145d3daaf",
    "screenshots": [
@@ -58,7 +58,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4d/19/624d193f-6741-d132-6191-b3ae14a67d93/9d274a2d-696a-4b45-9a24-5ad02983ed0d_5.png/576x768bb.png",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/d9/4c/e5d94c14-4532-25af-597b-dc0785429879/32e542ef-f6fe-42fc-8800-7dbf9ab4fad8_6.png/576x768bb.png"
    ],
-   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "lastChecked": "2026-09-29T14:31:19+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -73,7 +73,7 @@
    "versionDate": "2026-09-21T15:59:55Z",
    "price": "Free",
    "rating": 4.69,
-   "ratingCount": 29534438,
+   "ratingCount": 29535009,
    "genre": "Photo & Video",
    "descriptionHash": "64faded9033f",
    "screenshots": [
@@ -94,11 +94,54 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/b3/b6/d3b3b692-8c8b-876f-da87-28988225f2df/10.5__Direct.png/360x480bb.jpg",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/b9/12/35b912bd-c1f5-000b-cbb9-cee4591a3b23/10.5__Stacked_Timeline.png/360x480bb.jpg"
    ],
-   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "lastChecked": "2026-09-29T14:31:19+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
+  },
+  {
+   "id": "6753083338",
+   "country": "us",
+   "name": "Charm: AI Only Social Media",
+   "developer": "Jacob Rice",
+   "url": "https://apps.apple.com/us/app/charm-ai-only-social-media/id6753083338",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/fd/82/ddfd82a6-38f3-4cf3-0e11-f32dce5fd3c5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+   "version": "0.2.2609260",
+   "releaseNotes": "This update includes bug fixes and improvements to your AI world experience!\n\nHave a question or feedback? Reach out anytime at hello@joincharmsocial.com",
+   "versionDate": "2026-09-26T20:13:01Z",
+   "price": "Free",
+   "rating": 4.48,
+   "ratingCount": 140,
+   "genre": "Social Networking",
+   "descriptionHash": "c240cb2ad8db",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "lastChecked": "2026-09-29T14:31:19+00:00",
+   "trackedSince": "2026-09-29T14:31:19+00:00"
   }
  ],
  "events": [
+  {
+   "id": "2026-09-29-us-6753083338-tracking",
+   "type": "tracking",
+   "app": "us-6753083338",
+   "ts": "2026-09-29T14:31:19+00:00",
+   "title": "Started tracking Charm: AI Only Social Media",
+   "summary": "Baseline: 6 screenshots · v0.2.2609260",
+   "after": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
+   ]
+  },
   {
    "id": "2026-09-29-us-6502742786-tracking",
    "type": "tracking",
