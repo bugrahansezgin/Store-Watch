@@ -3,10 +3,16 @@ name: Daily check
 on:
   schedule:
     - cron: "17 5 * * *"   # every day 08:17 Istanbul
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_summary:
+        description: "Regenerate AI review summaries now"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  models: read   # free GitHub Models access for AI summaries
 
 concurrency:
   group: store-watch
@@ -19,7 +25,26 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python scripts/track.py
+
+      - name: Listings & screenshots
+        run: python scripts/track.py
+
+      - name: Reviews
+        run: python scripts/reviews.py
+        continue-on-error: true
+
+      - name: Version & description history
+        run: python scripts/history.py
+        continue-on-error: true
+
+      - name: AI review summary (weekly)
+        run: python scripts/summarize.py
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUMMARY_FORCE: ${{ inputs.force_summary }}
+
       - name: Commit snapshot
         run: |
           git config user.name  "store-watch-bot"
