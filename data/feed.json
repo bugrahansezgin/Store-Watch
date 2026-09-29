@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T14:36:32+00:00",
+ "generatedAt": "2026-09-29T14:40:27+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -13,7 +13,7 @@
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
-   "ratingCount": 9875,
+   "ratingCount": 9851,
    "genre": "Social Networking",
    "descriptionHash": "ca67ea567c4c",
    "screenshots": [
@@ -24,7 +24,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:36:32+00:00",
+   "lastChecked": "2026-09-29T14:40:27+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -39,7 +39,7 @@
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
-   "ratingCount": 479000,
+   "ratingCount": 478546,
    "genre": "Entertainment",
    "descriptionHash": "494145d3daaf",
    "screenshots": [
@@ -58,7 +58,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4d/19/624d193f-6741-d132-6191-b3ae14a67d93/9d274a2d-696a-4b45-9a24-5ad02983ed0d_5.png/576x768bb.png",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/d9/4c/e5d94c14-4532-25af-597b-dc0785429879/32e542ef-f6fe-42fc-8800-7dbf9ab4fad8_6.png/576x768bb.png"
    ],
-   "lastChecked": "2026-09-29T14:36:32+00:00",
+   "lastChecked": "2026-09-29T14:40:27+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -94,7 +94,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/b3/b6/d3b3b692-8c8b-876f-da87-28988225f2df/10.5__Direct.png/360x480bb.jpg",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/b9/12/35b912bd-c1f5-000b-cbb9-cee4591a3b23/10.5__Stacked_Timeline.png/360x480bb.jpg"
    ],
-   "lastChecked": "2026-09-29T14:36:32+00:00",
+   "lastChecked": "2026-09-29T14:40:27+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -121,11 +121,48 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:36:32+00:00",
+   "lastChecked": "2026-09-29T14:40:27+00:00",
    "trackedSince": "2026-09-29T14:31:19+00:00"
+  },
+  {
+   "id": "6596771144",
+   "country": "us",
+   "name": "status - sims but social media",
+   "developer": "WishRoll Inc.",
+   "url": "https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/e3/de/f8e3de55-702f-7089-39ba-ddda6d6c43c7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "version": "1.9.62",
+   "releaseNotes": "- viral,clout boosts effects improved \n- minor bug fixes",
+   "versionDate": "2026-09-28T14:09:37Z",
+   "price": "Free",
+   "rating": 4.63,
+   "ratingCount": 199574,
+   "genre": "Entertainment",
+   "descriptionHash": "adf006fa94fc",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "lastChecked": "2026-09-29T14:40:27+00:00",
+   "trackedSince": "2026-09-29T14:40:27+00:00"
   }
  ],
  "events": [
+  {
+   "id": "2026-09-29-us-6596771144-tracking",
+   "type": "tracking",
+   "app": "us-6596771144",
+   "ts": "2026-09-29T14:40:27+00:00",
+   "title": "Started tracking status - sims but social media",
+   "summary": "Baseline: 3 screenshots · v1.9.62",
+   "after": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
+   ]
+  },
   {
    "id": "2026-09-29-us-6753083338-tracking",
    "type": "tracking",

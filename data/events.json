@@ -1,5 +1,18 @@
 [
  {
+  "id": "2026-09-29-us-6596771144-tracking",
+  "type": "tracking",
+  "app": "us-6596771144",
+  "ts": "2026-09-29T14:40:27+00:00",
+  "title": "Started tracking status - sims but social media",
+  "summary": "Baseline: 3 screenshots · v1.9.62",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
+  ]
+ },
+ {
   "id": "2026-09-29-us-6753083338-tracking",
   "type": "tracking",
   "app": "us-6753083338",
