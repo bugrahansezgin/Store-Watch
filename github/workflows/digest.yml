@@ -1,0 +1,18 @@
+name: Weekly Slack digest
+
+on:
+  schedule:
+    - cron: "43 5 * * 1"   # Mondays 05:43 UTC (08:43 Istanbul), after the daily check
+  workflow_dispatch: {}
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/digest.py
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PANEL_URL: ${{ vars.PANEL_URL }}
