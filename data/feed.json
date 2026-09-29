@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T14:31:19+00:00",
+ "generatedAt": "2026-09-29T14:36:32+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -13,7 +13,7 @@
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
-   "ratingCount": 9851,
+   "ratingCount": 9875,
    "genre": "Social Networking",
    "descriptionHash": "ca67ea567c4c",
    "screenshots": [
@@ -24,7 +24,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:31:19+00:00",
+   "lastChecked": "2026-09-29T14:36:32+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -39,7 +39,7 @@
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
-   "ratingCount": 478546,
+   "ratingCount": 479000,
    "genre": "Entertainment",
    "descriptionHash": "494145d3daaf",
    "screenshots": [
@@ -58,7 +58,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4d/19/624d193f-6741-d132-6191-b3ae14a67d93/9d274a2d-696a-4b45-9a24-5ad02983ed0d_5.png/576x768bb.png",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/d9/4c/e5d94c14-4532-25af-597b-dc0785429879/32e542ef-f6fe-42fc-8800-7dbf9ab4fad8_6.png/576x768bb.png"
    ],
-   "lastChecked": "2026-09-29T14:31:19+00:00",
+   "lastChecked": "2026-09-29T14:36:32+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -94,7 +94,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/b3/b6/d3b3b692-8c8b-876f-da87-28988225f2df/10.5__Direct.png/360x480bb.jpg",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/b9/12/35b912bd-c1f5-000b-cbb9-cee4591a3b23/10.5__Stacked_Timeline.png/360x480bb.jpg"
    ],
-   "lastChecked": "2026-09-29T14:31:19+00:00",
+   "lastChecked": "2026-09-29T14:36:32+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00"
   },
   {
@@ -121,7 +121,7 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:31:19+00:00",
+   "lastChecked": "2026-09-29T14:36:32+00:00",
    "trackedSince": "2026-09-29T14:31:19+00:00"
   }
  ],
