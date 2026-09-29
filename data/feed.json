@@ -1,0 +1,152 @@
+{
+ "generatedAt": "2026-09-29T14:28:27+00:00",
+ "apps": [
+  {
+   "id": "6502742786",
+   "country": "us",
+   "name": "Aspect: AI-Only Social Media",
+   "developer": "Arch Platforms, Inc",
+   "url": "https://apps.apple.com/us/app/aspect-ai-only-social-media/id6502742786",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/ef/59/36ef5980-b1b1-4fb4-b6e1-4f9fee6207ab/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "version": "1.115",
+   "releaseNotes": "bug fixes",
+   "versionDate": "2026-09-24T05:51:07Z",
+   "price": "Free",
+   "rating": 4.48,
+   "ratingCount": 9863,
+   "genre": "Social Networking",
+   "descriptionHash": "ca67ea567c4c",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/c8/63/80c863b0-44f7-e210-d3e5-a6cb2cb92d4b/1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6a/2d/ac6a2de8-b8b1-a4e2-56f6-8a6b8c980867/2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/90/4e/66904e4e-369c-4d19-7cfd-4891ad8df4bd/3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/13/b0/1f13b09d-7d17-266e-b49e-04a865d5ddc0/4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00"
+  },
+  {
+   "id": "6449190344",
+   "country": "us",
+   "name": "PolyBuzz: Chat with Characters",
+   "developer": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+   "url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/90/64/b4906479-af0f-bfe4-fafe-3d10c49ca3a0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+   "version": "2.2.80",
+   "releaseNotes": "Bug fixes and engagement experience improvements.",
+   "versionDate": "2026-09-19T05:41:00Z",
+   "price": "Free",
+   "rating": 4.45,
+   "ratingCount": 478850,
+   "genre": "Entertainment",
+   "descriptionHash": "494145d3daaf",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/2e/f3/482ef3a0-dc75-3a66-54ec-6c8cdf2cb023/c28351ce-1da7-41ca-989d-13f7eb274c02_1.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/29/fe/1729fee9-af8b-4e0d-5890-8f68720b0647/183f18da-679b-4fed-9d0f-8950f06d8a6e_2.png/392x696bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/83/97/19839798-15d8-998c-ddd2-62c8eea5750e/bb712c6c-a637-4610-968e-cb329d6fbb03_3.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/1e/c0/481ec004-3102-1069-12dc-863e8de56956/214672b5-132b-4c99-ad61-0ec3c19ceaaf_4.png/392x696bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/57/1a/a6571ad5-9e14-9518-a59b-51c3c736a898/a988d3ee-f988-4d2b-b772-5077d2115fa0_5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/77/45/7f77453e-3249-4c21-1688-74c12878c4d7/c59bb171-da53-4b13-9d6c-d8ea8471edda_6.jpg/392x696bb.jpg"
+   ],
+   "ipadScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/29/93/122993ea-026a-e00d-81dd-690139afb833/4d4d5cb7-6924-4edf-ba92-0c303eb6e81e_1.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/3d/d9/1b3dd9bb-4bca-4057-f0a2-c506417b2afc/58cb63d7-6a00-4693-b2b1-270e8115799f_2.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/32/de/df32deb2-7e5f-7cb1-f682-46cc46cf6885/d277760a-5a4c-439f-a789-b7ef0a8d3515_3.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/ee/78/30ee78f9-0849-0b0e-d514-e0598266e037/f193d47f-0744-43f4-8134-ab207ae1ccb3_4.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4d/19/624d193f-6741-d132-6191-b3ae14a67d93/9d274a2d-696a-4b45-9a24-5ad02983ed0d_5.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/d9/4c/e5d94c14-4532-25af-597b-dc0785429879/32e542ef-f6fe-42fc-8800-7dbf9ab4fad8_6.png/576x768bb.png"
+   ],
+   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00"
+  },
+  {
+   "id": "389801252",
+   "country": "us",
+   "name": "Instagram",
+   "developer": "Instagram, Inc.",
+   "url": "https://apps.apple.com/us/app/instagram/id389801252",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+   "version": "448.0.0",
+   "releaseNotes": "Performance optimizations and stability improvements for a smoother, more reliable experience.",
+   "versionDate": "2026-09-21T15:59:55Z",
+   "price": "Free",
+   "rating": 4.69,
+   "ratingCount": 29534438,
+   "genre": "Photo & Video",
+   "descriptionHash": "64faded9033f",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/e2/8b/50e28b44-daa5-7101-6fb6-2d0e10fc72f3/1_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/a5/33/4da53369-3dce-b9b4-2a0c-1c6957dd40c4/1_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/38/e1/1038e1c7-751f-c4ea-39b9-d9f4d08fc08d/2_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/d0/6d/d4d06d20-f442-2b7c-8a4e-24d427542910/3_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/2e/23/c22e2319-6907-e41e-55dd-34e074b2a3f3/4_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/a4/32/fca432b3-6ad8-604b-ed2e-9081ce0d5cf3/5_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/d2/d2/d6d2d26a-687e-8c04-e42c-ae1b9f67bc74/6_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/8b/82/ba8b8222-27f6-42a7-dae5-0dfba160809e/7_iOS_5.5.jpg/392x696bb.jpg"
+   ],
+   "ipadScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/04/4d/76044de8-e420-2e6b-cea4-60821fb85156/10.5__Following_tab.png/360x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/ab/20/33ab20cf-dddf-ac3b-8634-e98ccffeb900/10.5__Home.png/360x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/d2/f3/4cd2f36d-bbbc-cf0d-241e-7e434b95d7db/10.5__Reels_comments.png/360x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/12/39/cb1239f9-f46d-ad59-e7e1-f83e617e3f95/10.5__Stories.png/360x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/b3/b6/d3b3b692-8c8b-876f-da87-28988225f2df/10.5__Direct.png/360x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/b9/12/35b912bd-c1f5-000b-cbb9-cee4591a3b23/10.5__Stacked_Timeline.png/360x480bb.jpg"
+   ],
+   "lastChecked": "2026-09-29T14:28:27+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00"
+  }
+ ],
+ "events": [
+  {
+   "id": "2026-09-29-us-6502742786-tracking",
+   "type": "tracking",
+   "app": "us-6502742786",
+   "ts": "2026-09-29T14:28:27+00:00",
+   "title": "Started tracking Aspect: AI-Only Social Media",
+   "summary": "Baseline: 5 screenshots · v1.115",
+   "after": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/c8/63/80c863b0-44f7-e210-d3e5-a6cb2cb92d4b/1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6a/2d/ac6a2de8-b8b1-a4e2-56f6-8a6b8c980867/2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/90/4e/66904e4e-369c-4d19-7cfd-4891ad8df4bd/3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/13/b0/1f13b09d-7d17-266e-b49e-04a865d5ddc0/4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
+   ]
+  },
+  {
+   "id": "2026-09-29-us-6449190344-tracking",
+   "type": "tracking",
+   "app": "us-6449190344",
+   "ts": "2026-09-29T14:28:27+00:00",
+   "title": "Started tracking PolyBuzz: Chat with Characters",
+   "summary": "Baseline: 6 screenshots · v2.2.80",
+   "after": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/2e/f3/482ef3a0-dc75-3a66-54ec-6c8cdf2cb023/c28351ce-1da7-41ca-989d-13f7eb274c02_1.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/29/fe/1729fee9-af8b-4e0d-5890-8f68720b0647/183f18da-679b-4fed-9d0f-8950f06d8a6e_2.png/392x696bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/83/97/19839798-15d8-998c-ddd2-62c8eea5750e/bb712c6c-a637-4610-968e-cb329d6fbb03_3.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/1e/c0/481ec004-3102-1069-12dc-863e8de56956/214672b5-132b-4c99-ad61-0ec3c19ceaaf_4.png/392x696bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/57/1a/a6571ad5-9e14-9518-a59b-51c3c736a898/a988d3ee-f988-4d2b-b772-5077d2115fa0_5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/77/45/7f77453e-3249-4c21-1688-74c12878c4d7/c59bb171-da53-4b13-9d6c-d8ea8471edda_6.jpg/392x696bb.jpg"
+   ]
+  },
+  {
+   "id": "2026-09-29-us-389801252-tracking",
+   "type": "tracking",
+   "app": "us-389801252",
+   "ts": "2026-09-29T14:28:27+00:00",
+   "title": "Started tracking Instagram",
+   "summary": "Baseline: 8 screenshots · v448.0.0",
+   "after": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/e2/8b/50e28b44-daa5-7101-6fb6-2d0e10fc72f3/1_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/a5/33/4da53369-3dce-b9b4-2a0c-1c6957dd40c4/1_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/38/e1/1038e1c7-751f-c4ea-39b9-d9f4d08fc08d/2_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/d0/6d/d4d06d20-f442-2b7c-8a4e-24d427542910/3_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/2e/23/c22e2319-6907-e41e-55dd-34e074b2a3f3/4_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/a4/32/fca432b3-6ad8-604b-ed2e-9081ce0d5cf3/5_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/d2/d2/d6d2d26a-687e-8c04-e42c-ae1b9f67bc74/6_iOS_5.5.jpg/392x696bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/8b/82/ba8b8222-27f6-42a7-dae5-0dfba160809e/7_iOS_5.5.jpg/392x696bb.jpg"
+   ]
+  }
+ ]
+}

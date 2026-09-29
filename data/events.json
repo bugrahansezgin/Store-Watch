@@ -1,1 +1,51 @@
-[]
+[
+ {
+  "id": "2026-09-29-us-6502742786-tracking",
+  "type": "tracking",
+  "app": "us-6502742786",
+  "ts": "2026-09-29T14:28:27+00:00",
+  "title": "Started tracking Aspect: AI-Only Social Media",
+  "summary": "Baseline: 5 screenshots · v1.115",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/c8/63/80c863b0-44f7-e210-d3e5-a6cb2cb92d4b/1.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6a/2d/ac6a2de8-b8b1-a4e2-56f6-8a6b8c980867/2.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/90/4e/66904e4e-369c-4d19-7cfd-4891ad8df4bd/3.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/13/b0/1f13b09d-7d17-266e-b49e-04a865d5ddc0/4.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
+  ]
+ },
+ {
+  "id": "2026-09-29-us-6449190344-tracking",
+  "type": "tracking",
+  "app": "us-6449190344",
+  "ts": "2026-09-29T14:28:27+00:00",
+  "title": "Started tracking PolyBuzz: Chat with Characters",
+  "summary": "Baseline: 6 screenshots · v2.2.80",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/2e/f3/482ef3a0-dc75-3a66-54ec-6c8cdf2cb023/c28351ce-1da7-41ca-989d-13f7eb274c02_1.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/29/fe/1729fee9-af8b-4e0d-5890-8f68720b0647/183f18da-679b-4fed-9d0f-8950f06d8a6e_2.png/392x696bb.png",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/83/97/19839798-15d8-998c-ddd2-62c8eea5750e/bb712c6c-a637-4610-968e-cb329d6fbb03_3.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/1e/c0/481ec004-3102-1069-12dc-863e8de56956/214672b5-132b-4c99-ad61-0ec3c19ceaaf_4.png/392x696bb.png",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/57/1a/a6571ad5-9e14-9518-a59b-51c3c736a898/a988d3ee-f988-4d2b-b772-5077d2115fa0_5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/77/45/7f77453e-3249-4c21-1688-74c12878c4d7/c59bb171-da53-4b13-9d6c-d8ea8471edda_6.jpg/392x696bb.jpg"
+  ]
+ },
+ {
+  "id": "2026-09-29-us-389801252-tracking",
+  "type": "tracking",
+  "app": "us-389801252",
+  "ts": "2026-09-29T14:28:27+00:00",
+  "title": "Started tracking Instagram",
+  "summary": "Baseline: 8 screenshots · v448.0.0",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/e2/8b/50e28b44-daa5-7101-6fb6-2d0e10fc72f3/1_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/a5/33/4da53369-3dce-b9b4-2a0c-1c6957dd40c4/1_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/38/e1/1038e1c7-751f-c4ea-39b9-d9f4d08fc08d/2_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/d0/6d/d4d06d20-f442-2b7c-8a4e-24d427542910/3_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/2e/23/c22e2319-6907-e41e-55dd-34e074b2a3f3/4_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/a4/32/fca432b3-6ad8-604b-ed2e-9081ce0d5cf3/5_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/d2/d2/d6d2d26a-687e-8c04-e42c-ae1b9f67bc74/6_iOS_5.5.jpg/392x696bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/8b/82/ba8b8222-27f6-42a7-dae5-0dfba160809e/7_iOS_5.5.jpg/392x696bb.jpg"
+  ]
+ }
+]
