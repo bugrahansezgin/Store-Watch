@@ -29,7 +29,7 @@ jobs:
         env:
           APP_URL: ${{ inputs.url }}
           APP_COUNTRY: ${{ inputs.country }}
-      - run: python scripts/track.py
+      - run: python scripts/track.py && python scripts/reviews.py && python scripts/history.py   # baseline right away
       - run: |
           git config user.name  "store-watch-bot"
           git config user.email "store-watch-bot@users.noreply.github.com"
