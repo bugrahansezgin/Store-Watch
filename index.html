@@ -75,6 +75,7 @@ input[type=search]{min-width:200px;flex:1;max-width:280px}
 .t-screenshots{color:var(--chip-shots);background:var(--chip-shots-bg)}
 .t-release{color:var(--chip-rel);background:var(--chip-rel-bg)}
 .t-price{color:var(--chip-price);background:var(--chip-price-bg)}
+.t-reviews{color:var(--chip-shots);background:var(--chip-shots-bg)}
 .t-rating,.t-description,.t-title,.t-tracking{color:var(--chip-rate);background:var(--chip-rate-bg)}
 .t-icon{color:var(--chip-icon);background:var(--chip-icon-bg)}
 .ba{display:flex;gap:10px;margin-top:10px}
@@ -144,6 +145,54 @@ input[type=search]{min-width:200px;flex:1;max-width:280px}
 .btn.primary{background:var(--text);color:var(--bg);border-color:var(--text)}
 .app-actions{display:flex;gap:8px;margin-left:auto}
 
+
+/* app page */
+.subtabs{display:flex;gap:4px;padding:0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
+.subtab{padding:12px 12px 11px;text-decoration:none;color:var(--text-2);border-bottom:2px solid transparent;margin-bottom:-1px;font-weight:500;white-space:nowrap}
+.subtab[aria-current="true"]{color:var(--text);border-color:var(--accent)}
+a.app-name{text-decoration:none} a.app-name:hover{text-decoration:underline}
+.app-ai{display:flex;gap:10px;align-items:flex-start;margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--surface-2);text-decoration:none;font-size:14px;color:var(--text-2)}
+.app-ai svg{flex:none;margin-top:3px;color:var(--chip-shots)} .app-ai b{color:var(--text)} .app-ai .meta{margin-left:auto;white-space:nowrap}
+.ai{border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:22px;background:linear-gradient(180deg,var(--chip-shots-bg),transparent 140px)}
+.ai-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-label{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--chip-shots);text-transform:uppercase;letter-spacing:.05em}
+.sent{font-size:12px;text-transform:none;letter-spacing:0;padding:1px 8px;border-radius:99px;font-weight:600}
+.s-positive{background:var(--add-soft);color:var(--add)} .s-negative{background:var(--rem-soft);color:var(--rem)} .s-mixed{background:var(--move-soft);color:var(--move)}
+.ai-headline{font-size:20px;letter-spacing:-.015em;margin:10px 0 4px;line-height:1.3}
+.ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.ai-col{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.ai-h{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+.c-love .ai-h{color:var(--add)} .c-pain .ai-h{color:var(--rem)} .c-req .ai-h{color:var(--chip-icon)}
+.ai-item{padding:8px 0;border-top:1px solid var(--line)} .ai-item:first-of-type{border-top:0;padding-top:0}
+.ai-item p{margin:2px 0 6px;color:var(--text-2);font-size:14px}
+.q{display:block;font-size:13px;color:var(--text-3);text-decoration:none;padding:4px 8px;border-left:2px solid var(--line-strong);margin:4px 0}
+.q:hover{color:var(--text);border-color:var(--accent)} .q b{color:var(--text-2);font-weight:600}
+.ai-line,.ai-take{margin-top:12px;font-size:14px;color:var(--text-2);display:flex;gap:10px;flex-wrap:wrap}
+.ai-line b,.ai-take b{color:var(--text);flex:none}
+.ai-take{background:var(--accent-soft);border-radius:10px;padding:10px 12px;color:var(--text)}
+.rv-layout{display:grid;grid-template-columns:240px 1fr;gap:28px;align-items:start}
+.rv-side{position:sticky;top:16px}
+.big{font-size:40px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.big small{display:block;font-size:13px;font-weight:400;color:var(--text-3);letter-spacing:0;margin-top:6px}
+.dist{display:grid;gap:4px}
+.dist-row{display:grid;grid-template-columns:28px 1fr 36px;gap:8px;align-items:center;border:0;background:none;padding:3px 4px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--text-2)}
+.dist-row:hover,.dist-row[aria-pressed="true"]{background:var(--surface-2)}
+.dist-row .bar{height:7px;border-radius:9px;background:var(--surface-2);overflow:hidden} .dist-row .bar i{display:block;height:100%;background:var(--text-2);border-radius:9px}
+.dist-row[aria-pressed="true"] .bar i{background:var(--accent)} .dist-row .num{text-align:right;font-variant-numeric:tabular-nums;color:var(--text-3)}
+.rv-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.rv{padding:14px 0;border-top:1px solid var(--line)} .rv p{margin:6px 0;white-space:pre-wrap;font-size:14.5px}
+.rv-h{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.stars{color:#f5a524;letter-spacing:1px;font-size:14px} .stars span{color:var(--line-strong)}
+.rv.flash{animation:flash 1.6s ease-out} @keyframes flash{0%{background:var(--accent-soft)}100%{background:transparent}}
+.timeline{list-style:none;padding:0;margin:0}
+.timeline li{display:grid;grid-template-columns:18px 1fr;gap:14px;position:relative;padding-bottom:22px}
+.timeline li:not(:last-child)::before{content:"";position:absolute;left:8px;top:16px;bottom:0;width:2px;background:var(--line)}
+.tl-dot{width:12px;height:12px;border-radius:99px;border:2px solid var(--line-strong);background:var(--surface);margin:5px 0 0 3px}
+.tl-dot.now{background:var(--accent);border-color:var(--accent)}
+.tl-h{display:flex;gap:10px;align-items:center;margin-bottom:6px}
+pre.desc{white-space:pre-wrap;font:14px/1.6 inherit;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:14px;margin:0}
+@media (max-width:820px){ .ai-grid{grid-template-columns:1fr} .rv-layout{grid-template-columns:1fr} .rv-side{position:static} .app-ai .meta{display:none} }
+
 /* lightbox & modal */
 dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none}
 dialog::backdrop{background:rgba(10,10,10,.72);backdrop-filter:blur(4px)}
@@ -176,7 +225,7 @@ dialog::backdrop{background:rgba(10,10,10,.72);backdrop-filter:blur(4px)}
   <header class="top">
     <div>
       <h1>Store Watch</h1>
-      <p class="sub">Daily snapshots of competitor App Store listings — screenshots, order, icon, name, price, version and rating. Changes land here; a digest goes to Slack every Monday.</p>
+      <p class="sub">Daily snapshots of competitor App Store listings — screenshots, icon, name, price, versions, description and reviews, with a weekly AI read on what users say. Changes land here as soon as they ship.</p>
     </div>
     <div class="meta" id="lastRun"></div>
   </header>
@@ -205,9 +254,10 @@ const TYPES = {
   price:{label:"Price", icon:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8.5 1.5h6v6L7 15 1 9z"/><circle cx="11" cy="5" r="1"/></svg>'},
   description:{label:"Description", icon:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h10M3 8h10M3 12h6"/></svg>'},
   rating:{label:"Rating", icon:'<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.5l2 4.2 4.5.6-3.3 3.1.8 4.5L8 11.8 4 13.9l.8-4.5L1.5 6.3 6 5.7z"/></svg>'},
+  reviews:{label:"Reviews", icon:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z"/></svg>'},
   tracking:{label:"Tracking", icon:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="5.5"/><circle cx="8" cy="8" r="1.5"/></svg>'},
 };
-const FILTERS = [["all","All"],["screenshots","Screenshots"],["icon","Icon"],["release","Release"],["price","Price"],["text","Text"],["rating","Rating"]];
+const FILTERS = [["all","All"],["screenshots","Screenshots"],["reviews","Reviews"],["icon","Icon"],["release","Release"],["price","Price"],["text","Text"],["rating","Rating"]];
 const S = {feed:null, apps:{}, tab:"activity", filter:"all", app:"all", q:""};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -250,6 +300,7 @@ async function load(){
 function route(){
   const h = location.hash.slice(1);
   if (h.startsWith("event/")) return renderDetail(decodeURIComponent(h.slice(6)));
+  if (h.startsWith("app/")) { const [k, t] = h.slice(4).split("/"); return renderApp(k, t); }
   if (h === "watchlist") S.tab = "watchlist"; else if (h === "" || h === "activity") S.tab = "activity";
   document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === S.tab));
   S.tab === "watchlist" ? renderWatchlist() : renderActivity();
@@ -285,7 +336,8 @@ function renderActivity(){
     let extra = "";
     if (e.type === "screenshots"){ const p = firstChange(e); if (p) extra = `<div class="ba"><figure class="b">${img(p[0])}Before</figure><figure class="a">${img(p[1])}After</figure></div>`; }
     if (e.type === "icon") extra = `<div class="ba"><figure class="b">${img(e.before,'style="width:44px;height:44px"')}Before</figure><figure class="a">${img(e.after,'style="width:44px;height:44px"')}After</figure></div>`;
-    body += `<a class="row" href="#event/${encodeURIComponent(e.id)}">
+    const href = e.type === "reviews" ? `#app/${e.app}/reviews` : `#event/${encodeURIComponent(e.id)}`;
+    body += `<a class="row" href="${href}">
       ${img(a.icon, 'class="icon"') || '<div class="icon"></div>'}
       <div><div class="row-title">${chip(e.type)}<span>${esc(e.title)}</span></div>
         <div class="row-sum">${esc(e.summary)}</div>${extra}</div>
@@ -388,6 +440,127 @@ function textDiff(a, b){
   return `<div class="textdiff"><div><div class="sect rem">Before</div><pre>${left}</pre></div><div><div class="sect add">After</div><pre>${right}</pre></div></div>`;
 }
 
+/* ---------- App page: screenshots · reviews · versions · description ---------- */
+const cache = {};
+async function getJSON(path){
+  if (path in cache) return cache[path];
+  try { const r = await fetch(path + "?ts=" + Date.now()); cache[path] = r.ok ? await r.json() : null; }
+  catch(e){ cache[path] = null; }
+  return cache[path];
+}
+const stars = n => `<span class="stars" aria-label="${n} stars">${"★".repeat(n)}<span>${"★".repeat(5-n)}</span></span>`;
+const APP_TABS = [["screens","Screenshots"],["reviews","Reviews"],["versions","Versions"],["description","Description"]];
+const RV = {star:"all", q:"", sort:"new", limit:30, sIdx:0};
+
+async function renderApp(key, tab){
+  const a = S.apps[key];
+  if (!a){ $("#view").innerHTML = `<section class="card"><div class="empty"><b>App not found</b><a href="#watchlist">Back to watchlist</a></div></section>`; return; }
+  tab = APP_TABS.some(t => t[0]===tab) ? tab : "screens";
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === "watchlist"));
+  const rs = a.reviewStats?.d30;
+  $("#view").innerHTML = `<section class="card">
+    <div class="dhead"><button class="back" aria-label="Back" onclick="location.hash='watchlist'">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button>
+      ${img(a.icon,'class="icon lg"')}
+      <div style="min-width:0"><div class="dname">${esc(a.name)}</div>
+        <div class="meta">${esc(a.developer)} · v${esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div></div>
+    <div class="subtabs">${APP_TABS.map(([k,l]) => `<a href="#app/${key}/${k}" class="subtab" aria-current="${k===tab}">${l}</a>`).join("")}</div>
+    <div class="dbody" id="appBody"><div class="meta">Loading…</div></div></section>`;
+  const body = $("#appBody");
+  if (tab === "screens"){
+    body.innerHTML = `<div class="sect">iPhone · ${a.screenshots.length}</div><div class="strip">${a.screenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` +
+      (a.ipadScreenshots?.length ? `<div class="sect">iPad · ${a.ipadScreenshots.length}</div><div class="strip">${a.ipadScreenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` : "") +
+      `<p class="meta"><a href="#activity" onclick="S.app='${key}';S.filter='screenshots'">See every screenshot change →</a></p>`;
+    bindZoom();
+  }
+  if (tab === "reviews") return renderReviews(key, body);
+  if (tab === "versions") return renderVersions(key, body);
+  if (tab === "description") return renderDescriptions(key, body);
+}
+
+function distBars(dist){
+  const total = Object.values(dist||{}).reduce((s,v)=>s+v,0) || 1;
+  return `<div class="dist">${[5,4,3,2,1].map(i => { const v = dist?.[i]||0, p = Math.round(v/total*100);
+    return `<button class="dist-row" data-star="${i}" aria-pressed="${RV.star==i}"><span>${i}★</span><span class="bar"><i style="width:${p}%"></i></span><span class="num">${p}%</span></button>`; }).join("")}</div>`;
+}
+
+async function renderReviews(key, body){
+  const [rv, sm] = await Promise.all([getJSON(`data/reviews/${key}.json`), getJSON(`data/summaries/${key}.json`)]);
+  if (!rv || !rv.reviews?.length){ body.innerHTML = `<div class="empty"><b>No reviews yet</b>They're collected on the next daily check.</div>`; return; }
+  const byId = Object.fromEntries(rv.reviews.map(r => [r.id, r]));
+  const items = sm?.items || [];
+  const s = items[RV.sIdx] || items[0];
+  let summary = `<div class="ai empty-ai"><div class="ai-label">${aiIcon}AI summary</div><p class="meta" style="margin:6px 0 0">The first summary is generated on the next daily check (weekly after that). To make one now: Actions → Daily check → Run workflow → tick “Regenerate AI review summaries”.</p></div>`;
+  if (s){
+    const quote = id => { const r = byId[id]; if (!r) return "";
+      const t = (r.title ? r.title + " — " : "") + r.body; return `<a class="q" href="#" data-goto="${esc(id)}">“${esc(t.length>110?t.slice(0,110)+"…":t)}” <b>${r.rating}★</b></a>`; };
+    const col = (title, cls, arr) => `<div class="ai-col ${cls}"><div class="ai-h">${title}</div>${(arr||[]).length ? arr.map(it => `<div class="ai-item"><b>${esc(it.point)}</b><p>${esc(it.detail||"")}</p>${(it.ids||[]).map(quote).join("")}</div>`).join("") : `<p class="meta">Nothing notable</p>`}</div>`;
+    summary = `<div class="ai">
+      <div class="ai-top"><div class="ai-label">${aiIcon}AI summary <span class="sent s-${esc(s.sentiment)}">${esc(s.sentiment||"")}</span></div>
+        ${items.length>1 ? `<select id="sumSel" aria-label="Summary week">${items.map((x,i)=>`<option value="${i}" ${i===RV.sIdx?"selected":""}>${new Date(x.ts).toLocaleDateString(undefined,{month:"short",day:"numeric"})}</option>`).join("")}</select>` : ""}</div>
+      <h3 class="ai-headline">${esc(s.headline)}</h3>
+      <div class="meta">${s.count} reviews · ${s.avg}★ · ${esc(s.window)} · ${rel(s.ts)} · ${esc(s.model)}</div>
+      <div class="ai-grid">${col("What users love","c-love",s.loves)}${col("Complaints","c-pain",s.complaints)}${col("Feature requests","c-req",s.requests)}</div>
+      ${s.paywall ? `<div class="ai-line"><b>Pricing & paywall</b>${esc(s.paywall)}</div>` : ""}
+      ${s.takeaway ? `<div class="ai-take"><b>Takeaway for us</b>${esc(s.takeaway)}</div>` : ""}
+    </div>`;
+  }
+  const st = rv.stats || {};
+  let list = rv.reviews.filter(r => (RV.star==="all" || r.rating==RV.star) && (!RV.q || (r.title+" "+r.body).toLowerCase().includes(RV.q.toLowerCase())));
+  if (RV.sort === "low") list = [...list].sort((x,y) => x.rating-y.rating || y.date.localeCompare(x.date));
+  if (RV.sort === "votes") list = [...list].sort((x,y) => (y.votes||0)-(x.votes||0));
+  const shown = list.slice(0, RV.limit);
+  body.innerHTML = summary + `
+    <div class="rv-layout">
+      <aside class="rv-side">
+        <div class="big">${st.avg ?? "–"}<small>★ avg of ${st.total} collected</small></div>
+        <div class="meta" style="margin-bottom:10px">Last 7d: ${st.d7?.count||0} · ${st.d7?.avg ?? "–"}★ &nbsp; Last 30d: ${st.d30?.count||0} · ${st.d30?.avg ?? "–"}★</div>
+        ${distBars(st.dist)}
+        ${RV.star!=="all" ? `<button class="btn" id="clearStar" style="margin-top:8px">Show all stars</button>` : ""}
+      </aside>
+      <div class="rv-main">
+        <div class="rv-tools"><input type="search" id="rq" placeholder="Search reviews" value="${esc(RV.q)}">
+          <select id="rsort"><option value="new">Newest</option><option value="low" ${RV.sort==="low"?"selected":""}>Lowest rating</option><option value="votes" ${RV.sort==="votes"?"selected":""}>Most helpful</option></select>
+          <span class="meta">${list.length} reviews</span></div>
+        ${shown.map(r => `<article class="rv" id="rv-${esc(r.id)}"><div class="rv-h">${stars(r.rating)}<b>${esc(r.title)}</b></div>
+          <p>${esc(r.body)}</p><div class="meta">${esc(r.author)} · v${esc(r.version)} · ${new Date(r.date).toLocaleDateString()}${r.votes?` · ${r.votes} helpful`:""}</div></article>`).join("") || `<p class="meta">No reviews match.</p>`}
+        ${list.length > RV.limit ? `<button class="btn" id="more" style="margin-top:12px">Show more</button>` : ""}
+      </div></div>`;
+  const rerender = () => renderReviews(key, body);
+  body.querySelectorAll("[data-star]").forEach(b => b.onclick = () => { RV.star = RV.star==b.dataset.star ? "all" : +b.dataset.star; RV.limit=30; rerender(); });
+  $("#clearStar") && ($("#clearStar").onclick = () => { RV.star="all"; rerender(); });
+  $("#rsort").onchange = e => { RV.sort = e.target.value; rerender(); };
+  $("#sumSel") && ($("#sumSel").onchange = e => { RV.sIdx = +e.target.value; rerender(); });
+  $("#more") && ($("#more").onclick = () => { RV.limit += 30; rerender(); });
+  const q = $("#rq"); q.oninput = e => { RV.q = e.target.value; RV.limit=30; const p=q.selectionStart; rerender().then(()=>{ const n=$("#rq"); n.focus(); n.setSelectionRange(p,p); }); };
+  body.querySelectorAll("[data-goto]").forEach(el => el.onclick = ev => { ev.preventDefault();
+    const id = el.dataset.goto; RV.star="all"; RV.q=""; RV.sort="new";
+    const idx = rv.reviews.findIndex(r => r.id===id); RV.limit = Math.max(30, idx+1);
+    rerender().then(() => { const t = document.getElementById("rv-"+id); if (t){ t.scrollIntoView({behavior:"smooth",block:"center"}); t.classList.add("flash"); } }); });
+}
+const aiIcon = `<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l1.6 4.4L14 7l-4.4 1.6L8 13l-1.6-4.4L2 7l4.4-1.6z"/></svg>`;
+
+async function renderVersions(key, body){
+  const h = await getJSON(`data/history/${key}.json`);
+  if (!h || !h.versions?.length){ body.innerHTML = `<div class="empty"><b>No version history yet</b>It's collected on the next daily check.</div>`; return; }
+  const note = h.backfill && !h.backfill.ok ? `<p class="meta">Older versions couldn't be read from the App Store page, so history starts when tracking began. It retries daily.</p>` : "";
+  body.innerHTML = `<div class="meta" style="margin-bottom:14px">${h.versions.length} versions</div>${note}<ol class="timeline">${h.versions.map((v,i) => `
+    <li><div class="tl-dot ${i===0?"now":""}"></div><div class="tl-body">
+      <div class="tl-h"><b>v${esc(v.version)}</b>${i===0?`<span class="badge b-new">Current</span>`:""}<span class="meta">${v.date?new Date(v.date).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"}):""}</span></div>
+      ${v.notes ? `<div class="notes">${esc(v.notes)}</div>` : `<p class="meta">No release notes</p>`}</div></li>`).join("")}</ol>`;
+}
+
+async function renderDescriptions(key, body, idx=0){
+  const h = await getJSON(`data/history/${key}.json`);
+  const d = h?.descriptions || [];
+  if (!d.length){ body.innerHTML = `<div class="empty"><b>No description history yet</b>It's collected on the next daily check.</div>`; return; }
+  const cur = d[idx], prev = d[idx+1];
+  body.innerHTML = `<div class="rv-tools"><select id="dsel">${d.map((x,i)=>`<option value="${i}" ${i===idx?"selected":""}>${i===0?"Current · ":""}${new Date(x.ts).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"})}</option>`).join("")}</select>
+    <span class="meta">${d.length} version${d.length>1?"s":""} tracked${prev?" · showing changes vs the one before":""}</span></div>
+    ${prev ? textDiff(prev.text, cur.text) : `<pre class="desc">${esc(cur.text)}</pre><p class="meta">Changes will show up here as a side-by-side diff.</p>`}`;
+  $("#dsel").onchange = e => renderDescriptions(key, body, +e.target.value);
+}
+
 function renderWatchlist(){
   const apps = S.feed.apps;
   const counts = {}; S.feed.events.forEach(e => { if (e.type!=="tracking") counts[e.app] = (counts[e.app]||0)+1; });
@@ -395,10 +568,12 @@ function renderWatchlist(){
     const k = `${a.country}-${a.id}`;
     return `<section class="card app">
       <div class="app-top">${img(a.icon,'class="icon lg"')}
-        <div><div class="app-name">${esc(a.name)}</div><div class="app-dev">${esc(a.developer)} · ${esc(a.genre||"")}</div></div>
-        <div class="app-actions"><button class="btn" data-hist="${k}">History · ${counts[k]||0}</button><a class="btn" href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div>
+        <div><a class="app-name" href="#app/${k}">${esc(a.name)}</a><div class="app-dev">${esc(a.developer)} · ${esc(a.genre||"")}</div></div>
+        <div class="app-actions"><button class="btn" data-hist="${k}">Changes · ${counts[k]||0}</button><a class="btn primary" href="#app/${k}">Open</a></div></div>
       <div class="app-stats"><span>Version <b>${esc(a.version)}</b></span><span>Rating <b>${a.rating ? a.rating.toFixed(2) : "–"}</b>${a.ratingCount?` (${Number(a.ratingCount).toLocaleString()})`:""}</span><span>Price <b>${esc(a.price)}</b></span><span>Store <b>${esc(a.country.toUpperCase())}</b></span><span>Tracked since <b>${new Date(a.trackedSince).toLocaleDateString()}</b></span>${a.lastError?`<span style="color:var(--rem)">Last fetch failed ${rel(a.lastError)}</span>`:""}</div>
       <div class="mini">${a.screenshots.map((u,i) => img(u, `data-zoom='${esc(JSON.stringify([u]))}' title="#${i+1}"`)).join("")}</div>
+      ${a.summaryHeadline ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span><b>Reviews:</b> ${esc(a.summaryHeadline)}</span><span class="meta">${a.reviewStats?.d30?.count ? `${a.reviewStats.d30.avg}★ · ${a.reviewStats.d30.count} in 30d` : ""}</span></a>`
+        : a.reviewStats ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span>${a.reviewStats.total} reviews collected · ${a.reviewStats.d30?.avg ?? "–"}★ last 30d</span></a>` : ""}
     </section>`;
   }).join("");
   $("#view").innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:12px;flex-wrap:wrap">

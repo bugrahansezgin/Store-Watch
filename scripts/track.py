@@ -188,9 +188,48 @@ def compare(old, new):
                {"before": old["rating"], "after": new["rating"]})
 
 
+def add_events(new_events):
+    """Merge events into events.json. Same id on the same day replaces the old one."""
+    events = load(EVENTS_FILE, [])
+    seen = {e["id"] for e in new_events}
+    events = new_events + [e for e in events if e["id"] not in seen]
+    events.sort(key=lambda e: e["ts"], reverse=True)
+    save(EVENTS_FILE, events[:MAX_EVENTS])
+
+
+def app_keys():
+    watch = load(os.path.join(ROOT, "apps.json"), {"apps": []})["apps"]
+    keys = []
+    for entry in watch:
+        app_id, country = parse_app(entry)
+        if app_id:
+            keys.append((f"{country}-{app_id}", app_id, country))
+    return keys
+
+
+def rebuild_feed():
+    """feed.json = what the panel loads first: slim app cards + the event log.
+    Reviews, summaries and history live in their own files and load on demand."""
+    apps = []
+    for key, _, _ in app_keys():
+        st = load(os.path.join(STATE, f"{key}.json"), None)
+        if not st:
+            continue
+        slim = {k: v for k, v in st.items() if k not in ("description", "releaseNotes")}
+        rv = load(os.path.join(DATA, "reviews", f"{key}.json"), None)
+        if rv:
+            slim["reviewStats"] = rv.get("stats")
+        sm = load(os.path.join(DATA, "summaries", f"{key}.json"), None)
+        if sm and sm.get("items"):
+            latest = sm["items"][0]
+            slim["summaryHeadline"] = latest.get("headline")
+            slim["summaryTs"] = latest.get("ts")
+        apps.append(slim)
+    save(FEED_FILE, {"generatedAt": now_iso(), "apps": apps, "events": load(EVENTS_FILE, [])})
+
+
 def main():
     watch = load(os.path.join(ROOT, "apps.json"), {"apps": []})["apps"]
-    events = load(EVENTS_FILE, [])
     ts = now_iso()
     day = ts[:10]
     apps_out, new_events, failures = [], [], []
@@ -208,10 +247,12 @@ def main():
         if not raw:
             failures.append(key)
             if old:
+                save(state_path, {**old, "lastError": ts})
                 apps_out.append({**old, "lastError": ts})
             continue
         new = snapshot(raw, app_id, country)
         new["lastChecked"] = ts
+        new.pop("lastError", None)
         if old is None:
             new["trackedSince"] = ts
             new_events.append({
@@ -231,16 +272,8 @@ def main():
         save(state_path, new)
         apps_out.append(new)
 
-    # Idempotent: a re-run on the same day replaces that day's events for the same id.
-    seen = {e["id"] for e in new_events}
-    events = new_events + [e for e in events if e["id"] not in seen]
-    events.sort(key=lambda e: e["ts"], reverse=True)
-    events = events[:MAX_EVENTS]
-    save(EVENTS_FILE, events)
-
-    # Feed for the panel: apps without long description text.
-    slim = [{k: v for k, v in a.items() if k != "description"} for a in apps_out]
-    save(FEED_FILE, {"generatedAt": ts, "apps": slim, "events": events})
+    add_events(new_events)
+    rebuild_feed()
 
     print(f"done: {len(apps_out)} apps, {len(new_events)} new events, {len(failures)} failures")
     if failures and len(failures) == len(watch):
