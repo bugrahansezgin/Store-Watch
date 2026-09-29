@@ -2,7 +2,7 @@ name: Daily check
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # every day 05:17 UTC (08:17 Istanbul)
+    - cron: "17 5 * * *"   # every day 08:17 Istanbul
   workflow_dispatch: {}
 
 permissions:
