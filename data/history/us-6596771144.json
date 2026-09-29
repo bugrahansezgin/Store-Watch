@@ -1,0 +1,21 @@
+{
+ "versions": [
+  {
+   "version": "1.9.62",
+   "date": "2026-09-28T14:09:37Z",
+   "notes": "- viral,clout boosts effects improved \n- minor bug fixes",
+   "source": "tracked"
+  }
+ ],
+ "descriptions": [
+  {
+   "ts": "2026-09-29T15:09:32+00:00",
+   "text": "on status, you can be anyone. \n\ncreate your persona, join 100s of different fandoms, and watch as you gain your favorite characters as followers, post with them, become famous, or...get cancelled. \n\nyou have been officially invited. \n\nStatus Terms of Use: https://www.statusai.com/legal/terms\nStatus Privacy Policy: https://www.statusai.com/legal/privacy"
+  }
+ ],
+ "backfill": {
+  "ok": false,
+  "count": 0,
+  "ts": "2026-09-29T15:09:58+00:00"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T14:40:58+00:00",
+ "generatedAt": "2026-09-29T15:09:58+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -9,7 +9,6 @@
    "url": "https://apps.apple.com/us/app/aspect-ai-only-social-media/id6502742786",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/ef/59/36ef5980-b1b1-4fb4-b6e1-4f9fee6207ab/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
    "version": "1.115",
-   "releaseNotes": "bug fixes",
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
@@ -24,8 +23,42 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:40:58+00:00",
-   "trackedSince": "2026-09-29T14:28:27+00:00"
+   "lastChecked": "2026-09-29T15:09:32+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "reviewStats": {
+    "total": 500,
+    "avg": 2.8,
+    "dist": {
+     "1": 146,
+     "2": 75,
+     "3": 105,
+     "4": 82,
+     "5": 92
+    },
+    "d7": {
+     "count": 4,
+     "avg": 2.75,
+     "dist": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+     }
+    },
+    "d30": {
+     "count": 37,
+     "avg": 2.46,
+     "dist": {
+      "1": 18,
+      "2": 1,
+      "3": 8,
+      "4": 3,
+      "5": 7
+     }
+    },
+    "updatedAt": "2026-09-29T15:09:38+00:00"
+   }
   },
   {
    "id": "6449190344",
@@ -35,7 +68,6 @@
    "url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/90/64/b4906479-af0f-bfe4-fafe-3d10c49ca3a0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
    "version": "2.2.80",
-   "releaseNotes": "Bug fixes and engagement experience improvements.",
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
@@ -58,8 +90,42 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4d/19/624d193f-6741-d132-6191-b3ae14a67d93/9d274a2d-696a-4b45-9a24-5ad02983ed0d_5.png/576x768bb.png",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/d9/4c/e5d94c14-4532-25af-597b-dc0785429879/32e542ef-f6fe-42fc-8800-7dbf9ab4fad8_6.png/576x768bb.png"
    ],
-   "lastChecked": "2026-09-29T14:40:58+00:00",
-   "trackedSince": "2026-09-29T14:28:27+00:00"
+   "lastChecked": "2026-09-29T15:09:32+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "reviewStats": {
+    "total": 500,
+    "avg": 3.09,
+    "dist": {
+     "1": 151,
+     "2": 47,
+     "3": 62,
+     "4": 87,
+     "5": 153
+    },
+    "d7": {
+     "count": 230,
+     "avg": 3.22,
+     "dist": {
+      "1": 64,
+      "2": 17,
+      "3": 33,
+      "4": 36,
+      "5": 80
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 3.09,
+     "dist": {
+      "1": 151,
+      "2": 47,
+      "3": 62,
+      "4": 87,
+      "5": 153
+     }
+    },
+    "updatedAt": "2026-09-29T15:09:45+00:00"
+   }
   },
   {
    "id": "389801252",
@@ -69,7 +135,6 @@
    "url": "https://apps.apple.com/us/app/instagram/id389801252",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
    "version": "448.0.0",
-   "releaseNotes": "Performance optimizations and stability improvements for a smoother, more reliable experience.",
    "versionDate": "2026-09-21T15:59:55Z",
    "price": "Free",
    "rating": 4.69,
@@ -94,8 +159,42 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/b3/b6/d3b3b692-8c8b-876f-da87-28988225f2df/10.5__Direct.png/360x480bb.jpg",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/b9/12/35b912bd-c1f5-000b-cbb9-cee4591a3b23/10.5__Stacked_Timeline.png/360x480bb.jpg"
    ],
-   "lastChecked": "2026-09-29T14:40:58+00:00",
-   "trackedSince": "2026-09-29T14:28:27+00:00"
+   "lastChecked": "2026-09-29T15:09:32+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "reviewStats": {
+    "total": 50,
+    "avg": 2.54,
+    "dist": {
+     "1": 27,
+     "2": 3,
+     "3": 2,
+     "4": 2,
+     "5": 16
+    },
+    "d7": {
+     "count": 50,
+     "avg": 2.54,
+     "dist": {
+      "1": 27,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 16
+     }
+    },
+    "d30": {
+     "count": 50,
+     "avg": 2.54,
+     "dist": {
+      "1": 27,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 16
+     }
+    },
+    "updatedAt": "2026-09-29T15:09:46+00:00"
+   }
   },
   {
    "id": "6753083338",
@@ -105,7 +204,6 @@
    "url": "https://apps.apple.com/us/app/charm-ai-only-social-media/id6753083338",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/fd/82/ddfd82a6-38f3-4cf3-0e11-f32dce5fd3c5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
    "version": "0.2.2609260",
-   "releaseNotes": "This update includes bug fixes and improvements to your AI world experience!\n\nHave a question or feedback? Reach out anytime at hello@joincharmsocial.com",
    "versionDate": "2026-09-26T20:13:01Z",
    "price": "Free",
    "rating": 4.48,
@@ -121,8 +219,42 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:40:58+00:00",
-   "trackedSince": "2026-09-29T14:31:19+00:00"
+   "lastChecked": "2026-09-29T15:09:32+00:00",
+   "trackedSince": "2026-09-29T14:31:19+00:00",
+   "reviewStats": {
+    "total": 18,
+    "avg": 3.72,
+    "dist": {
+     "1": 1,
+     "2": 3,
+     "3": 4,
+     "4": 2,
+     "5": 8
+    },
+    "d7": {
+     "count": 1,
+     "avg": 4.0,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+     }
+    },
+    "d30": {
+     "count": 2,
+     "avg": 4.5,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+     }
+    },
+    "updatedAt": "2026-09-29T15:09:46+00:00"
+   }
   },
   {
    "id": "6596771144",
@@ -132,7 +264,6 @@
    "url": "https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/e3/de/f8e3de55-702f-7089-39ba-ddda6d6c43c7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
    "version": "1.9.62",
-   "releaseNotes": "- viral,clout boosts effects improved \n- minor bug fixes",
    "versionDate": "2026-09-28T14:09:37Z",
    "price": "Free",
    "rating": 4.63,
@@ -145,8 +276,42 @@
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
    ],
    "ipadScreenshots": [],
-   "lastChecked": "2026-09-29T14:40:58+00:00",
-   "trackedSince": "2026-09-29T14:40:27+00:00"
+   "lastChecked": "2026-09-29T15:09:32+00:00",
+   "trackedSince": "2026-09-29T14:40:27+00:00",
+   "reviewStats": {
+    "total": 500,
+    "avg": 4.22,
+    "dist": {
+     "1": 23,
+     "2": 14,
+     "3": 72,
+     "4": 113,
+     "5": 278
+    },
+    "d7": {
+     "count": 337,
+     "avg": 4.25,
+     "dist": {
+      "1": 12,
+      "2": 8,
+      "3": 53,
+      "4": 74,
+      "5": 190
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 4.22,
+     "dist": {
+      "1": 23,
+      "2": 14,
+      "3": 72,
+      "4": 113,
+      "5": 278
+     }
+    },
+    "updatedAt": "2026-09-29T15:09:53+00:00"
+   }
   }
  ],
  "events": [
