@@ -117,23 +117,35 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 "
 SERVER_DATA_RE = re.compile(r'<script[^>]*id="serialized-server-data"[^>]*>(.*?)</script>', re.S)
 
 
+UAS = [UA, ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+             "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")]
+
+
 def fetch_page(app_id, country, query=""):
     """The public App Store web page. It shows the screenshot set Apple actually
     serves today (largest iPhone size), unlike the Lookup API, which often returns
-    an older device-size set the developer never updated."""
+    an older device-size set the developer never updated.
+    Retries a few times: Apple intermittently answers CI runners with an error or a
+    stripped page, and a single miss must not flip us back to the stale Lookup set."""
     fixture_dir = os.environ.get("FIXTURE_DIR")
     if fixture_dir:
         p = os.path.join(fixture_dir, f"page-{country}-{app_id}{query.replace('?', '-').replace('=', '-')}.html")
         return open(p).read() if os.path.exists(p) else None
     url = f"https://apps.apple.com/{country}/app/id{app_id}{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return r.read().decode("utf-8", "replace")
-    except Exception as e:
-        print(f"  page fetch failed: {e}", file=sys.stderr)
-        return None
-
+    for attempt in range(4):
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UAS[attempt % len(UAS)], "Accept-Language": "en-US,en;q=0.9",
+            "Accept": "text/html,application/xhtml+xml"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                page = r.read().decode("utf-8", "replace")
+            if SERVER_DATA_RE.search(page):
+                return page
+            print(f"  page {attempt + 1}/4: no data block ({len(page)} bytes)", file=sys.stderr)
+        except Exception as e:
+            print(f"  page {attempt + 1}/4 failed: {e}", file=sys.stderr)
+        time.sleep(3 + attempt * 4)
+    return None
 
 def server_data(page):
     m = SERVER_DATA_RE.search(page or "")
@@ -366,8 +378,16 @@ def main():
             shots = page_screenshots(server_data(fetch_page(app_id, country)))
             if shots["phone"]:
                 new["screenshots"], new["screenshotSource"] = shots["phone"], "page"
-            if shots["pad"]:
-                new["ipadScreenshots"] = shots["pad"]
+                if shots["pad"]:
+                    new["ipadScreenshots"] = shots["pad"]
+            elif old and old.get("screenshotSource") == "page":
+                # Page unavailable today: keep yesterday's page set rather than
+                # falling back to the (often stale) Lookup set.
+                print("  page unavailable, keeping last page screenshots", file=sys.stderr)
+                new["screenshots"] = old["screenshots"]
+                new["ipadScreenshots"] = old.get("ipadScreenshots", [])
+                new["screenshotSource"] = "page"
+            time.sleep(1.5)  # be gentle with apps.apple.com
         new["lastChecked"] = ts
         new.pop("lastError", None)
         if old is None:
@@ -380,7 +400,7 @@ def main():
             })
         else:
             new["trackedSince"] = old.get("trackedSince", ts)
-            resync = old.get("screenshotSource", "lookup") != new["screenshotSource"]
+            resync = new["screenshotSource"] == "page" and old.get("screenshotSource") != "page"
             if resync:  # switching data source: realign silently instead of a fake "changed" event
                 print(f"  screenshots resynced from {new['screenshotSource']}")
                 old = {**old, "screenshots": new["screenshots"], "ipadScreenshots": new["ipadScreenshots"]}
