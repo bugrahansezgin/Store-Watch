@@ -1,39 +1,79 @@
 {
  "stats": {
-  "total": 500,
-  "avg": 3.09,
+  "total": 504,
+  "avg": 3.08,
   "dist": {
-   "1": 151,
+   "1": 153,
    "2": 47,
-   "3": 62,
+   "3": 64,
    "4": 87,
    "5": 153
   },
   "d7": {
-   "count": 204,
-   "avg": 3.2,
+   "count": 208,
+   "avg": 3.17,
    "dist": {
-    "1": 56,
+    "1": 58,
     "2": 17,
-    "3": 31,
+    "3": 33,
     "4": 31,
     "5": 69
    }
   },
   "d30": {
-   "count": 500,
-   "avg": 3.09,
+   "count": 504,
+   "avg": 3.08,
    "dist": {
-    "1": 151,
+    "1": 153,
     "2": 47,
-    "3": 62,
+    "3": 64,
     "4": 87,
     "5": 153
    }
   },
-  "updatedAt": "2026-09-30T07:07:22+00:00"
+  "updatedAt": "2026-09-30T07:08:31+00:00"
  },
  "reviews": [
+  {
+   "id": "14603380425",
+   "rating": 1,
+   "title": ".",
+   "body": "i hate this app so much most of the characters go straight to abuse weather its slamming the character or walls or something more violent then i have to sit through so many annoying ads while trying to find a nonabusive character",
+   "author": "?lilly23",
+   "version": "2.2.80",
+   "date": "2026-09-28T06:28:27-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603311408",
+   "rating": 3,
+   "title": "Good",
+   "body": "It’s pretty good I like it but to many ads",
+   "author": "Angelidc",
+   "version": "2.2.80",
+   "date": "2026-09-28T06:07:25-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603185992",
+   "rating": 1,
+   "title": "chat time?!",
+   "body": "It’s been 6 minutes and I already need to watch an ad. I do not recommend.",
+   "author": "Willow 🐈‍⬛",
+   "version": "2.2.80",
+   "date": "2026-09-28T05:27:57-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603159614",
+   "rating": 3,
+   "title": "Bot’s gender and search history problem",
+   "body": "It’s an ok app but the only problem is that I had it to where my bots were only guys and single characters now it’s all female characters and all grouped up and I don’t really like talking to female characters that much and anytime a search up a character and I expect it to save on the search it’s automatically deletes it please fix it.",
+   "author": "Totally.Not.Leslie",
+   "version": "2.2.80",
+   "date": "2026-09-28T05:19:23-07:00",
+   "votes": 0
+  },
   {
    "id": "14602379138",
    "rating": 5,

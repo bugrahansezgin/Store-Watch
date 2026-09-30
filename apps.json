@@ -30,6 +30,12 @@
       "country": "us",
       "platform": "android",
       "note": "link.socialai.app"
+    },
+    {
+      "id": "com.instagram.android",
+      "country": "us",
+      "platform": "android",
+      "note": "com.instagram.android"
     }
   ]
 }

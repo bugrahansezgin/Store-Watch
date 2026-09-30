@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T07:07:23+00:00",
+ "generatedAt": "2026-09-30T07:08:33+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -12,7 +12,7 @@
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
-   "ratingCount": 9875,
+   "ratingCount": 9869,
    "genre": "Social Networking",
    "descriptionHash": "ca67ea567c4c",
    "screenshots": [
@@ -25,7 +25,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6502742786",
    "reviewStats": {
@@ -60,7 +60,7 @@
       "5": 7
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:30+00:00"
    }
   },
   {
@@ -74,7 +74,7 @@
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
-   "ratingCount": 479000,
+   "ratingCount": 479034,
    "genre": "Entertainment",
    "descriptionHash": "494145d3daaf",
    "screenshots": [
@@ -95,42 +95,42 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6449190344",
    "reviewStats": {
-    "total": 500,
-    "avg": 3.09,
+    "total": 504,
+    "avg": 3.08,
     "dist": {
-     "1": 151,
+     "1": 153,
      "2": 47,
-     "3": 62,
+     "3": 64,
      "4": 87,
      "5": 153
     },
     "d7": {
-     "count": 204,
-     "avg": 3.2,
+     "count": 208,
+     "avg": 3.17,
      "dist": {
-      "1": 56,
+      "1": 58,
       "2": 17,
-      "3": 31,
+      "3": 33,
       "4": 31,
       "5": 69
      }
     },
     "d30": {
-     "count": 500,
-     "avg": 3.09,
+     "count": 504,
+     "avg": 3.08,
      "dist": {
-      "1": 151,
+      "1": 153,
       "2": 47,
-      "3": 62,
+      "3": 64,
       "4": 87,
       "5": 153
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:31+00:00"
    }
   },
   {
@@ -166,7 +166,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-389801252",
    "reviewStats": {
@@ -201,7 +201,7 @@
       "5": 22
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:31+00:00"
    }
   },
   {
@@ -214,22 +214,22 @@
    "version": "0.2.2609260",
    "versionDate": "2026-09-26T20:13:01Z",
    "price": "Free",
-   "rating": 4.48,
-   "ratingCount": 140,
+   "rating": 4.49,
+   "ratingCount": 142,
    "genre": "Social Networking",
    "descriptionHash": "c240cb2ad8db",
    "screenshots": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/392x848bb.jpg"
    ],
    "ipadScreenshots": [],
    "platform": "ios",
-   "screenshotSource": "lookup",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-29T14:31:19+00:00",
    "key": "us-6753083338",
    "reviewStats": {
@@ -264,7 +264,7 @@
       "5": 1
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:31+00:00"
    }
   },
   {
@@ -278,18 +278,19 @@
    "versionDate": "2026-09-28T14:09:37Z",
    "price": "Free",
    "rating": 4.63,
-   "ratingCount": 199719,
+   "ratingCount": 199799,
    "genre": "Entertainment",
    "descriptionHash": "adf006fa94fc",
    "screenshots": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/00/59/f60059de-0313-0c4d-9e26-329e8fa4f76d/Status_1284_2278_EN_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/84/af/a784afe1-4d3e-9c50-36f8-1334d5bd9ff1/Status_1284_2278_EN_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/3e/43/703e438d-0ad0-0ef0-40d8-9bd0b3cf5caf/Status_1284_2278_EN_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/3b/53/2c3b53c5-237a-4af8-81e1-cf03d7469908/Status_1284_2278_EN_4.jpg/392x848bb.jpg"
    ],
    "ipadScreenshots": [],
    "platform": "ios",
-   "screenshotSource": "lookup",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-29T14:40:27+00:00",
    "key": "us-6596771144",
    "reviewStats": {
@@ -324,7 +325,7 @@
       "5": 281
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:32+00:00"
    }
   },
   {
@@ -359,7 +360,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T07:07:20+00:00",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
    "trackedSince": "2026-09-30T07:07:20+00:00",
    "key": "gp-us-link.socialai.app",
    "reviewStats": {
@@ -394,11 +395,117 @@
       "5": 265
      }
     },
-    "updatedAt": "2026-09-30T07:07:22+00:00"
+    "updatedAt": "2026-09-30T07:08:32+00:00"
+   }
+  },
+  {
+   "id": "com.instagram.android",
+   "country": "us",
+   "platform": "android",
+   "name": "Instagram",
+   "developer": "Instagram",
+   "url": "https://play.google.com/store/apps/details?id=com.instagram.android&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q=w512",
+   "version": "Varies with device",
+   "versionDate": "2026-09-28T13:56:15+00:00",
+   "price": "Free · IAP $0.19 - $10,000.00 per item",
+   "rating": 3.99,
+   "ratingCount": 169480581,
+   "installs": "5,000,000,000+",
+   "genre": "Social",
+   "descriptionHash": "1e9b2e304c15",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/KWZZ4eVExx8xdzsZrw5O5Lmyz8amgpAyzm9R_Fs5StBLQrxpoO7hZsrbXU170fuP9dXOagS9vNflXbit6Aro=w392",
+    "https://play-lh.googleusercontent.com/k1GxM2K3E1-j7zVi2cXP6sxoLDNPJYIkpI_VmQYeZkV2KYqvRMvUt21In8GkmwvIxpwwRfC4Kk3575eVR7YK=w392",
+    "https://play-lh.googleusercontent.com/pk8xOq-n8fb43aWkEOfDcXbxVPd5S8fqq_Q33mpGvg6_Ltw7V0f0_r5GxX2zLaETyEy4EoDim77c04gNl4dL=w392",
+    "https://play-lh.googleusercontent.com/iFuJpIUpCLFjytdKp_hGoTNMD4Fqicb0aG2LlB9WQ1-LExP4oWEmf4augIbESDCASTUDNURi8C5xTH-XWW0_m-s=w392",
+    "https://play-lh.googleusercontent.com/gG08FD3cFDBLfidlon3KlbLPDYc_6357YkFa_jc57GMBMqOGr0lWUfBJ-5tFl7Eo17FvK1tMWftynS5APc7gWw=w392",
+    "https://play-lh.googleusercontent.com/OG4KlJTq0GCkjjd-h2xBBImgRLD2GGurDWS8cSLmJqaaNt_1HLVk5ZBxDyl2HNjpGfY4YgnerDypk3N68_qpiQ=w392",
+    "https://play-lh.googleusercontent.com/dM0H2UuInqt1i3Ca8sDqh1Z94aEQ0eg3TYr3cMLDObW8X2RI4cGedkPmAc8QrXUqoTl1mL34q1dsNTIDA1B4H-M=w392",
+    "https://play-lh.googleusercontent.com/tR-pzxAgfd_vrzvg-XIi4YdHhH7w0X39vg79Cw7O1FXJ1WkpikmzP_OWLA1YBBSRbZT-NN78H2St5oNLgsHy-g=w392",
+    "https://play-lh.googleusercontent.com/5qtdPxqjcxWH-cVQjs27J92G3P49Mfdj7R1aeUfhlZxN9ms_ki4RDIy5-K-_KnbruLfCq1fAr8FXiioTO_4M=w392",
+    "https://play-lh.googleusercontent.com/owhcCpFG-RVzia1hmywEi63mJe5ktcxbxHD6OhllwDPxOkw7vKuVlJqWZJD7wDMC7SYWvfrg_LoTPMoCYbpu2w=w392",
+    "https://play-lh.googleusercontent.com/KZQpNLudk4aAgoHsRXVQwVJxbabQrN_Cc8QKt7zqbbqwRr_2f8ZQFVnDV6SW23jxslnUeY2fw3b028KUnpl4NA=w392",
+    "https://play-lh.googleusercontent.com/7u3P1J_XRJz4bGBUH4zjMHeafJ9mho47e8-R7GF4eLzAlWdgW1HHt1uqPBMZZUPcE0GO5Ci0L7AzTZKaI3N1HOo=w392",
+    "https://play-lh.googleusercontent.com/TMJ3UyV_aSWXC2GEL-AMkUf36BrDru1lkl8PE8AYK-16NoQwboJLOp6hlVKDGLuyrMEzmhibDQsQtXdJLD8KnQ=w392",
+    "https://play-lh.googleusercontent.com/TdoGKqe6S6O6w2lSft-CSLIRwvuxjDtJTZdTOVVzwo3_4fef8Q3SxdZ50uU5RDO3mxdWoEvajOiDoq7FeAkufb0=w392",
+    "https://play-lh.googleusercontent.com/1KaRNxorVgo1AqkVJ6mzsboDI2aSAx3SmaLWwuGiSHLwYSz4Hn9wz99C2nHRRZ8tyrqz8DNIrImJhsTyF952cK0=w392",
+    "https://play-lh.googleusercontent.com/baJYcGn6bb8ajnnMxrMGtoX7SEdehI9H_6w0jtOcXmTt6o5VdiCxPgcNBctwN4FqLCzrR3Q0Bk9fb2MV7Uox=w392",
+    "https://play-lh.googleusercontent.com/JtVIep5oSG_bJTc8c1bHhTAB_KXdf6vRkAZKN8l3TMR3RG49cNOR5TqdAjD31shVt2fu__YV8uiW096XRl0cog=w392",
+    "https://play-lh.googleusercontent.com/g0wielwVDU1De_Z6skEOz_qp2iOoc1_Et1lkStLBGU9zXmh0csNLutfz_r_FCt5tb9gkN4uQiysl0fNxw4-4Sw=w392",
+    "https://play-lh.googleusercontent.com/VOZeRohuffv3stl38SbPmX5yyiYBptNwuJbHYd2LXl5w9xnYUAKATabCrQBfFOSJ5bbFhJtEuKgqhXLRrGyU=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T07:08:23+00:00",
+   "trackedSince": "2026-09-30T07:08:23+00:00",
+   "key": "gp-us-com.instagram.android",
+   "reviewStats": {
+    "total": 500,
+    "avg": 4.09,
+    "dist": {
+     "1": 90,
+     "2": 12,
+     "3": 13,
+     "4": 33,
+     "5": 352
+    },
+    "d7": {
+     "count": 500,
+     "avg": 4.09,
+     "dist": {
+      "1": 90,
+      "2": 12,
+      "3": 13,
+      "4": 33,
+      "5": 352
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 4.09,
+     "dist": {
+      "1": 90,
+      "2": 12,
+      "3": 13,
+      "4": 33,
+      "5": 352
+     }
+    },
+    "updatedAt": "2026-09-30T07:08:33+00:00"
    }
   }
  ],
  "events": [
+  {
+   "id": "2026-09-30-gp-us-com.instagram.android-tracking",
+   "type": "tracking",
+   "app": "gp-us-com.instagram.android",
+   "ts": "2026-09-30T07:08:23+00:00",
+   "title": "Started tracking Instagram",
+   "summary": "Baseline: 19 screenshots · version varies by device",
+   "after": [
+    "https://play-lh.googleusercontent.com/KWZZ4eVExx8xdzsZrw5O5Lmyz8amgpAyzm9R_Fs5StBLQrxpoO7hZsrbXU170fuP9dXOagS9vNflXbit6Aro=w392",
+    "https://play-lh.googleusercontent.com/k1GxM2K3E1-j7zVi2cXP6sxoLDNPJYIkpI_VmQYeZkV2KYqvRMvUt21In8GkmwvIxpwwRfC4Kk3575eVR7YK=w392",
+    "https://play-lh.googleusercontent.com/pk8xOq-n8fb43aWkEOfDcXbxVPd5S8fqq_Q33mpGvg6_Ltw7V0f0_r5GxX2zLaETyEy4EoDim77c04gNl4dL=w392",
+    "https://play-lh.googleusercontent.com/iFuJpIUpCLFjytdKp_hGoTNMD4Fqicb0aG2LlB9WQ1-LExP4oWEmf4augIbESDCASTUDNURi8C5xTH-XWW0_m-s=w392",
+    "https://play-lh.googleusercontent.com/gG08FD3cFDBLfidlon3KlbLPDYc_6357YkFa_jc57GMBMqOGr0lWUfBJ-5tFl7Eo17FvK1tMWftynS5APc7gWw=w392",
+    "https://play-lh.googleusercontent.com/OG4KlJTq0GCkjjd-h2xBBImgRLD2GGurDWS8cSLmJqaaNt_1HLVk5ZBxDyl2HNjpGfY4YgnerDypk3N68_qpiQ=w392",
+    "https://play-lh.googleusercontent.com/dM0H2UuInqt1i3Ca8sDqh1Z94aEQ0eg3TYr3cMLDObW8X2RI4cGedkPmAc8QrXUqoTl1mL34q1dsNTIDA1B4H-M=w392",
+    "https://play-lh.googleusercontent.com/tR-pzxAgfd_vrzvg-XIi4YdHhH7w0X39vg79Cw7O1FXJ1WkpikmzP_OWLA1YBBSRbZT-NN78H2St5oNLgsHy-g=w392",
+    "https://play-lh.googleusercontent.com/5qtdPxqjcxWH-cVQjs27J92G3P49Mfdj7R1aeUfhlZxN9ms_ki4RDIy5-K-_KnbruLfCq1fAr8FXiioTO_4M=w392",
+    "https://play-lh.googleusercontent.com/owhcCpFG-RVzia1hmywEi63mJe5ktcxbxHD6OhllwDPxOkw7vKuVlJqWZJD7wDMC7SYWvfrg_LoTPMoCYbpu2w=w392",
+    "https://play-lh.googleusercontent.com/KZQpNLudk4aAgoHsRXVQwVJxbabQrN_Cc8QKt7zqbbqwRr_2f8ZQFVnDV6SW23jxslnUeY2fw3b028KUnpl4NA=w392",
+    "https://play-lh.googleusercontent.com/7u3P1J_XRJz4bGBUH4zjMHeafJ9mho47e8-R7GF4eLzAlWdgW1HHt1uqPBMZZUPcE0GO5Ci0L7AzTZKaI3N1HOo=w392",
+    "https://play-lh.googleusercontent.com/TMJ3UyV_aSWXC2GEL-AMkUf36BrDru1lkl8PE8AYK-16NoQwboJLOp6hlVKDGLuyrMEzmhibDQsQtXdJLD8KnQ=w392",
+    "https://play-lh.googleusercontent.com/TdoGKqe6S6O6w2lSft-CSLIRwvuxjDtJTZdTOVVzwo3_4fef8Q3SxdZ50uU5RDO3mxdWoEvajOiDoq7FeAkufb0=w392",
+    "https://play-lh.googleusercontent.com/1KaRNxorVgo1AqkVJ6mzsboDI2aSAx3SmaLWwuGiSHLwYSz4Hn9wz99C2nHRRZ8tyrqz8DNIrImJhsTyF952cK0=w392",
+    "https://play-lh.googleusercontent.com/baJYcGn6bb8ajnnMxrMGtoX7SEdehI9H_6w0jtOcXmTt6o5VdiCxPgcNBctwN4FqLCzrR3Q0Bk9fb2MV7Uox=w392",
+    "https://play-lh.googleusercontent.com/JtVIep5oSG_bJTc8c1bHhTAB_KXdf6vRkAZKN8l3TMR3RG49cNOR5TqdAjD31shVt2fu__YV8uiW096XRl0cog=w392",
+    "https://play-lh.googleusercontent.com/g0wielwVDU1De_Z6skEOz_qp2iOoc1_Et1lkStLBGU9zXmh0csNLutfz_r_FCt5tb9gkN4uQiysl0fNxw4-4Sw=w392",
+    "https://play-lh.googleusercontent.com/VOZeRohuffv3stl38SbPmX5yyiYBptNwuJbHYd2LXl5w9xnYUAKATabCrQBfFOSJ5bbFhJtEuKgqhXLRrGyU=w392"
+   ]
+  },
   {
    "id": "2026-09-30-gp-us-link.socialai.app-tracking",
    "type": "tracking",
@@ -429,9 +536,10 @@
    "title": "Started tracking status - sims but social media",
    "summary": "Baseline: 3 screenshots · v1.9.62",
    "after": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/00/59/f60059de-0313-0c4d-9e26-329e8fa4f76d/Status_1284_2278_EN_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/84/af/a784afe1-4d3e-9c50-36f8-1334d5bd9ff1/Status_1284_2278_EN_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/3e/43/703e438d-0ad0-0ef0-40d8-9bd0b3cf5caf/Status_1284_2278_EN_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/3b/53/2c3b53c5-237a-4af8-81e1-cf03d7469908/Status_1284_2278_EN_4.jpg/392x848bb.jpg"
    ]
   },
   {
@@ -442,12 +550,12 @@
    "title": "Started tracking Charm: AI Only Social Media",
    "summary": "Baseline: 6 screenshots · v0.2.2609260",
    "after": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/392x848bb.jpg"
    ]
   },
   {
