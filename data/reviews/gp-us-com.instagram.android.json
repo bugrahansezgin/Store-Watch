@@ -1,39 +1,369 @@
 {
  "stats": {
-  "total": 506,
-  "avg": 4.1,
+  "total": 536,
+  "avg": 4.12,
   "dist": {
-   "1": 90,
-   "2": 12,
+   "1": 92,
+   "2": 13,
    "3": 13,
-   "4": 33,
-   "5": 358
+   "4": 36,
+   "5": 382
   },
   "d7": {
-   "count": 506,
-   "avg": 4.1,
+   "count": 536,
+   "avg": 4.12,
    "dist": {
-    "1": 90,
-    "2": 12,
+    "1": 92,
+    "2": 13,
     "3": 13,
-    "4": 33,
-    "5": 358
+    "4": 36,
+    "5": 382
    }
   },
   "d30": {
-   "count": 506,
-   "avg": 4.1,
+   "count": 536,
+   "avg": 4.12,
    "dist": {
-    "1": 90,
-    "2": 12,
+    "1": 92,
+    "2": 13,
     "3": 13,
-    "4": 33,
-    "5": 358
+    "4": 36,
+    "5": 382
    }
   },
-  "updatedAt": "2026-09-30T07:15:24+00:00"
+  "updatedAt": "2026-09-30T07:30:30+00:00"
  },
  "reviews": [
+  {
+   "id": "c170be95-b8a8-40ce-a524-2258edc48db9",
+   "rating": 5,
+   "title": "",
+   "body": "🤘🔥🔥🥰🥰",
+   "author": "Ritesh UK07 Vlogs",
+   "version": "",
+   "date": "2026-09-29T07:29:58+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e05e190c-4780-4a9d-920a-d4331fcb7323",
+   "rating": 5,
+   "title": "",
+   "body": "Uttam bhumihar 💪🏻 ka",
+   "author": "Deepak Singh",
+   "version": "",
+   "date": "2026-09-29T07:29:06+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "a3fe9935-f861-434b-ace1-bff93b059011",
+   "rating": 5,
+   "title": "",
+   "body": "Very nice app i will give rate 5star",
+   "author": "Arjun Pradhan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:29:03+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "41da96b1-cb07-45a9-bbe2-a9a8b040b468",
+   "rating": 2,
+   "title": "",
+   "body": "Facebook is better for photos, I know that makes me sound but it is. Trying to upload photos from an album with more than 12 pictures in is frustrating, everytime you select an image it jumps to the top meaning you have to scroll down to where you were again to select the next picture. Insta seems incapable of handling pictures of different orientations or even aspect ratios without throwing a hissy fit. and most content, especially the reels is brain rotting rubbish. but hey, everyone uses it.",
+   "author": "Andy Tijou",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T07:28:35+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f326f8ed-a686-472a-b4df-3ec6bfc9596c",
+   "rating": 5,
+   "title": "",
+   "body": "Meri I'd ben ho jari hai please ye wali mat karna 🫶",
+   "author": "Mukesh Singh",
+   "version": "",
+   "date": "2026-09-29T07:28:32+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0978c996-5024-4d69-a64f-4636a6593693",
+   "rating": 5,
+   "title": "",
+   "body": "তা-",
+   "author": "Balma Emotional",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:28:00+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "dd3be9ec-557d-4c61-822c-989dd3add603",
+   "rating": 5,
+   "title": "",
+   "body": "please saspend my id halp mee (. vishal_devipujak_king_999",
+   "author": "Vishal Vaghela",
+   "version": "443.0.0.48.82",
+   "date": "2026-09-29T07:27:58+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e2bea156-7603-42e9-962f-a2db064c3357",
+   "rating": 5,
+   "title": "",
+   "body": "best",
+   "author": "Sazim Khan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:27:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "3c7f7340-348b-4cf0-af15-ea2b85457dfa",
+   "rating": 5,
+   "title": "",
+   "body": "👍",
+   "author": "Vishnureddy Gopavaram",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:27:23+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b7c47267-ddd4-4a2a-b2a3-3b0475d077f2",
+   "rating": 5,
+   "title": "",
+   "body": "wow...❤️",
+   "author": "Aryan Todkar",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T07:26:50+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "3547d9cc-f022-49a7-a108-8a81841b501d",
+   "rating": 5,
+   "title": "",
+   "body": "yas",
+   "author": "Sharif Khan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:25:32+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "41a93abc-c03d-4381-ba28-2c762005542e",
+   "rating": 4,
+   "title": "",
+   "body": "this app is so interesting 🥹",
+   "author": "Maheen Mirza",
+   "version": "",
+   "date": "2026-09-29T07:24:09+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "be7ccc1f-c2be-4b40-9d9d-4f67850e5d6c",
+   "rating": 5,
+   "title": "",
+   "body": "awesome 😎",
+   "author": "Vivek Mahto",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:24:03+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b7707e75-ef9d-4dd2-b5cc-3036f69f2cf0",
+   "rating": 5,
+   "title": "",
+   "body": "very nice.",
+   "author": "Sahil Khan",
+   "version": "",
+   "date": "2026-09-29T07:22:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "07f2abc8-6b3b-4c28-b732-eb7d74304396",
+   "rating": 5,
+   "title": "",
+   "body": "dont disable my Instagram account plss 🥺🥺",
+   "author": "C M",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:22:39+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "40134383-8372-4cce-8af0-c56d50a75da7",
+   "rating": 5,
+   "title": "",
+   "body": "Dear Instagram team I am having a problem when I went to open my Instagram account they show we disabled your account please fix my problem thank you",
+   "author": "Chetan Thakor",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T07:22:34+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "bad3216e-83f2-41c4-9d90-48bc3dc2b788",
+   "rating": 5,
+   "title": "",
+   "body": "good 👍",
+   "author": "Bhavna Ben Rathod",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T07:20:57+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e68546e5-205d-4d9a-9e17-8a7bd0af831a",
+   "rating": 4,
+   "title": "",
+   "body": "I really don't care to see on my feed who liked what. The bubbles are pointless.",
+   "author": "Anca Mihaila",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:20:14+00:00",
+   "votes": 1,
+   "reply": ""
+  },
+  {
+   "id": "dc0f6c6f-ac2d-4bd0-89f5-fcf8f42397b6",
+   "rating": 5,
+   "title": "",
+   "body": "Nice experience",
+   "author": "Manju Gupta",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:19:42+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "60c70683-5cea-42eb-b51b-3211288aa7e1",
+   "rating": 1,
+   "title": "",
+   "body": "My account ___sadia____07 was suspended by mistake. I deleted my old account 4 months ago. This is my only account. I did not bypass. My ID photo was blurry and now getting error. Please review my account. Username: ___sadia____07",
+   "author": "Sadia Laskar",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:19:34+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "33509870-712c-44a8-a592-cfe76fdb9fab",
+   "rating": 5,
+   "title": "",
+   "body": "Excellent Amazing Very Nice",
+   "author": "MOHAN THEPALE",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:19:33+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5fb6815d-24d8-48a4-8271-ed47e94174cc",
+   "rating": 5,
+   "title": "",
+   "body": "for respect of my did never clear honor to important tell by smoothly link from secret by smoothly philosophy of use services so humble obsess his best friend with seeking very hopefully need it will people were pleased for can you tell meet our full support Alistair is slowly them useful positive about your best kindness",
+   "author": "Aemar huiguo Monto",
+   "version": "440.1.0.46.86",
+   "date": "2026-09-29T07:19:20+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f1fd6b3e-9f85-4d90-a292-9cb967af4623",
+   "rating": 1,
+   "title": "",
+   "body": "REMOVE ONE TIME VIEW FEATURE THIS IS UNFAIR! MAG SESEND SYA SAKIN NG PICTURE NA MAG BUBURST HEART KO TAS ISANG BESSES LANG PWEDE MAKITA?? MADUGAAAAAAAA",
+   "author": "Justine Villacorte",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:19:07+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c263a8ad-e71a-49bb-9fa2-5395793814b6",
+   "rating": 4,
+   "title": "",
+   "body": "the most useful app for time pass.",
+   "author": "Kamala Mondal",
+   "version": "445.0.0.45.83",
+   "date": "2026-09-29T07:18:14+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "45dd004e-9681-4ad2-9934-c688698906e4",
+   "rating": 5,
+   "title": "",
+   "body": "congratulations 🎉",
+   "author": "Vivek Yadav",
+   "version": "",
+   "date": "2026-09-29T07:17:20+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "3e5b9434-7c50-4d18-abaf-fe386721f359",
+   "rating": 5,
+   "title": "",
+   "body": "😊",
+   "author": "I'm Sorry",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:16:48+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "98ca4118-2922-432d-b145-df7418f1e373",
+   "rating": 5,
+   "title": "",
+   "body": "Daily use",
+   "author": "Subarta Bera",
+   "version": "446.0.0.49.77",
+   "date": "2026-09-29T07:16:25+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "795d4b2a-8290-406d-8aa3-a95319f1aa43",
+   "rating": 5,
+   "title": "",
+   "body": "best",
+   "author": "Zeeshan Khan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:15:59+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6816941c-0521-436d-a459-a71c617b5e30",
+   "rating": 5,
+   "title": "",
+   "body": "vdililp",
+   "author": "Dil Kumar",
+   "version": "444.0.0.46.85",
+   "date": "2026-09-29T07:15:55+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "10aa9856-7a39-416e-b267-fb310bf7162b",
+   "rating": 5,
+   "title": "",
+   "body": "best",
+   "author": "Tarjan Kumar",
+   "version": "427.0.0.47.73",
+   "date": "2026-09-29T07:15:19+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "209792b2-e5a4-496a-a8b6-6ff3822a34fc",
    "rating": 5,

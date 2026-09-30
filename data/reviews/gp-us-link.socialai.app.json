@@ -1,39 +1,83 @@
 {
  "stats": {
-  "total": 501,
+  "total": 505,
   "avg": 4.03,
   "dist": {
    "1": 46,
    "2": 30,
-   "3": 51,
-   "4": 109,
-   "5": 265
+   "3": 52,
+   "4": 111,
+   "5": 266
   },
   "d7": {
-   "count": 501,
+   "count": 505,
    "avg": 4.03,
    "dist": {
     "1": 46,
     "2": 30,
-    "3": 51,
-    "4": 109,
-    "5": 265
+    "3": 52,
+    "4": 111,
+    "5": 266
    }
   },
   "d30": {
-   "count": 501,
+   "count": 505,
    "avg": 4.03,
    "dist": {
     "1": 46,
     "2": 30,
-    "3": 51,
-    "4": 109,
-    "5": 265
+    "3": 52,
+    "4": 111,
+    "5": 266
    }
   },
-  "updatedAt": "2026-09-30T07:15:23+00:00"
+  "updatedAt": "2026-09-30T07:30:30+00:00"
  },
  "reviews": [
+  {
+   "id": "b178857c-3905-4e06-9e9d-ff194ccd055b",
+   "rating": 3,
+   "title": "",
+   "body": "fun at first but the energies and ads r annoying",
+   "author": "Sunny",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:30:03+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6a53d4a7-13e2-4350-ab2a-c2f0d23a33c6",
+   "rating": 4,
+   "title": "",
+   "body": "really fun game I wish there isn't a lot of ads",
+   "author": "Nirvana Shawol",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:24:40+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b2a0dc61-734a-47a8-8563-d718a74913e7",
+   "rating": 5,
+   "title": "",
+   "body": "cool asf",
+   "author": "balqist salsabila sastra",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:19:22+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "4fa9b853-b60c-48ae-a36d-b1be33b08d84",
+   "rating": 4,
+   "title": "",
+   "body": "this app is honestly fun to use especially you want to feel like a main character in the media platform lol but overall im kinda still upset that I needed to wait my energy refill back up at midnight but the thing is I dont want to spend so moneyyyy however also in the end this app is best for role-playing and have fun trolling bots or people!",
+   "author": "Vivienne Foh",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:16:03+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "ce186346-813c-47e7-9a69-cd40a06898e6",
    "rating": 2,

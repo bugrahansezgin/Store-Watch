@@ -1,39 +1,72 @@
 {
  "stats": {
-  "total": 500,
-  "avg": 2.88,
+  "total": 503,
+  "avg": 2.87,
   "dist": {
-   "1": 181,
-   "2": 52,
+   "1": 183,
+   "2": 53,
    "3": 63,
    "4": 54,
    "5": 150
   },
   "d7": {
-   "count": 323,
-   "avg": 2.92,
+   "count": 326,
+   "avg": 2.91,
    "dist": {
-    "1": 114,
-    "2": 31,
+    "1": 116,
+    "2": 32,
     "3": 44,
     "4": 34,
     "5": 100
    }
   },
   "d30": {
-   "count": 500,
-   "avg": 2.88,
+   "count": 503,
+   "avg": 2.87,
    "dist": {
-    "1": 181,
-    "2": 52,
+    "1": 183,
+    "2": 53,
     "3": 63,
     "4": 54,
     "5": 150
    }
   },
-  "updatedAt": "2026-09-30T07:15:24+00:00"
+  "updatedAt": "2026-09-30T07:30:31+00:00"
  },
  "reviews": [
+  {
+   "id": "aad5cec7-767f-499b-a4e6-572c47034427",
+   "rating": 2,
+   "title": "",
+   "body": "I didn't really like it, it was too expensive with too many ads as well. the app is also trying to be kid friendly for some reason it also sensors stupid things like ages. I'd rather prefer c. ai because the characters are more realistic to what it is inspired by but after the age update I don't use it.",
+   "author": "Jony T",
+   "version": "",
+   "date": "2026-09-29T07:28:32+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "7420dba5-98c7-42de-823d-84da0e49248b",
+   "rating": 1,
+   "title": "",
+   "body": "the updates suck get rid of the reels they make it so every time you look st it it pops up and I hate it",
+   "author": "Aaron",
+   "version": "2.2.82",
+   "date": "2026-09-29T07:24:28+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6f20efd4-4cad-4075-aa39-c8847008a3ba",
+   "rating": 1,
+   "title": "",
+   "body": "don't try it I been addicted to this app for so long this is my warning take it seriously!",
+   "author": "Cayden Smart",
+   "version": "2.2.82",
+   "date": "2026-09-29T07:22:34+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "efbe7460-50dc-4a3d-a64d-05c35a839952",
    "rating": 1,
