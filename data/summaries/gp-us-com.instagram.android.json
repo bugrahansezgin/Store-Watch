@@ -1,0 +1,10 @@
+{
+ "items": [],
+ "processed": [],
+ "current": null,
+ "lastError": {
+  "ts": "2026-09-30T07:34:51+00:00",
+  "message": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "lastRun": "2026-09-30T07:34:51+00:00"
+}

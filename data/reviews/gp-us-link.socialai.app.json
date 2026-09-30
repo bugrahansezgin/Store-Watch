@@ -1,39 +1,50 @@
 {
  "stats": {
-  "total": 505,
+  "total": 506,
   "avg": 4.03,
   "dist": {
    "1": 46,
    "2": 30,
    "3": 52,
    "4": 111,
-   "5": 266
+   "5": 267
   },
   "d7": {
-   "count": 505,
+   "count": 506,
    "avg": 4.03,
    "dist": {
     "1": 46,
     "2": 30,
     "3": 52,
     "4": 111,
-    "5": 266
+    "5": 267
    }
   },
   "d30": {
-   "count": 505,
+   "count": 506,
    "avg": 4.03,
    "dist": {
     "1": 46,
     "2": 30,
     "3": 52,
     "4": 111,
-    "5": 266
+    "5": 267
    }
   },
-  "updatedAt": "2026-09-30T07:30:30+00:00"
+  "updatedAt": "2026-09-30T07:34:50+00:00"
  },
  "reviews": [
+  {
+   "id": "f58ea322-191e-4155-9d09-ad23775a254b",
+   "rating": 5,
+   "title": "",
+   "body": "it's amazing I really feel like I can be any character it's funny though I do not like the energy system as it is very annoying",
+   "author": "Addy Pavelka",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:31:29+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "b178857c-3905-4e06-9e9d-ff194ccd055b",
    "rating": 3,
