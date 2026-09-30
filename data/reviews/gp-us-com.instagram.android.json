@@ -1,39 +1,512 @@
 {
  "stats": {
-  "total": 543,
-  "avg": 4.12,
+  "total": 586,
+  "avg": 4.1,
   "dist": {
-   "1": 93,
+   "1": 104,
    "2": 14,
-   "3": 13,
-   "4": 37,
-   "5": 386
+   "3": 14,
+   "4": 40,
+   "5": 414
   },
   "d7": {
-   "count": 543,
-   "avg": 4.12,
+   "count": 586,
+   "avg": 4.1,
    "dist": {
-    "1": 93,
+    "1": 104,
     "2": 14,
-    "3": 13,
-    "4": 37,
-    "5": 386
+    "3": 14,
+    "4": 40,
+    "5": 414
    }
   },
   "d30": {
-   "count": 543,
-   "avg": 4.12,
+   "count": 586,
+   "avg": 4.1,
    "dist": {
-    "1": 93,
+    "1": 104,
     "2": 14,
-    "3": 13,
-    "4": 37,
-    "5": 386
+    "3": 14,
+    "4": 40,
+    "5": 414
    }
   },
-  "updatedAt": "2026-09-30T07:59:28+00:00"
+  "updatedAt": "2026-09-30T08:02:14+00:00"
  },
  "reviews": [
+  {
+   "id": "6cb0687c-b266-4d6d-a001-7bb9d30aa5a3",
+   "rating": 5,
+   "title": "",
+   "body": "mast",
+   "author": "Solanki Tejal",
+   "version": "278.0.0.22.117",
+   "date": "2026-09-29T08:01:58+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ea7c9faa-0695-4675-b500-cda9e9c2fd86",
+   "rating": 5,
+   "title": "",
+   "body": "i met my friends",
+   "author": "Yasmin Aadhil",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:01:48+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "73b4a431-da77-49f5-a58a-5130b53d85df",
+   "rating": 5,
+   "title": "",
+   "body": "very nice app",
+   "author": "Satish Rathod",
+   "version": "",
+   "date": "2026-09-29T08:01:08+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "44dda07e-b99f-4762-91ec-1ffdc12c3b79",
+   "rating": 5,
+   "title": "",
+   "body": "14 yers",
+   "author": "BHUPANDAR SINGH",
+   "version": "",
+   "date": "2026-09-29T08:01:02+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "467c04c1-2095-42bb-a003-8e328b22d590",
+   "rating": 5,
+   "title": "",
+   "body": "😍😍😍",
+   "author": "Haji Yoi",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:00:00+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ad5a37b1-7ede-42f0-87eb-c787d7ed1302",
+   "rating": 5,
+   "title": "",
+   "body": "ग्राम मेरी आईडी डिलीट मत करना मैं तुम्हें फाइव स्टार दे रहा हूं",
+   "author": "Shaitan Singh",
+   "version": "437.0.0.33.78",
+   "date": "2026-09-29T07:59:05+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "dc3f4985-16f7-4f6f-a162-7c903e2c36b9",
+   "rating": 1,
+   "title": "",
+   "body": "Poorly optimized for foldable phones. Reels literally only uses the left side of the screen. Watching videos in the normal feed is a better use of screen space than clicking on it. Makes scrolling videos frustrating and I just go over to tik tok instead.",
+   "author": "Christian Hirschi",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:59:02+00:00",
+   "votes": 12,
+   "reply": ""
+  },
+  {
+   "id": "dde0faec-71ae-4557-9e5d-743e4d8930d6",
+   "rating": 1,
+   "title": "",
+   "body": "good good",
+   "author": "Rajesh Kumar",
+   "version": "",
+   "date": "2026-09-29T07:58:56+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5de414ea-ee54-43d3-8eb8-98d9dd7af192",
+   "rating": 5,
+   "title": "",
+   "body": "😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘💖💖💖💖💖💗💖💖💖💖💖💖💖💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞💞",
+   "author": "NARESH MUDHIRAJ",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:58:24+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ed80b9ac-f7fd-425d-8bce-06af440ff77f",
+   "rating": 5,
+   "title": "",
+   "body": "Rashmitha podiaym",
+   "author": "Podiya Kunjami",
+   "version": "429.1.0.44.70",
+   "date": "2026-09-29T07:58:08+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "daac1db5-60eb-437c-8fdf-8ea6cdf7ca3a",
+   "rating": 5,
+   "title": "",
+   "body": "Use since the beginning, main media, always the 1",
+   "author": "Shek (shek)",
+   "version": "157.0.0.37.120",
+   "date": "2026-09-29T07:58:06+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "2c3e8978-35a3-49d1-9bf1-53264871ba70",
+   "rating": 4,
+   "title": "",
+   "body": "RihanRaza",
+   "author": "Rihan Raza",
+   "version": "",
+   "date": "2026-09-29T07:56:29+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f4973757-1cbb-4bc0-ba71-63850f44730a",
+   "rating": 5,
+   "title": "",
+   "body": "best app",
+   "author": "It's.officialrajput Rajput",
+   "version": "",
+   "date": "2026-09-29T07:56:01+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "dbb71ba7-6b2f-461e-938f-0ae7c9067352",
+   "rating": 5,
+   "title": "",
+   "body": "outstanding",
+   "author": "Khursheed Saifi",
+   "version": "",
+   "date": "2026-09-29T07:55:40+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "96ef536c-8afa-4471-ae86-83d26c56d146",
+   "rating": 5,
+   "title": "",
+   "body": "Nice app",
+   "author": "Aaliyan SIDDIQUI",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:54:24+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ddda2899-6d23-4268-8f57-b53bc616270d",
+   "rating": 1,
+   "title": "",
+   "body": "a vari balar app",
+   "author": "Sonatan Baidya",
+   "version": "",
+   "date": "2026-09-29T07:53:50+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "fd760a50-1a18-4afa-9a8b-2f368012bf92",
+   "rating": 5,
+   "title": "",
+   "body": "Best for creators",
+   "author": "shravani chaudhari",
+   "version": "",
+   "date": "2026-09-29T07:53:04+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "23d5a0c4-04e4-4f0f-b2e5-9f56afa2dfa2",
+   "rating": 5,
+   "title": "",
+   "body": "Dear Instagram team I am having a problem when I went to open my Instagram account they show we disabled your account please fix my problem thank you",
+   "author": "Jatin Vanskar",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:52:23+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c06c2472-76f0-46ba-8ad9-f0ad3597f5be",
+   "rating": 5,
+   "title": "",
+   "body": "one of the best app",
+   "author": "Shah Ali",
+   "version": "430.0.0.53.80",
+   "date": "2026-09-29T07:52:16+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5dc2548e-1059-4ac1-8cd6-5c3bfd1dac4e",
+   "rating": 4,
+   "title": "",
+   "body": "good",
+   "author": "Aman Behlolpur Aman Behlolpur",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:52:05+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b0dec75b-0d8b-4c0d-9802-ef56c08ddfe4",
+   "rating": 1,
+   "title": "",
+   "body": "Reels AI slop 🤮When I switch apps feed is reset so I can't even translate unknown words. Repetitive content. You'll see less Threads content - total lie",
+   "author": "Alexander",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:51:30+00:00",
+   "votes": 5,
+   "reply": ""
+  },
+  {
+   "id": "cc3c863f-5e4d-4004-acca-c95786972a68",
+   "rating": 5,
+   "title": "",
+   "body": "Instagram ki wajah se aaj meri gf mere saath hai",
+   "author": "Cryptx Zainul",
+   "version": "",
+   "date": "2026-09-29T07:50:08+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b91f8144-37ec-4e76-b504-9020540e8b23",
+   "rating": 1,
+   "title": "",
+   "body": "This apps so bad that ban me without a reasonable like they tell me i was child exploiting and child pedofil i not doing it its really hard just too grow a account and yeah i really hate this apps now my Facebook account get ban too because share id with Instagram please anyone rate this apps 1 star and make it down",
+   "author": "Yamazaki Shintaro",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:49:43+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c23a6749-0e07-4e7a-a281-062fef3c7972",
+   "rating": 1,
+   "title": "",
+   "body": "False information 4 time my account suspended without any proof",
+   "author": "Mukund Rai",
+   "version": "",
+   "date": "2026-09-29T07:49:28+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0375fa05-ab93-4530-9248-ef5564645041",
+   "rating": 1,
+   "title": "",
+   "body": "this is useless app",
+   "author": "Raushan Kumar",
+   "version": "",
+   "date": "2026-09-29T07:49:20+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5af99fef-39e9-462e-bfb6-49356386086b",
+   "rating": 1,
+   "title": "",
+   "body": "not interested app 😕",
+   "author": "Vagh Jaydip",
+   "version": "",
+   "date": "2026-09-29T07:49:07+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b4c9bb91-5d6d-4802-9564-9bc790bca755",
+   "rating": 1,
+   "title": "",
+   "body": "mera account suspend karna band karo 🤬☝🏻",
+   "author": "Sanjay Shukla",
+   "version": "",
+   "date": "2026-09-29T07:48:58+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "9581cca9-990b-4ce4-a849-87c7fbf31168",
+   "rating": 5,
+   "title": "",
+   "body": "faaaaaaa!",
+   "author": "Aradhy Yadav",
+   "version": "",
+   "date": "2026-09-29T07:48:54+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "458b1870-1aa9-4d4c-890b-c3355efed8e6",
+   "rating": 5,
+   "title": "",
+   "body": "nice",
+   "author": "Yashraj Sahu",
+   "version": "442.0.0.46.79",
+   "date": "2026-09-29T07:47:32+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ef3df7da-ca73-48d3-9cbe-d89972bbd239",
+   "rating": 5,
+   "title": "",
+   "body": "🥰🥰",
+   "author": "Bunty Kumar",
+   "version": "404.0.0.48.76",
+   "date": "2026-09-29T07:47:01+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e50d085d-f4fb-4790-9945-2957597696bd",
+   "rating": 5,
+   "title": "",
+   "body": "This app has great features and I really like that. Other thing is that it does not distribute Ads which is a really big win for me.",
+   "author": "Harry Joan",
+   "version": "",
+   "date": "2026-09-29T07:46:34+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f51806b9-1009-4a0a-83b5-bff0938a8271",
+   "rating": 1,
+   "title": "",
+   "body": "I'm infuriated with Instagram. My personal account has been disabled/banned even though I haven't even violated any rules in their guidelines. Not to mention I have a Meta Quest and Payments are still going through even though I have my account disabled. I blame their stupid A.I. System because it's garbage. If Instagram reads this please relook at my user \"tavaris594_igghost\"",
+   "author": "Tavaris Wright",
+   "version": "210.0.0.28.71",
+   "date": "2026-09-29T07:44:14+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "1693b70b-0154-48e6-b735-0c06d4356004",
+   "rating": 5,
+   "title": "",
+   "body": "refreshing",
+   "author": "Ranjeet Kumar",
+   "version": "",
+   "date": "2026-09-29T07:43:04+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "90b9beb8-4195-422b-8086-e15981141519",
+   "rating": 5,
+   "title": "",
+   "body": "Superb & nice app........!!!",
+   "author": "Prakash Kamble",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:43:00+00:00",
+   "votes": 1,
+   "reply": ""
+  },
+  {
+   "id": "a9189fa7-9be2-46e6-b921-7926f82ef093",
+   "rating": 5,
+   "title": "",
+   "body": "Instagram एक बहुत ही शानदार और उपयोगी प्लेटफॉर्म है। यहाँ अपनी क्रिएटिविटी, डांस, फोटो और वीडियो को आसानी से लोगों तक पहुँचाया जा सकता है। इसका इंटरफेस आसान है और Reels व अन्य फीचर्स बहुत अच्छे हैं। नए क्रिएटर्स के लिए भी यह अपनी प्रतिभा दिखाने का एक बेहतरीन माध्यम है। 😊",
+   "author": "JYOTI SHARMA",
+   "version": "439.0.0.37.89",
+   "date": "2026-09-29T07:42:33+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c59c8ca2-b2fd-4353-aa39-5e30e597f3e7",
+   "rating": 5,
+   "title": "",
+   "body": "Bahut achaa app hia",
+   "author": "Pawankashyap Kashyap",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T07:41:41+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "68d4d3b7-9a55-416d-b5e7-d87d2e2e5811",
+   "rating": 1,
+   "title": "",
+   "body": "I believe my account was suspended by mistake. I have not knowingly violated Instagram’s Community Standards. The notice says my account may be associated with another account that violated the rules, but I believe this association may be incorrect. Please manually review my account and restore it if the suspension was made in error. \"jiko6434\"",
+   "author": "Aneek Das",
+   "version": "",
+   "date": "2026-09-29T07:41:11+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "1bb8d413-2e4d-4a9f-842d-eef78b214d60",
+   "rating": 4,
+   "title": "",
+   "body": "wow",
+   "author": "Shabana Azeem",
+   "version": "",
+   "date": "2026-09-29T07:40:46+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "871bcdfa-4386-4a38-b016-3ab3b28fdffd",
+   "rating": 5,
+   "title": "",
+   "body": "Nice sir but sir meri id ban ho gye h matlab Disabled ho gye h recover kaise kre plz sir meri help kariye user name (suraj_choudhary__19",
+   "author": "Raghunandan Gautam",
+   "version": "",
+   "date": "2026-09-29T07:40:40+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "7d143fdd-46d6-4726-82ef-04f2864b874a",
+   "rating": 5,
+   "title": "",
+   "body": "nice app",
+   "author": "Harshal Deshmane",
+   "version": "",
+   "date": "2026-09-29T07:40:19+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "cafa9ef6-a497-4ccf-a1e7-0f210b1d5986",
+   "rating": 3,
+   "title": "",
+   "body": "good",
+   "author": "Raj Gupta",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:39:28+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "4bf0136b-ce27-44ce-80fc-fb4a709a9602",
+   "rating": 5,
+   "title": "",
+   "body": "very nice app",
+   "author": "shivkumar tiwari",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:38:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e7a74332-5700-4ecd-ae03-a30225cb9adc",
+   "rating": 5,
+   "title": "",
+   "body": "excellent",
+   "author": "Selim SK",
+   "version": "",
+   "date": "2026-09-29T07:37:18+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "f32c06ea-6d2c-40dd-ba83-e05cc8f2eb5b",
    "rating": 5,

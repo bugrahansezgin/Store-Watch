@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-30-us-1544750895-tracking",
+  "type": "tracking",
+  "app": "us-1544750895",
+  "ts": "2026-09-30T08:01:56+00:00",
+  "title": "Started tracking CHAI: Social AI Platform- Chat",
+  "summary": "Baseline: 4 screenshots · v2.195",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/3b/2c/573b2c4b-e197-2ca9-364f-6ee21956066e/page_12.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/c9/7a/89c97aa3-e5c2-fb02-c4ce-5fae85e07355/12.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/10/d1/1410d17c-8b10-9bd4-16ef-b6871c698457/13.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/8a/0d/f88a0d3e-c9d6-9d74-87e1-8551d69a2c8e/Frame_5.png/392x848bb.jpg"
+  ]
+ },
+ {
   "id": "2026-09-30-us-1158555867-tracking",
   "type": "tracking",
   "app": "us-1158555867",
