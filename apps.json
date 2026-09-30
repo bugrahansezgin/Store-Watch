@@ -78,6 +78,12 @@
       "country": "us",
       "platform": "android",
       "note": "ai.replika.app"
+    },
+    {
+      "id": "1671705818",
+      "country": "us",
+      "platform": "ios",
+      "note": "character ai chat talk text"
     }
   ]
 }

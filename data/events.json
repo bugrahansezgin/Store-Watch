@@ -1,5 +1,23 @@
 [
  {
+  "id": "2026-09-30-us-1671705818-tracking",
+  "type": "tracking",
+  "app": "us-1671705818",
+  "ts": "2026-09-30T08:16:24+00:00",
+  "title": "Started tracking Character AI: Chat, Talk, Text",
+  "summary": "Baseline: 8 screenshots · v1.17.3",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/36/6f/86366f9d-1732-58be-bd31-23cfac571166/1_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/16/a1/5e16a1fc-b685-6c25-a187-26ba426fa9ee/2_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/56/6d/c9566db5-5cf0-9d35-a5fc-810def0e9639/3_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/47/29/7a472911-ddca-5dc4-797b-5b5c222375f8/4_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/cf/16/7bcf160e-afda-dfd3-b6d7-d1afe321f8fa/5_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/ac/f9/f9acf98e-9fee-87c6-569c-7e94bf8bc090/6_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/19/14/2b1914c9-9f85-194f-a44d-55178ed72332/7_6.5__ASO_1284x2778.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/57/d5/ae57d53d-9a52-ea88-868e-a3b51d42273a/8_6.5__ASO_1284x2778.png/392x848bb.jpg"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-ai.replika.app-tracking",
   "type": "tracking",
   "app": "gp-us-ai.replika.app",

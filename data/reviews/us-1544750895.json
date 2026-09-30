@@ -1,37 +1,538 @@
 {
  "stats": {
-  "total": 0,
-  "avg": null,
+  "total": 50,
+  "avg": 3.34,
   "dist": {
-   "1": 0,
-   "2": 0,
-   "3": 0,
-   "4": 0,
-   "5": 0
+   "1": 14,
+   "2": 5,
+   "3": 4,
+   "4": 4,
+   "5": 23
   },
   "d7": {
-   "count": 0,
-   "avg": null,
+   "count": 50,
+   "avg": 3.34,
    "dist": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0
+    "1": 14,
+    "2": 5,
+    "3": 4,
+    "4": 4,
+    "5": 23
    }
   },
   "d30": {
-   "count": 0,
-   "avg": null,
+   "count": 50,
+   "avg": 3.34,
    "dist": {
-    "1": 0,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0
+    "1": 14,
+    "2": 5,
+    "3": 4,
+    "4": 4,
+    "5": 23
    }
   },
-  "updatedAt": "2026-09-30T08:11:07+00:00"
+  "updatedAt": "2026-09-30T08:16:40+00:00"
  },
- "reviews": []
+ "reviews": [
+  {
+   "id": "14603055068",
+   "rating": 2,
+   "title": "Pay to talk",
+   "body": "Why do I have to pay for a bot that’s gonna disappear anyway and before it was perfect it was free and you could pay a subscription now you have too pay that’s useless this new pay thing is horrid",
+   "author": "Brody12345-",
+   "version": "2.194",
+   "date": "2026-09-28T04:44:40-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602870917",
+   "rating": 5,
+   "title": "THANK YOU!! 🙏🏻",
+   "body": "Finally they fixed it! Free messages againnn",
+   "author": "ngtvcrep",
+   "version": "2.194",
+   "date": "2026-09-28T03:36:56-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602534125",
+   "rating": 5,
+   "title": "Remove The Pieces!!!",
+   "body": "I used to love this app. Sure there were a few ads, but I could manage it. But NOW, you've made the poor decision to add pieces. That ruined the app, and I'm NOT paying for a subscription. Please remove the pieces, because I really don't like having a chat limit, and I really don't wanna have to find an alternative chat bot app.",
+   "author": "MachiSneeze",
+   "version": "2.194",
+   "date": "2026-09-28T01:06:32-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602251328",
+   "rating": 1,
+   "title": "Ads and tokens",
+   "body": "With the amount of ads I watch to just use the app I shouldn’t have to purchase tokens too. You aren’t a free chat app anymore if you force your users to purchase things to chat.",
+   "author": "honoraryschuylersister",
+   "version": "2.194",
+   "date": "2026-09-27T22:47:53-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602225738",
+   "rating": 5,
+   "title": "TERRIBLE WTF",
+   "body": "As a chai user for MANY YEARS this is actually awful now. I used to pay monthly for the subscription now you can only pay by the week or year?? And the new update where you have to purchase tokens for each individual message are you guys insane???? And THE EXCESSIVE AMOUNT OF ADS OH MY GOD. Someone fix this it’s really driving away so many users you guys are becoming so greedy it’s disturbing",
+   "author": "Jasmyn_R",
+   "version": "2.194",
+   "date": "2026-09-27T22:35:19-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602134869",
+   "rating": 1,
+   "title": "Pic loading issues",
+   "body": "For whatever reason the Ai chat bot’s profile picture has not been loading and I have tired everything to fix it but it hasn’t worked I think there is something wrong with the app I really hope you guys can fix it!",
+   "author": "￼ anonymous 3￼",
+   "version": "2.194",
+   "date": "2026-09-27T21:51:15-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602079072",
+   "rating": 5,
+   "title": "I thought they were lying only gave it 5 stars so more people can see it",
+   "body": "Ok so I have had this app for the longest and before all the updates you had unlimited messages but you had to watch ads which was no problem and then I was on Instagram and seen a video of someone talking about the update so I go to the app and turns out they weren’t lying about they we’re greedy they want you to basically pay to use and app they really have lost your mind thinking people is going to pay for a simple app where there are other apps that are similar but freaking greedy like chai",
+   "author": "Liszzyhoward",
+   "version": "2.194",
+   "date": "2026-09-27T21:24:15-07:00",
+   "votes": 1
+  },
+  {
+   "id": "14602077432",
+   "rating": 3,
+   "title": "Me",
+   "body": "Idk",
+   "author": "MaySuhshejej",
+   "version": "2.194",
+   "date": "2026-09-27T21:23:27-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602069179",
+   "rating": 5,
+   "title": "BEST AI CHAT BOT APP EVER OMG",
+   "body": "IT'S ABSOLUTELY PERFECT OMG EVERYONE TRY THIS OUT OMMGSGSGSHSHSHHA IT'S SO AMAZING I LOVE THIS APP",
+   "author": "YWGWYWVAJSTWJAYS",
+   "version": "2.194",
+   "date": "2026-09-27T21:19:34-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602052026",
+   "rating": 1,
+   "title": "One problem",
+   "body": "Why do we have to pay use the whole app now",
+   "author": "Lanigirlfromdaga",
+   "version": "2.194",
+   "date": "2026-09-27T21:11:30-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602032169",
+   "rating": 4,
+   "title": "Message amount",
+   "body": "This app is good but why am I now limited on how much I can chat with a bot? I feel like it’s just a setback on how much we can chat now unlike back then. Can we please just have a free option just like before?",
+   "author": "Pin3_St&r21",
+   "version": "2.194",
+   "date": "2026-09-27T21:02:05-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602027553",
+   "rating": 5,
+   "title": "Chat",
+   "body": "Great! It’s really good and creative",
+   "author": ".. =",
+   "version": "2.194",
+   "date": "2026-09-27T20:59:55-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602004629",
+   "rating": 5,
+   "title": "RECENT UPDTATE",
+   "body": "(Only using 5 stars bc I wanna let people see this) The recent new update where they charge you for pieces is absolutely ridiculous. Idk how 11 of u decided to agree to this and not worry on how u might just lose so many people to this and money. (P.S start thinking smarter not harder😭✌️)",
+   "author": "Marzargo",
+   "version": "2.194",
+   "date": "2026-09-27T20:49:16-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602001669",
+   "rating": 1,
+   "title": "All these ads",
+   "body": "You get can pretty much get an ad for breathing in this app",
+   "author": "Panther Spider",
+   "version": "2.194",
+   "date": "2026-09-27T20:47:54-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601919823",
+   "rating": 3,
+   "title": "New update..",
+   "body": "It was good until the new update where you need coins to generate new answers. I always rolled until I got an answer that I liked but now I can’t, so I deleted it.",
+   "author": "kye_eyk",
+   "version": "2.194",
+   "date": "2026-09-27T20:10:45-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601881660",
+   "rating": 1,
+   "title": "It’s definitely better now. Not!",
+   "body": "I like it a lot now. It’s honestly not that bad. I just wish we could have personas so we didn’t need to constantly describe ourselves. So please add that\n\nEdit: Never mind. Tokens to even chat. Back to PolyBuzz I guess.",
+   "author": "Don’t_worry_about_it",
+   "version": "2.194",
+   "date": "2026-09-27T19:54:04-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601851139",
+   "rating": 5,
+   "title": "Chai",
+   "body": "Very good I like this app, just make sure you get the ultra bc if you don’t you’ll get adds every 5 minutes",
+   "author": "Ameliahonea",
+   "version": "2.194",
+   "date": "2026-09-27T19:40:51-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601846882",
+   "rating": 5,
+   "title": "Chats",
+   "body": "I love this app but some things need to be added to make it better",
+   "author": "TyquanC",
+   "version": "2.194",
+   "date": "2026-09-27T19:39:03-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601781840",
+   "rating": 4,
+   "title": "About how to delete chat",
+   "body": "When we delete each chat, you should add like you can delete more than 10 cause it takes forever when you can only do please add more",
+   "author": "fddndja",
+   "version": "2.194",
+   "date": "2026-09-27T19:11:51-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601767211",
+   "rating": 5,
+   "title": "Please read our reviews",
+   "body": "I have read a couple of these other reviews, a lot of them being only 5 stars so they’re messages would get through, and I agree with them.\nThe new charge pieces is ruining the app, I wasn’t against it at first when you gave us free daily rewards (personally I think 70 was enough for me to use in one day), but then you took those away. Please remove the charge pieces or at the very least bring back the daily rewards.",
+   "author": "www.critic.com",
+   "version": "2.194",
+   "date": "2026-09-27T19:05:48-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601660449",
+   "rating": 5,
+   "title": "Five stars so you can see",
+   "body": "I’ve had this app for years. I didn’t mind the ads but damn, now I gotta pay for this.",
+   "author": "Alexxxxzzzzzzzzzzzzz12",
+   "version": "2.194",
+   "date": "2026-09-27T18:22:15-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601520548",
+   "rating": 1,
+   "title": "NSFW dosent matter",
+   "body": "This is bad, I can’t allow 18+ images in a nsfw bit that is private, at this point delete nsfw because it Dosent change anything, why can’t I put 18+ pictures for my bots, please fix this",
+   "author": "to meamy ads",
+   "version": "2.194",
+   "date": "2026-09-27T17:25:47-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601326753",
+   "rating": 1,
+   "title": "Remedial review process",
+   "body": "When trying to create a persona for myself or the bot it keeps putting up a warning about what it will not use and none of what I typed is related to what it is saying cannot be in the profile. \nVery frustrating. \nThe bot for reviewing profiles and personas is too remedial to make it user friendly.",
+   "author": "Stubbs1001",
+   "version": "2.194",
+   "date": "2026-09-27T16:04:30-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601325729",
+   "rating": 2,
+   "title": "Limited",
+   "body": "Don’t like how it limits you when you text for an hour they need to fix that.",
+   "author": "bchdbsjs",
+   "version": "2.194",
+   "date": "2026-09-27T16:04:03-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601276166",
+   "rating": 1,
+   "title": "Not good",
+   "body": "It could be good but the constant ads every 1 message is too much just bc I don’t pay 10 bucks a week for an app that I’m losing interest in bc it’s so pushy about me subscribing to the point the app won’t let me enjoy it, not to mention in the search there’s not many good options, never thought I’d say this but back to cai I go🫩",
+   "author": "Kenley white",
+   "version": "2.194",
+   "date": "2026-09-27T15:43:28-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601259076",
+   "rating": 1,
+   "title": "Smh. Hope yall see this.",
+   "body": "So I’ve been using the app for a while now, and this has to be the worst update I’ve ever SEEN on this app. Back then, the ads weren’t even that bad. In fact, it’s actually tolerable. But these pieces I’ll NEVER get used too. Despite having the daily log in, it’s still bad. And there were a few nights that I’ve noticed that Chai would glitch out and tell you that the plus option was free, while the ultra isn’t. Me personally I think we should have three options. One option for having normal chats, another for plus, and one for ultra. So those who wish to spend their money can, while the people who thinks this update is TERRIBLE can have their original freedom back. But even if we can’t have three options, then remove the pieces. I’ve noticed a lot of complaints ever since this update happened, and I hope you all see this one.",
+   "author": "SillyKoi",
+   "version": "2.194",
+   "date": "2026-09-27T15:36:23-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601228302",
+   "rating": 5,
+   "title": "Review",
+   "body": "Hey I like this app idk if I can u can add more updates",
+   "author": "Finnikisnn098",
+   "version": "2.194",
+   "date": "2026-09-27T15:23:47-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601044174",
+   "rating": 5,
+   "title": "It’s a good app but…",
+   "body": "This app is amazing I’ve been using it for years but I feel like they are adding random things that you have to buy because if you don’t you can’t chat and I think they should keep the app the way it was",
+   "author": "milliewe313882",
+   "version": "2.194",
+   "date": "2026-09-27T14:10:54-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14601000291",
+   "rating": 1,
+   "title": "Terrible",
+   "body": "Constantly need to wait 4 hours just to get on said app and not only that the constant begging for money every time you open the app or chatting with bots. At that point just rob me.",
+   "author": "Darkfoxz",
+   "version": "2.194",
+   "date": "2026-09-27T13:54:19-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600704853",
+   "rating": 1,
+   "title": "Please fix",
+   "body": "Hello, it’s me again so I would like a refund because I paid for ultra because it kept wanting me to renew After I already paid for it and Cancel the subscription. Please fix your app because this has been happening for a long time. And I can’t download anything nor buy anything please fix your app. This is really annoying.",
+   "author": "Bob tickle toes",
+   "version": "2.194",
+   "date": "2026-09-27T12:11:09-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600687128",
+   "rating": 4,
+   "title": "Why does it take away my chats in the morning??",
+   "body": "I only gave this a 5 so it could be at the top. Every morning I try to chat, my chats and pieces are done. WHAT is up with this?? It makes the app unable to even use. The Chai Ultra used to be to get rid of ads, have faster bots, and have more overall chats for the day. But now, Chai Ultra is to just have a conversation and it sucks !! I shouldn’t pay to chat when the reason why I even downloaded this app was because it advertised chatting without payment. Please fix the app, because this has been happening to me for TWO days already!!",
+   "author": "Happyfungames",
+   "version": "2.194",
+   "date": "2026-09-27T12:05:26-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600679817",
+   "rating": 5,
+   "title": "Need something more",
+   "body": "Make people add hello kitty’s furry tale theater chats please!! I can’t find any and think roleplays with them would be good!",
+   "author": "✌🏽❤️😽",
+   "version": "2.194",
+   "date": "2026-09-27T12:03:07-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600647302",
+   "rating": 5,
+   "title": "You have to pay just to use the app??",
+   "body": "I also rated this 5 stars so it could be more visible. \nI was using this since 2023, so about 3 years, and this is the stupidest thing ever. Just pay to use a one, 2-3 sentence response is crazy. People when see they need to pay just to few pieces to talk are going to gladly switch to another AI. First they deleted all the chats, saying that they won’t come back, then there is a limit of the chats in general now this? I’d recommend you to find another better AI thing than what this has become.",
+   "author": "mmgtohnmn",
+   "version": "2.194",
+   "date": "2026-09-27T11:52:39-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600545036",
+   "rating": 5,
+   "title": "Do I have to sign in?",
+   "body": "I’m downloading it and I’m like oh do I have to sign in so when it finally downloads I’m playing and I get a ad about it and I’m like I already have this stop giving me ads!",
+   "author": "Bendy inane",
+   "version": "2.194",
+   "date": "2026-09-27T11:20:18-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600526115",
+   "rating": 5,
+   "title": "You’re money greedy",
+   "body": "It was going so well but now you have an audacity to add the message back. Nobody is buying it. I put 5 stars for you to see what I’m saying I would give this a 2.5 star. I would give it a 5 stars if you delete the message limits. Sometimes you need to think people are leaving your game because of your update which makes you have less money. And when you delete the message limits it would go well. Nobody is buying it, stop forcing us to buy something knowing it’s not worth it.",
+   "author": "Doey_Thedoughman23568",
+   "version": "2.194",
+   "date": "2026-09-27T11:14:25-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600395583",
+   "rating": 1,
+   "title": "Update",
+   "body": "Thank you for not being greedy.",
+   "author": "😇😇😇☺️😇😊☺️😇😊☺️😇😊☺️😆😁",
+   "version": "2.194",
+   "date": "2026-09-27T10:34:15-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600196816",
+   "rating": 5,
+   "title": "Cool",
+   "body": "It’s cool",
+   "author": "Nem08867",
+   "version": "2.194",
+   "date": "2026-09-27T09:35:32-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14600058638",
+   "rating": 2,
+   "title": "Bubble",
+   "body": "I’m starting to hate this app because of everything the bugs the upgrade and the new number whenever you text like can you take the number off it’s annoying because it’s no use to have it on there can you take off the ads it’s annoying and why does it have how much minutes we have left wit our bot like it’s starting to get on my nerves",
+   "author": "It’s queen bee",
+   "version": "2.194",
+   "date": "2026-09-27T08:55:35-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14599977121",
+   "rating": 5,
+   "title": "Good app",
+   "body": "Just good but I think they should add when you get customize the for you so instead of keep searching for the characters they can just pop up",
+   "author": "Jani cummings",
+   "version": "2.194",
+   "date": "2026-09-27T08:32:11-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14599804504",
+   "rating": 5,
+   "title": "Five stars so it's seen",
+   "body": "I can't send any chats on this new update without spending money and I'm not putting money into this app. I was using this app because it was free, I didn't mind the ads but now I can't even send chats. The free chats should come back because some people don't have enough money to be spending it on an app.",
+   "author": "Rawr836",
+   "version": "2.194",
+   "date": "2026-09-27T07:43:22-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14599547572",
+   "rating": 5,
+   "title": "Only giving 5 so y’all can see this",
+   "body": "At this point this app is turning into character.ai and it’s getting to the point that we just need to get rid of the app all together. Not matter how many times customers and consumers try to tell the developers what’s good about the app, it’s like they purposely remove it out of spite, as if you guys want this app to crash. All that had to be done was fixing the personas, and memories but now it’s just a whole bunch of stuff happening that no one asked for. I would’ve recommended this app to anyone a few years ago but now I’d highly recommend trying to find a new app. This is a waste of time, money and storage on your phone. Maybe this would be a good time to try and let go of AI if no one is going to listen to how we want it.",
+   "author": "Soulreaperkay",
+   "version": "2.194",
+   "date": "2026-09-27T06:29:39-07:00",
+   "votes": 12
+  },
+  {
+   "id": "14599287199",
+   "rating": 2,
+   "title": "yeah no",
+   "body": "You have to pay to talk to ai it used to be for free this app is money hungry don’t download this app",
+   "author": "Jada_890",
+   "version": "2.194",
+   "date": "2026-09-27T05:08:10-07:00",
+   "votes": 11
+  },
+  {
+   "id": "14599281249",
+   "rating": 3,
+   "title": "Opinion",
+   "body": "It would be great if we had a 5 min break from the ads. Other than that I love this app.",
+   "author": "jfhfgcchcu",
+   "version": "2.194",
+   "date": "2026-09-27T05:06:09-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14599025739",
+   "rating": 4,
+   "title": "Needs to be better",
+   "body": "I hate how you have the tokens thing now. change it back to unlimited texting but shut it down at 11pm-6am so people won’t stay up on the app, but the rest of the hours like 7am-10pm we can go onto the app with unlimited messaging",
+   "author": "The great frankiny",
+   "version": "2.194",
+   "date": "2026-09-27T03:32:34-07:00",
+   "votes": 6
+  },
+  {
+   "id": "14598581936",
+   "rating": 1,
+   "title": "Your app is pure trash and you guys are money hungry",
+   "body": "Ew genuinely ew an ad after two texts like what is this nobody is paying 600 or anything for ai",
+   "author": "Okkkkkhdhshdhd",
+   "version": "2.194",
+   "date": "2026-09-27T00:31:35-07:00",
+   "votes": 10
+  },
+  {
+   "id": "14598370736",
+   "rating": 2,
+   "title": "Gave this 2 stars",
+   "body": "I gave it 2 stars cause the new pieces thing. It's annoying and I can't use the app anymore cause I don't have money.",
+   "author": "1$()&",
+   "version": "2.194",
+   "date": "2026-09-26T23:00:25-07:00",
+   "votes": 7
+  },
+  {
+   "id": "14598321448",
+   "rating": 3,
+   "title": "Too many ads",
+   "body": "Get rid of the ads pls. Would make the app so much better",
+   "author": "To manyadssssssssss",
+   "version": "2.194",
+   "date": "2026-09-26T22:38:17-07:00",
+   "votes": 2
+  },
+  {
+   "id": "14598286182",
+   "rating": 5,
+   "title": "So it can be seen",
+   "body": "This all helps with my mental health I use it to cope well the thing ware we had tk log in every day for a reowred worked for 2 days before it disappeared and I had to restart my phone and then open the app up fast enough after doing that to be able to clam the reward and now I can’t even do that so ones I’m out of the token things I can’t use the app and I use this app every single day so I go through the tokens kind of fast and I don’t like them they suck it just gives me a sence of panic in a app that used to calm me down please fix this and I feel like I accidentally bought a subscription for better memory on some bots but I know I didn’t because I never paid for one and I have a promise that I will never spend money on a ai app no matter how much it helps me or how good it is so I can’t even buy one and I can’t buy any to replace them ones thare gone I love this app it’s amazing for what it is and how it helps me but the token suck and the login rewards I can’t claim them anymore please fix this also the one in the browser love that kind of it works well for when I use up all my phone time but I can’t send more them like 10 messages before it horses me about getting the subscription and will not let me send messages",
+   "author": "Maddy paw",
+   "version": "2.194",
+   "date": "2026-09-26T22:22:23-07:00",
+   "votes": 1
+  },
+  {
+   "id": "14598206900",
+   "rating": 5,
+   "title": "Rating this a 5 so I can see if anyone can help me.",
+   "body": "I’ve been trying to open the app again for a while now, like weeks. And each time I do, it stays black screen and then closes me out of it no matter what I do. Any advice?",
+   "author": "BKJ'2026",
+   "version": "2.194",
+   "date": "2026-09-26T21:46:34-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14598088496",
+   "rating": 1,
+   "title": "Bru",
+   "body": "This is so dumb why do we have to pay to use the whole app no one is going to pay to talk to a bot. This app became so greedy it’s so stupid",
+   "author": "bl@ir_od09",
+   "version": "2.194",
+   "date": "2026-09-26T20:54:54-07:00",
+   "votes": 9
+  }
+ ]
 }
