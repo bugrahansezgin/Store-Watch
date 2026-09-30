@@ -84,6 +84,73 @@ def fetch(app_id, country):
     return None
 
 
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 "
+      "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
+SERVER_DATA_RE = re.compile(r'<script[^>]*id="serialized-server-data"[^>]*>(.*?)</script>', re.S)
+
+
+def fetch_page(app_id, country, query=""):
+    """The public App Store web page. It shows the screenshot set Apple actually
+    serves today (largest iPhone size), unlike the Lookup API, which often returns
+    an older device-size set the developer never updated."""
+    fixture_dir = os.environ.get("FIXTURE_DIR")
+    if fixture_dir:
+        p = os.path.join(fixture_dir, f"page-{country}-{app_id}{query.replace('?', '-').replace('=', '-')}.html")
+        return open(p).read() if os.path.exists(p) else None
+    url = f"https://apps.apple.com/{country}/app/id{app_id}{query}"
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"  page fetch failed: {e}", file=sys.stderr)
+        return None
+
+
+def server_data(page):
+    m = SERVER_DATA_RE.search(page or "")
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except ValueError:
+        return None
+
+
+def _artwork_url(art, width=392):
+    tpl = art.get("template") or art.get("url") or ""
+    if "mzstatic" not in tpl:
+        return None
+    w, h = art.get("width") or 1290, art.get("height") or 2796
+    size = f"{width}x{round(width * h / w)}bb.jpg"
+    return re.sub(r"\{w\}x\{h\}\{c\}\.\{f\}$", size, tpl) if "{w}" in tpl else tpl
+
+
+def page_screenshots(data):
+    """{'phone': [...], 'pad': [...]} from shelves named product_media_phone_ / product_media_pad_."""
+    out = {"phone": [], "pad": []}
+    if not data:
+        return out
+
+    def walk(node, shelf=None):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                s = k if isinstance(k, str) and k.startswith("product_media_") else shelf
+                if k == "screenshot" and isinstance(v, dict) and shelf:
+                    url = _artwork_url(v)
+                    dev = "pad" if "pad" in shelf else "phone" if "phone" in shelf else None
+                    if url and dev and url not in out[dev]:
+                        out[dev].append(url)
+                else:
+                    walk(v, s)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v, shelf)
+
+    walk(data)
+    return out
+
+
 def shot_key(url):
     """mzstatic URLs end with a size segment (…/392x696bb.png). Strip it so
     the same asset served at a different size isn't seen as a new image."""
@@ -251,6 +318,12 @@ def main():
                 apps_out.append({**old, "lastError": ts})
             continue
         new = snapshot(raw, app_id, country)
+        new["screenshotSource"] = "lookup"
+        shots = page_screenshots(server_data(fetch_page(app_id, country)))
+        if shots["phone"]:
+            new["screenshots"], new["screenshotSource"] = shots["phone"], "page"
+        if shots["pad"]:
+            new["ipadScreenshots"] = shots["pad"]
         new["lastChecked"] = ts
         new.pop("lastError", None)
         if old is None:
@@ -263,6 +336,14 @@ def main():
             })
         else:
             new["trackedSince"] = old.get("trackedSince", ts)
+            resync = old.get("screenshotSource", "lookup") != new["screenshotSource"]
+            if resync:  # switching data source: realign silently instead of a fake "changed" event
+                print(f"  screenshots resynced from {new['screenshotSource']}")
+                old = {**old, "screenshots": new["screenshots"], "ipadScreenshots": new["ipadScreenshots"]}
+                for e in load(EVENTS_FILE, []):
+                    if e.get("app") == key and e.get("type") == "tracking":
+                        e["after"] = new["screenshots"]
+                        new_events.append(e)
             for etype, title, summary, extra in compare(old, new):
                 suffix = "-ipad" if extra.get("device") == "iPad" else ""
                 new_events.append({

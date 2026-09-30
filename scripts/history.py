@@ -8,15 +8,15 @@
 Output: data/history/<country>-<id>.json
   {versions:[{version,date,notes,source}], descriptions:[{ts,text}], backfill:{...}}
 """
+import datetime as dt
 import html
 import json
 import os
 import re
 import sys
-import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from track import DATA, STATE, app_keys, load, now_iso, rebuild_feed, save  # noqa: E402
+from track import DATA, STATE, app_keys, fetch_page, load, now_iso, rebuild_feed, save, server_data  # noqa: E402
 
 HISTORY = os.path.join(DATA, "history")
 VERSION_KEYS = ("versionDisplay", "versionString", "version")
@@ -26,19 +26,38 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
 
 
-def fetch_page(app_id, country):
-    fixture_dir = os.environ.get("FIXTURE_DIR")
-    if fixture_dir:
-        p = os.path.join(fixture_dir, f"page-{country}-{app_id}.html")
-        return open(p).read() if os.path.exists(p) else None
-    url = f"https://apps.apple.com/{country}/app/id{app_id}?see-all=version-history"
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US"})
+def fetch_history_page(app_id, country):
+    return fetch_page(app_id, country, "?see-all=version-history")
+
+
+def _parse_date(s):
+    """'Fri Jan 23 2026 09:41:40 GMT+0000 (…)' or ISO -> ISO string."""
+    s = (s or "").strip()
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return r.read().decode("utf-8", "replace")
-    except Exception as e:
-        print(f"  page fetch failed: {e}", file=sys.stderr)
-        return None
+        return dt.datetime.strptime(s[:24], "%a %b %d %Y %H:%M:%S").replace(tzinfo=dt.timezone.utc).isoformat()
+    except ValueError:
+        return s[:25]
+
+
+def parse_titled_paragraphs(data):
+    """Current App Store web format: version-history rows are TitledParagraph items
+    with primarySubtitle = 'Version 1.92' / '1.92' and secondarySubtitle = date."""
+    out = []
+
+    def walk(n):
+        if isinstance(n, dict):
+            if n.get("$kind") == "TitledParagraph":
+                m = re.search(r"(\d+(?:\.\d+){0,3})", n.get("primarySubtitle") or "")
+                if m:
+                    out.append({"version": m.group(1), "notes": n.get("text") or "",
+                                "date": _parse_date(n.get("secondarySubtitle")), "source": "appstore"})
+            for v in n.values():
+                walk(v)
+        elif isinstance(n, list):
+            for v in n:
+                walk(v)
+    walk(data)
+    return out
 
 
 def _pick(d, keys):
@@ -109,8 +128,10 @@ def main():
         # One-time backfill from the web page (retried next day if it found nothing)
         bf = h.get("backfill") or {}
         if not bf.get("ok") and (not bf.get("ts") or bf["ts"][:10] < now_iso()[:10]):
-            page = fetch_page(app_id, country)
-            scraped = parse_versions(page) if page else []
+            page = fetch_history_page(app_id, country)
+            scraped = parse_titled_paragraphs(server_data(page)) if page else []
+            if not scraped and page:
+                scraped = parse_versions(page)  # older page formats
             for v in scraped:
                 versions.setdefault(v["version"], v)
             h["backfill"] = {"ok": bool(scraped), "count": len(scraped), "ts": now_iso()}
