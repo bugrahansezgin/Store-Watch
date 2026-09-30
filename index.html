@@ -55,7 +55,7 @@ h1{font-size:30px;letter-spacing:-.02em;margin:0;font-weight:700}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tab[aria-selected="true"] .count{color:var(--accent)}}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
 .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:14px 16px;border-bottom:1px solid var(--line)}
-.seg{display:flex;background:var(--surface-2);border-radius:10px;padding:3px;gap:2px;overflow-x:auto;max-width:100%}
+.seg{display:flex;background:var(--surface-2);border-radius:10px;padding:3px;gap:2px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;max-width:100%}
 .seg button{border:0;background:none;padding:6px 11px;border-radius:8px;cursor:pointer;color:var(--text-2);white-space:nowrap;font-size:14px}
 .seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.08)}
 select,input[type=search]{font:inherit;font-size:14px;background:var(--surface);color:var(--text);border:1px solid var(--line-strong);border-radius:10px;padding:7px 10px}
@@ -152,9 +152,16 @@ input[type=search]{min-width:200px;flex:1;max-width:280px}
 .mini.play img,.strip.play .shot img{object-fit:contain;background:var(--surface-2)}
 .reply{margin:6px 0 8px;padding:8px 10px;border-radius:8px;background:var(--surface-2);font-size:13.5px;color:var(--text-2)}
 .reply b{display:block;color:var(--text);font-size:12px;margin-bottom:2px}
+.ai-pt{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.mentions{font-size:12px;font-weight:600;color:var(--text-3);background:var(--surface-2);border-radius:99px;padding:0 7px;font-variant-numeric:tabular-nums;flex:none}
+.ai-delta{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--surface);border:1px solid var(--line);font-size:14px;color:var(--text-2)}
+.ai-delta b{display:block;color:var(--chip-shots);font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.ai-err{margin:10px 0 0;font-size:13px;color:var(--rem);background:var(--rem-soft);border-radius:8px;padding:8px 10px;word-break:break-word}
+.ai-err b{margin-right:4px}
 /* app page */
-.subtabs{display:flex;gap:4px;padding:0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
-.subtab{padding:12px 12px 11px;text-decoration:none;color:var(--text-2);border-bottom:2px solid transparent;margin-bottom:-1px;font-weight:500;white-space:nowrap}
+.subtabs{display:flex;gap:4px;padding:0 20px;box-shadow:inset 0 -1px 0 var(--line);overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.subtabs::-webkit-scrollbar,.seg::-webkit-scrollbar{display:none}
+.subtab{padding:12px 12px 11px;text-decoration:none;color:var(--text-2);border-bottom:2px solid transparent;font-weight:500;white-space:nowrap;flex:none}
 .subtab[aria-current="true"]{color:var(--text);border-color:var(--accent)}
 a.app-name{text-decoration:none} a.app-name:hover{text-decoration:underline}
 .app-ai{display:flex;gap:10px;align-items:flex-start;margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--surface-2);text-decoration:none;font-size:14px;color:var(--text-2)}
@@ -231,7 +238,7 @@ dialog::backdrop{background:rgba(10,10,10,.72);backdrop-filter:blur(4px)}
   <header class="top">
     <div>
       <h1>Store Watch</h1>
-      <p class="sub">Daily snapshots of competitor App Store &amp; Google Play listings — screenshots, icon, name, price, versions, description and reviews, with a weekly AI read on what users say. Changes land here as soon as they ship.</p>
+      <p class="sub">Daily snapshots of competitor App Store &amp; Google Play listings — screenshots, icon, name, price, versions, description and reviews, with an AI read on what users say that updates as new reviews arrive. Changes land here as soon as they ship.</p>
     </div>
     <div class="meta" id="lastRun"></div>
   </header>
@@ -506,20 +513,27 @@ async function renderReviews(key, body){
   if (!rv || !rv.reviews?.length){ body.innerHTML = `<div class="empty"><b>No reviews yet</b>They're collected on the next daily check.</div>`; return; }
   const byId = Object.fromEntries(rv.reviews.map(r => [r.id, r]));
   const items = sm?.items || [];
-  const s = items[RV.sIdx] || items[0];
-  let summary = `<div class="ai empty-ai"><div class="ai-label">${aiIcon}AI summary</div><p class="meta" style="margin:6px 0 0">The first summary is generated on the next daily check (weekly after that). To make one now: Actions → Daily check → Run workflow → tick “Regenerate AI review summaries”.</p></div>`;
+  const s = items[RV.sIdx] || sm?.current || items[0];
+  const err = sm?.lastError;
+  const pendingCount = rv.reviews.length - (sm?.processed?.length || 0);
+  let summary = `<div class="ai empty-ai"><div class="ai-label">${aiIcon}AI summary</div>
+    ${err ? `<p class="ai-err"><b>Last attempt failed</b> ${rel(err.ts)} — ${esc(err.message)}</p>` : ""}
+    <p class="meta" style="margin:6px 0 0">Summaries update on every daily check, reading only reviews that arrived since the last run. To run it now: Actions → Daily check → Run workflow.</p></div>`;
   if (s){
     const quote = id => { const r = byId[id]; if (!r) return "";
       const t = (r.title ? r.title + " — " : "") + r.body; return `<a class="q" href="#" data-goto="${esc(id)}">“${esc(t.length>110?t.slice(0,110)+"…":t)}” <b>${r.rating}★</b></a>`; };
-    const col = (title, cls, arr) => `<div class="ai-col ${cls}"><div class="ai-h">${title}</div>${(arr||[]).length ? arr.map(it => `<div class="ai-item"><b>${esc(it.point)}</b><p>${esc(it.detail||"")}</p>${(it.ids||[]).map(quote).join("")}</div>`).join("") : `<p class="meta">Nothing notable</p>`}</div>`;
+    const col = (title, cls, arr) => `<div class="ai-col ${cls}"><div class="ai-h">${title}</div>${(arr||[]).length ? arr.map(it => `<div class="ai-item"><div class="ai-pt"><b>${esc(it.point)}</b>${it.mentions?`<span class="mentions" title="Reviews that mention this">${it.mentions}</span>`:""}</div><p>${esc(it.detail||"")}</p>${(it.ids||[]).map(quote).join("")}</div>`).join("") : `<p class="meta">Nothing notable</p>`}</div>`;
+    const since = s.since ? new Date(s.since).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"}) : "";
     summary = `<div class="ai">
       <div class="ai-top"><div class="ai-label">${aiIcon}AI summary <span class="sent s-${esc(s.sentiment)}">${esc(s.sentiment||"")}</span></div>
-        ${items.length>1 ? `<select id="sumSel" aria-label="Summary week">${items.map((x,i)=>`<option value="${i}" ${i===RV.sIdx?"selected":""}>${new Date(x.ts).toLocaleDateString(undefined,{month:"short",day:"numeric"})}</option>`).join("")}</select>` : ""}</div>
+        ${items.length>1 ? `<select id="sumSel" aria-label="Summary snapshot">${items.map((x,i)=>`<option value="${i}" ${i===RV.sIdx?"selected":""}>${i===0?"Latest · ":""}${new Date(x.ts).toLocaleDateString(undefined,{month:"short",day:"numeric"})}</option>`).join("")}</select>` : ""}</div>
       <h3 class="ai-headline">${esc(s.headline)}</h3>
-      <div class="meta">${s.count} reviews · ${s.avg}★ · ${esc(s.window)} · ${rel(s.ts)} · ${esc(s.model)}</div>
+      <div class="meta">Based on ${s.count} reviews${since?` since ${since}`:""} · ${s.avg}★ · updated ${rel(s.ts)}${s.window?` · ${esc(s.window)}`:""} · ${esc(s.model)}${pendingCount>0&&RV.sIdx===0?` · ${pendingCount} newer reviews not read yet`:""}</div>
+      ${s.delta ? `<div class="ai-delta"><b>New in the last update${s.newCount?` (${s.newCount} reviews, ${s.newAvg}★)`:""}</b>${esc(s.delta)}</div>` : ""}
       <div class="ai-grid">${col("What users love","c-love",s.loves)}${col("Complaints","c-pain",s.complaints)}${col("Feature requests","c-req",s.requests)}</div>
       ${s.paywall ? `<div class="ai-line"><b>Pricing & paywall</b>${esc(s.paywall)}</div>` : ""}
       ${s.takeaway ? `<div class="ai-take"><b>Takeaway for us</b>${esc(s.takeaway)}</div>` : ""}
+      ${err && RV.sIdx===0 ? `<p class="ai-err"><b>Last update failed</b> ${rel(err.ts)} — ${esc(err.message)}</p>` : ""}
     </div>`;
   }
   const st = rv.stats || {};
