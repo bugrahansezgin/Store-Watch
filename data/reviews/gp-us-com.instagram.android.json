@@ -1,39 +1,61 @@
 {
  "stats": {
-  "total": 504,
+  "total": 506,
   "avg": 4.1,
   "dist": {
    "1": 90,
    "2": 12,
    "3": 13,
    "4": 33,
-   "5": 356
+   "5": 358
   },
   "d7": {
-   "count": 504,
+   "count": 506,
    "avg": 4.1,
    "dist": {
     "1": 90,
     "2": 12,
     "3": 13,
     "4": 33,
-    "5": 356
+    "5": 358
    }
   },
   "d30": {
-   "count": 504,
+   "count": 506,
    "avg": 4.1,
    "dist": {
     "1": 90,
     "2": 12,
     "3": 13,
     "4": 33,
-    "5": 356
+    "5": 358
    }
   },
-  "updatedAt": "2026-09-30T07:14:21+00:00"
+  "updatedAt": "2026-09-30T07:14:55+00:00"
  },
  "reviews": [
+  {
+   "id": "209792b2-e5a4-496a-a8b6-6ff3822a34fc",
+   "rating": 5,
+   "title": "",
+   "body": "dear instagram team. my account lover__boy7717 has been deactivated. I believe this is a mistake as I have always followed all community guidelines and terms of service. i request You to review my account and reactivate it as soon as possible. thank you for time and assistance.",
+   "author": "Viru Rajput",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:14:53+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5c102f06-ccd5-4a3d-8d3f-bf1afb8cbcd2",
+   "rating": 5,
+   "title": "",
+   "body": "thank u so Mach",
+   "author": "Ankush Thakur",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:14:28+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "515b8574-afe0-41c5-97c2-e7bd1f4cdd1f",
    "rating": 5,

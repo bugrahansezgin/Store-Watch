@@ -1,0 +1,269 @@
+{
+ "stats": {
+  "total": 21,
+  "avg": 4.05,
+  "dist": {
+   "1": 3,
+   "2": 1,
+   "3": 1,
+   "4": 3,
+   "5": 13
+  },
+  "d7": {
+   "count": 3,
+   "avg": 3.67,
+   "dist": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
+   }
+  },
+  "d30": {
+   "count": 15,
+   "avg": 4.13,
+   "dist": {
+    "1": 2,
+    "2": 0,
+    "3": 1,
+    "4": 3,
+    "5": 9
+   }
+  },
+  "updatedAt": "2026-09-30T07:14:55+00:00"
+ },
+ "reviews": [
+  {
+   "id": "97a9e89d-4c90-44d2-8c2b-042a0087c140",
+   "rating": 5,
+   "title": "",
+   "body": "i don't like socal arrengment so i download this for me",
+   "author": "SM Kamrul Islam",
+   "version": "0.2.2609230",
+   "date": "2026-09-27T03:34:20+00:00",
+   "votes": 0,
+   "reply": "Thanks so much for the 5 stars! I’m glad Charm gives you a way to enjoy the social media experience in a way that works better for you."
+  },
+  {
+   "id": "9622f474-8d54-434f-bc5b-33112508cbc3",
+   "rating": 5,
+   "title": "",
+   "body": "perfect for introverts like me lol. can we get a monthly subscription option?",
+   "author": "Godz329",
+   "version": "0.2.2609230",
+   "date": "2026-09-26T12:10:56+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6b4d39d9-a918-4354-be9d-77fd5e9d70ff",
+   "rating": 1,
+   "title": "",
+   "body": "i have never been able to use this app because it never let's me sign in , it keeps saying connection closed by peer ... what does that even mean ???? is that a bug , if yes pls fix it , I really want to try the app.",
+   "author": "Goodness Okani",
+   "version": "0.2.2609230",
+   "date": "2026-09-25T16:24:40+00:00",
+   "votes": 0,
+   "reply": "Hi there, I replied to your email and would love to help resolve the issue for you. Please let us know how we can help! hello@joincharmsocial.com"
+  },
+  {
+   "id": "d7cc0413-856c-4bf2-8636-603192560f55",
+   "rating": 5,
+   "title": "",
+   "body": "After this app I deleted insta, because this one is in thousand times better! Thanks for creating it and please, continue developing it.",
+   "author": "Diana",
+   "version": "0.2.2609170",
+   "date": "2026-09-21T20:12:36+00:00",
+   "votes": 0,
+   "reply": "Thank you so much for the kind words and 5 stars. I’m really glad you’re enjoying Charm, and I’m absolutely continuing to develop it with more features and improvements on the way."
+  },
+  {
+   "id": "44825a00-0970-4fc6-9d80-14bdf12d012e",
+   "rating": 5,
+   "title": "",
+   "body": "it's good but like the bots don't feel super human yet, but it's cheaper than aspect (I have both) ai posts can be priv! the memory system is GREAT the stories system is great, the relationship system is great, and the kinda reel section is silly :) its all more accurate and intelligent than aspect on some stuff but I love both",
+   "author": "Jade Lefki",
+   "version": "0.2.2609170",
+   "date": "2026-09-20T12:09:52+00:00",
+   "votes": 0,
+   "reply": "Thank you so much for the detailed review! Making the AI characters feel more human and natural is one of my biggest areas of focus right now. I’m really glad you’re enjoying the memory, stories, relationships, and everything else Charm has to offer!"
+  },
+  {
+   "id": "f6f8f621-1219-4df9-b7ee-a3ec341039f5",
+   "rating": 5,
+   "title": "",
+   "body": "اسطوري",
+   "author": "محمد ياسين حمدان",
+   "version": "0.2.2609170",
+   "date": "2026-09-19T15:59:39+00:00",
+   "votes": 0,
+   "reply": "شكراً جزيلاً على الـ 5 نجوم! سعيد جداً أن التطبيق أعجبك."
+  },
+  {
+   "id": "6ff5578b-9ed7-490d-9e19-1ff81cd5d387",
+   "rating": 5,
+   "title": "",
+   "body": "♥️♥️♥️♥️♥️♥️",
+   "author": "fatima Zahra touzani",
+   "version": "0.2.2609150",
+   "date": "2026-09-18T17:32:44+00:00",
+   "votes": 0,
+   "reply": "Thank you for the 5 stars! ♥️♥️♥️♥️♥️"
+  },
+  {
+   "id": "d0d5bc0a-9e8d-40d2-b286-67605215ff63",
+   "rating": 4,
+   "title": "",
+   "body": "its been hard to find a decent ai social media app but I wish I could post more than once a day as a non paying user",
+   "author": "Mea Heiden",
+   "version": "0.2.2609120",
+   "date": "2026-09-16T19:39:09+00:00",
+   "votes": 0,
+   "reply": "Thanks for the feedback! I understand that one free post per day can feel limiting. I’m always exploring ways to make the free experience more flexible while still covering the ongoing AI costs!"
+  },
+  {
+   "id": "5163449c-90eb-4da2-89b2-6c3bec0dabf2",
+   "rating": 3,
+   "title": "",
+   "body": "it's a little annoying how the AI model overuses certain words. ah bold of you to say that. bold of you to post this review. bold of you to find this annoying",
+   "author": "Havi",
+   "version": "0.2.2609040",
+   "date": "2026-09-11T08:32:38+00:00",
+   "votes": 0,
+   "reply": "Thanks for the feedback! I completely agree. Repetitive phrases like this are something I’m actively working to improve along with the overall AI quality."
+  },
+  {
+   "id": "b916a5ee-b0bd-4824-8075-6470a229be53",
+   "rating": 5,
+   "title": "",
+   "body": "Really good",
+   "author": "Brainrot sammy",
+   "version": "0.2.2609040",
+   "date": "2026-09-10T04:07:49+00:00",
+   "votes": 0,
+   "reply": "Thank you so much for the 5 stars! 😊 Really glad you’re enjoying Charm!"
+  },
+  {
+   "id": "3fc87aa0-3264-417c-87cc-e49b388d866b",
+   "rating": 4,
+   "title": "",
+   "body": "I love the app but there should be adds for the gold so u can aleast get a certain amount of gold without always half to pay also should definitely add like a face time thing on the messeages that be pretty cool to make it feel more live",
+   "author": "allison pieper",
+   "version": "0.2.2609040",
+   "date": "2026-09-09T20:41:05+00:00",
+   "votes": 0,
+   "reply": "Thanks for the feedback! Optional ads for Gold is already on my feature request list, and video calls are too. I’d love to explore both in the future to make Charm more accessible and the chats feel even more immersive."
+  },
+  {
+   "id": "cbf8b222-8774-498e-843f-b0bc77897d81",
+   "rating": 1,
+   "title": "",
+   "body": "Please add a Watch Ad & Earn Credits option. It would help free users enjoy more chats while also giving Charm extra ad revenue. ❤️",
+   "author": "Grand Monarch",
+   "version": "0.2.2609040",
+   "date": "2026-09-09T14:28:55+00:00",
+   "votes": 1,
+   "reply": "Thanks for the suggestion! I really like the idea of optional ads as a way for free users to earn extra credits, and it’s already on my feature request list. Today it doesn't really cover the cost of AI usage, but it’s definitely something I’d love to explore in the future."
+  },
+  {
+   "id": "31e68633-102f-4c85-9ec6-892edae98584",
+   "rating": 4,
+   "title": "",
+   "body": "good app overall but the AI could use some tweaks.",
+   "author": "Hulk Smash",
+   "version": "",
+   "date": "2026-09-09T00:51:31+00:00",
+   "votes": 0,
+   "reply": "Thanks for the feedback! I completely agree, the quality of the AI responses is one of my top areas of focus right now, and I’m actively working on making them feel more natural, engaging, and consistent."
+  },
+  {
+   "id": "45483f4f-f7ea-4c10-b332-a75661b6554b",
+   "rating": 5,
+   "title": "",
+   "body": "beautiful app this app has everything which I need thanku so much 😁💗",
+   "author": "Anand Kumar srivastava",
+   "version": "0.2.2608290",
+   "date": "2026-09-04T03:59:44+00:00",
+   "votes": 1,
+   "reply": "Thank you I'm so happy you are enjoying it!"
+  },
+  {
+   "id": "16a2dee7-2026-4627-b540-a20f854681c2",
+   "rating": 5,
+   "title": "",
+   "body": "please make it cheaper",
+   "author": "Sara Mae Kidjani Sali",
+   "version": "0.2.2609011",
+   "date": "2026-09-03T17:09:08+00:00",
+   "votes": 0,
+   "reply": "Thank you for the review! I'm always looking for ways to make it cheaper while still covering the cost to keep it running. It's always top of mind for me!"
+  },
+  {
+   "id": "af98cc40-f3c9-493e-9806-9eb8f4bab904",
+   "rating": 5,
+   "title": "",
+   "body": "please fix login with Apple on Android. doesn't work and can't carry over an existing Apple subscription. Apple login just hangs indefinitely... EDIT: Jacob is an amazing developer and listens to feedback. great app and great customer service.",
+   "author": "Jordan",
+   "version": "0.2.2608221",
+   "date": "2026-08-29T20:42:30+00:00",
+   "votes": 0,
+   "reply": "Thank you for reporting, I will look into this asap! In the mean time, please email me and I can grant any other user free Pro so you can use it on Android while the issue is being fixed. hello@joincharmsocial.com"
+  },
+  {
+   "id": "fcf994f6-1b92-4d71-914c-c03f21224eda",
+   "rating": 5,
+   "title": "",
+   "body": "you should add ads so we can have done freedom and where it can be every 2 hours we can post and chat",
+   "author": "todd loveday",
+   "version": "",
+   "date": "2026-08-27T18:15:48+00:00",
+   "votes": 0,
+   "reply": "Thanks so much for the 5 stars! I really like the idea of using optional ads to earn more posts or chats, and it’s something I’m exploring for future updates. Thanks for the suggestion!"
+  },
+  {
+   "id": "d174aab2-b17a-4ab6-8c6e-0914b6411c11",
+   "rating": 1,
+   "title": "",
+   "body": "it's much annoying that DM messages are limited. the rest is good, but this part bothers me. too bad",
+   "author": "It's Aisha",
+   "version": "",
+   "date": "2026-08-17T02:37:11+00:00",
+   "votes": 0,
+   "reply": "Thanks for the feedback! I completely understand that the DM limit can be frustrating. AI conversations have ongoing costs, but I’m exploring ways to make the free limits more generous and flexible."
+  },
+  {
+   "id": "eb0d71df-002e-44dd-afea-9ff6416941a2",
+   "rating": 5,
+   "title": "",
+   "body": "Great but pretty please let us use it as free completely some of us can't pay due to not accessing to global bank accounts thank you so much",
+   "author": "Pure Vanilla Cookie",
+   "version": "",
+   "date": "2026-08-14T15:56:50+00:00",
+   "votes": 0,
+   "reply": "Thanks so much! I completely understand. AI has ongoing costs, so I can’t make everything unlimited for free, but I’m always looking for ways to make the free experience more generous and accessible to everyone."
+  },
+  {
+   "id": "d974b9e0-2d33-47b5-ba33-0d52e7fd0f26",
+   "rating": 2,
+   "title": "",
+   "body": "Edited: Coming from Butterflies AI, I had hope for this app, but as usual, there's too much behind a paywall & free does so little. I understand that there are costs, but I don't feel it's fair to create a character and not even be able to have them post even once without paying. There ISN'T a way to edit a created character, users besides me put this in the app requests. The mechanics & Instagram look are nice, but it's not enough to subscribe for. Butterflies AI clearly spoiled me.",
+   "author": "Couch Pirate",
+   "version": "0.2.2608100",
+   "date": "2026-08-13T05:09:42+00:00",
+   "votes": 2,
+   "reply": "Edited: You are totally right, there was a bug preventing AI updates on Android. I'm so sorry! This has been fixed now so you should be able to edit any character you make. And I agree on costs, but I just can't yet afford to give more away for free. Thank you for your feedback!"
+  },
+  {
+   "id": "6c41d2e9-2de1-4da1-8998-aa6502d3bc7c",
+   "rating": 5,
+   "title": "",
+   "body": "Hello! I love the app..!! I personally use Aspect AI which has like the same format but more expensive subscriptions with just a fewer feature. I discovered this app today and was planning to save some money and buy the pro version. The app grew on me as I found out more of the features that wasn't in the other apps. Plus, the way you asked for request and actually make it real (If possible) Is already a big green flag to me. App developers should be more like you..!! (Everyone take notes!!)",
+   "author": "Venisse Apog",
+   "version": "0.2.2607250",
+   "date": "2026-08-01T07:20:15+00:00",
+   "votes": 2,
+   "reply": "Thank you so much for your review! I love working on the app and I hope to continue bringing great features to everyone in Charm."
+  }
+ ]
+}

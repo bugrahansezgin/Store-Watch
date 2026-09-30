@@ -42,6 +42,12 @@
       "country": "us",
       "platform": "android",
       "note": "xyz.aspectapp.aspect"
+    },
+    {
+      "id": "com.joincharmsocial.charm",
+      "country": "us",
+      "platform": "android",
+      "note": "com.joincharmsocial.charm"
     }
   ]
 }

@@ -1,5 +1,33 @@
 [
  {
+  "id": "2026-09-30-gp-us-com.joincharmsocial.charm-tracking",
+  "type": "tracking",
+  "app": "gp-us-com.joincharmsocial.charm",
+  "ts": "2026-09-30T07:14:42+00:00",
+  "title": "Started tracking Charm: AI Only Social Media",
+  "summary": "Baseline: 18 screenshots · v0.2.2609260",
+  "after": [
+   "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+   "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+   "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+   "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+   "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+   "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392",
+   "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+   "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+   "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+   "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+   "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+   "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392",
+   "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+   "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+   "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+   "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+   "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+   "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-xyz.aspectapp.aspect-tracking",
   "type": "tracking",
   "app": "gp-us-xyz.aspectapp.aspect",
