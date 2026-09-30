@@ -36,6 +36,12 @@
       "country": "us",
       "platform": "android",
       "note": "com.instagram.android"
+    },
+    {
+      "id": "xyz.aspectapp.aspect",
+      "country": "us",
+      "platform": "android",
+      "note": "xyz.aspectapp.aspect"
     }
   ]
 }
