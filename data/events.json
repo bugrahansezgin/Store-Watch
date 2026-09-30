@@ -1,5 +1,22 @@
 [
  {
+  "id": "2026-09-30-us-1158555867-tracking",
+  "type": "tracking",
+  "app": "us-1158555867",
+  "ts": "2026-09-30T07:59:12+00:00",
+  "title": "Started tracking Replika - AI Companion Chat",
+  "summary": "Baseline: 7 screenshots · v12.3.5",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/78/f6/9478f699-cae5-e264-2f13-355e96a9588d/1.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/9c/3d/699c3d99-3c28-a785-98cd-340ef78a2b23/2.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/2e/51/f22e5192-ddd6-1582-25c5-227fa0ebc689/3.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/22/8b/6f228b54-5f83-a9b2-1cd5-e2e17bf75c45/4.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/0c/d0/e20cd091-7229-c13e-a2b5-b96640d537ae/5.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/6a/16/4b6a165b-3793-e567-ad3d-31a2811da28e/6.png/392x852bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/1d/98/6f1d98a9-30e4-68b7-434a-16b3c2b30083/7.png/392x852bb.jpg"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-ai.socialapps.speakmaster-tracking",
   "type": "tracking",
   "app": "gp-us-ai.socialapps.speakmaster",

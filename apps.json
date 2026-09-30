@@ -54,6 +54,12 @@
       "country": "us",
       "platform": "android",
       "note": "ai.socialapps.speakmaster"
+    },
+    {
+      "id": "1158555867",
+      "country": "us",
+      "platform": "ios",
+      "note": "replika ai companion chat"
     }
   ]
 }

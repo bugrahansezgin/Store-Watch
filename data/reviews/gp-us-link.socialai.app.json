@@ -1,39 +1,138 @@
 {
  "stats": {
-  "total": 506,
-  "avg": 4.03,
+  "total": 515,
+  "avg": 4.04,
   "dist": {
    "1": 46,
    "2": 30,
    "3": 52,
-   "4": 111,
-   "5": 267
+   "4": 116,
+   "5": 271
   },
   "d7": {
-   "count": 506,
-   "avg": 4.03,
+   "count": 515,
+   "avg": 4.04,
    "dist": {
     "1": 46,
     "2": 30,
     "3": 52,
-    "4": 111,
-    "5": 267
+    "4": 116,
+    "5": 271
    }
   },
   "d30": {
-   "count": 506,
-   "avg": 4.03,
+   "count": 515,
+   "avg": 4.04,
    "dist": {
     "1": 46,
     "2": 30,
     "3": 52,
-    "4": 111,
-    "5": 267
+    "4": 116,
+    "5": 271
    }
   },
-  "updatedAt": "2026-09-30T07:41:46+00:00"
+  "updatedAt": "2026-09-30T07:59:28+00:00"
  },
  "reviews": [
+  {
+   "id": "6355911b-06f9-489c-81bf-8b4a98c4a058",
+   "rating": 4,
+   "title": "",
+   "body": "good",
+   "author": "Alyssa Kern",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:55:23+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c53a4f4f-d158-4b96-8b7f-1e6cb880e701",
+   "rating": 4,
+   "title": "",
+   "body": "I actually like the game, so fun and exciting.",
+   "author": "pelumi solarin",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:52:40+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c999e63a-dc52-4668-be24-755494aee6b7",
+   "rating": 5,
+   "title": "",
+   "body": "i had fun with the free version for awhile, i wish we could have an app like this we just pay for once and its free they'd make so many more sales that way",
+   "author": "Faithlyn Grace",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:50:56+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "9448f647-5814-4236-bdc3-7c0c47884bc7",
+   "rating": 4,
+   "title": "",
+   "body": "pretty cool",
+   "author": "Andrew Elliott",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:50:29+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "1d9bacfc-c67f-4bc1-b2d3-c40b34e8ba3e",
+   "rating": 4,
+   "title": "",
+   "body": "lowkey fun",
+   "author": "Harmony Hudson",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:44:41+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "18b586da-69ad-437d-b55e-a3395c9c432d",
+   "rating": 5,
+   "title": "",
+   "body": "i love it, so fun.",
+   "author": "Jorge Figueroa",
+   "version": "",
+   "date": "2026-09-29T07:41:54+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "d7aca491-cc0a-4ef7-8e66-624d6d21bf44",
+   "rating": 5,
+   "title": "",
+   "body": "nice app you can find a lot of friends and the another user are kind and your followers will grow up well",
+   "author": "Alexa Blaire Nobleza",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:38:56+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e9ef2345-7d84-4a16-9ef3-07b8a4ad5748",
+   "rating": 4,
+   "title": "",
+   "body": "Great game. 👍🏾",
+   "author": "Michael Ndirangu",
+   "version": "1.9.61",
+   "date": "2026-09-29T07:38:30+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "9150c0b0-8cbd-4811-be04-8c17455a71ec",
+   "rating": 5,
+   "title": "",
+   "body": "I love the drama and mostly the enemies to lovers drama and yes it's so fun to play, especially if you have the subscription",
+   "author": "Aleja Solis",
+   "version": "",
+   "date": "2026-09-29T07:37:00+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "f58ea322-191e-4155-9d09-ad23775a254b",
    "rating": 5,
