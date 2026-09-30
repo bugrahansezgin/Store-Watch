@@ -1,39 +1,61 @@
 {
  "stats": {
-  "total": 522,
-  "avg": 4.03,
+  "total": 524,
+  "avg": 4.04,
   "dist": {
    "1": 47,
    "2": 31,
    "3": 53,
    "4": 117,
-   "5": 274
+   "5": 276
   },
   "d7": {
-   "count": 522,
-   "avg": 4.03,
+   "count": 524,
+   "avg": 4.04,
    "dist": {
     "1": 47,
     "2": 31,
     "3": 53,
     "4": 117,
-    "5": 274
+    "5": 276
    }
   },
   "d30": {
-   "count": 522,
-   "avg": 4.03,
+   "count": 524,
+   "avg": 4.04,
    "dist": {
     "1": 47,
     "2": 31,
     "3": 53,
     "4": 117,
-    "5": 274
+    "5": 276
    }
   },
-  "updatedAt": "2026-09-30T08:29:03+00:00"
+  "updatedAt": "2026-09-30T08:41:54+00:00"
  },
  "reviews": [
+  {
+   "id": "77c7b97f-2e9a-45ba-813a-2f86f84da3bc",
+   "rating": 5,
+   "title": "",
+   "body": "I installed it for fun but I didn't expect to get so into the stories lol the AI is smart coming up with stories to get at you. anyways, I wish we could get more energy per day, bummer we have to share it for all the groups chats.",
+   "author": "BAGS",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:38:23+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6e407905-1187-4947-ac7c-5338c6e1feac",
+   "rating": 5,
+   "title": "",
+   "body": "its fun",
+   "author": "Joanah Lucagbo",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:37:35+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "a44741d2-8445-4d13-a899-db1059110c68",
    "rating": 5,

@@ -1,0 +1,78 @@
+{
+ "versions": {
+  "1.9.59": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.58": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.54": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.52": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.50": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.49": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  },
+  "1.9.43": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  }
+ },
+ "cadence": {
+  "text": "15 releases in the last 90 days, typically every 4 days",
+  "last90": 15,
+  "medianDays": 4,
+  "lastRelease": "2026-09-28T14:09:37+00:00"
+ },
+ "lastError": {
+  "ts": "2026-09-30T08:41:57+00:00",
+  "message": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ "lastRun": "2026-09-30T08:41:57+00:00"
+}

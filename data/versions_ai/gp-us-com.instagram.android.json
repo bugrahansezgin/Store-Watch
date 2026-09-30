@@ -1,0 +1,18 @@
+{
+ "versions": {
+  "Varies with device": {
+   "summary": "Maintenance release (bug fixes / performance).",
+   "trivial": true,
+   "ts": "2026-09-30T08:41:57+00:00",
+   "added": [],
+   "changed": [],
+   "removed": [],
+   "fixed": []
+  }
+ },
+ "cadence": {
+  "text": "unknown"
+ },
+ "lastError": null,
+ "lastRun": "2026-09-30T08:41:57+00:00"
+}

@@ -1,6 +1,1115 @@
 {
- "generatedAt": "2026-09-30T08:36:35+00:00",
- "apps": [],
+ "generatedAt": "2026-09-30T08:41:58+00:00",
+ "apps": [
+  {
+   "id": "6502742786",
+   "country": "us",
+   "name": "Aspect: AI-Only Social Media",
+   "developer": "Arch Platforms, Inc",
+   "url": "https://apps.apple.com/us/app/aspect-ai-only-social-media/id6502742786",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/ef/59/36ef5980-b1b1-4fb4-b6e1-4f9fee6207ab/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "version": "1.115",
+   "versionDate": "2026-09-24T05:51:07Z",
+   "price": "Free",
+   "rating": 4.48,
+   "ratingCount": 9858,
+   "genre": "Social Networking",
+   "descriptionHash": "ca67ea567c4c",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/c8/63/80c863b0-44f7-e210-d3e5-a6cb2cb92d4b/1.png/392x850bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/6a/2d/ac6a2de8-b8b1-a4e2-56f6-8a6b8c980867/2.png/392x850bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/90/4e/66904e4e-369c-4d19-7cfd-4891ad8df4bd/3.png/392x850bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/13/b0/1f13b09d-7d17-266e-b49e-04a865d5ddc0/4.png/392x850bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/78/ac/e178acf9-3ee4-f1f0-a46c-9429ec3ddc89/5.png/392x850bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "key": "us-6502742786",
+   "reviewStats": {
+    "total": 500,
+    "avg": 2.8,
+    "dist": {
+     "1": 146,
+     "2": 75,
+     "3": 105,
+     "4": 82,
+     "5": 92
+    },
+    "d7": {
+     "count": 3,
+     "avg": 2.33,
+     "dist": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+     }
+    },
+    "d30": {
+     "count": 35,
+     "avg": 2.46,
+     "dist": {
+      "1": 17,
+      "2": 1,
+      "3": 8,
+      "4": 2,
+      "5": 7
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:53+00:00"
+   }
+  },
+  {
+   "id": "6449190344",
+   "country": "us",
+   "name": "PolyBuzz: Chat with Characters",
+   "developer": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+   "url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/90/64/b4906479-af0f-bfe4-fafe-3d10c49ca3a0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+   "version": "2.2.80",
+   "versionDate": "2026-09-19T05:41:00Z",
+   "price": "Free",
+   "rating": 4.45,
+   "ratingCount": 479141,
+   "genre": "Entertainment",
+   "descriptionHash": "494145d3daaf",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/33/ef/2533eff8-9b51-e59b-26e3-62681609fe07/861f8f93-7299-4a8d-ba90-b740c8ff0d0a__U753b_U677f_1.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/97/9c/f7979cd8-4fc0-f512-73d1-e2306c990400/2-iphone.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/83/9c/c5839cae-d623-3525-8d3f-71d2168550a1/03.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/c9/dd/f6c9ddd3-0178-ac26-8d2d-673996a4add8/1284-2778__U82f1_U6587.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/41/03/4e41035a-efb4-06e3-e70e-c15512b83def/7f9a1417-f7b1-4e16-8907-4756955aad71_04.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/ef/aa/fdefaaf9-8a85-788c-3250-3792548bfc17/1242-2688.jpg/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/87/5a/77875aee-d282-177a-8492-4e82e54f0ecc/8c55871e-b916-4d15-89d0-37d33c170a22_1.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/ee/36/0aee3650-c545-3276-45cb-ea80d467810e/2-ipad.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/91/ab/f091abb5-9551-1e61-89e6-26516c44d65d/3.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/e5/37/0de5379c-16fb-0eff-e30d-f58873f81716/2048_2732__U82f1_U6587-.jpg/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/b3/c7/3cb3c727-3023-13ab-a7c4-9564534cbbb8/bab7404d-3010-426d-8b46-12b3fbaf85ae_4.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/9e/9b/879e9be0-68b1-9343-95a3-99e597a1d1e7/2048-2732.jpg/392x523bb.jpg"
+   ],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "key": "us-6449190344",
+   "reviewStats": {
+    "total": 504,
+    "avg": 3.08,
+    "dist": {
+     "1": 153,
+     "2": 47,
+     "3": 64,
+     "4": 87,
+     "5": 153
+    },
+    "d7": {
+     "count": 206,
+     "avg": 3.19,
+     "dist": {
+      "1": 57,
+      "2": 16,
+      "3": 33,
+      "4": 31,
+      "5": 69
+     }
+    },
+    "d30": {
+     "count": 504,
+     "avg": 3.08,
+     "dist": {
+      "1": 153,
+      "2": 47,
+      "3": 64,
+      "4": 87,
+      "5": 153
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:53+00:00"
+   }
+  },
+  {
+   "id": "389801252",
+   "country": "us",
+   "name": "Instagram",
+   "developer": "Instagram, Inc.",
+   "url": "https://apps.apple.com/us/app/instagram/id389801252",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+   "version": "448.0.0",
+   "versionDate": "2026-09-21T15:59:55Z",
+   "price": "Free",
+   "rating": 4.69,
+   "ratingCount": 29539019,
+   "genre": "Photo & Video",
+   "descriptionHash": "64faded9033f",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/66/9b/f0669b33-9a09-8c6c-513a-3213b92cb1cc/1_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/74/7e/17747e7c-6371-46a5-7340-80fdbf607e00/2_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/c9/9f/9ac99f71-aef6-651b-a462-f1c41e1acfcb/3_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/84/02/0184026f-4a06-4f9b-16a0-2ea0b343af80/4_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/b6/92/97b692e3-b5a5-692d-8265-db180df1c1d1/5_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/f5/1d/7bf51d2e-044f-744f-a91f-a9ac328672a7/6_iOS_6.5.jpg/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/dc/57/3fdc5728-f6d8-e26b-c7a6-794058db0973/7_iOS_6.5.jpg/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/b4/a3/18b4a31a-4c4b-8a2c-9aeb-2a6bdc500b3c/13__Following_tab.png/392x294bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/d9/d5/ebd9d531-83ed-78ed-da54-7dceadcb3efe/13__Home.png/392x294bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/85/0f/08850fae-60fa-4fe2-0334-66025d3d0afa/13__Reels_comments.png/392x294bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/05/f3/2805f3ec-b9f1-7c18-756e-9285b71c56ff/13__Stories.png/392x294bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/b7/de/45b7debf-5409-18c8-9565-6be75a3394a1/13__Direct.png/392x294bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/2c/1f/a22c1f7a-bc4f-204d-ee6f-102e12499ec7/13__Stacked_Timeline.png/392x294bb.jpg"
+   ],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-29T14:28:27+00:00",
+   "key": "us-389801252",
+   "reviewStats": {
+    "total": 63,
+    "avg": 2.68,
+    "dist": {
+     "1": 31,
+     "2": 4,
+     "3": 4,
+     "4": 2,
+     "5": 22
+    },
+    "d7": {
+     "count": 63,
+     "avg": 2.68,
+     "dist": {
+      "1": 31,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 22
+     }
+    },
+    "d30": {
+     "count": 63,
+     "avg": 2.68,
+     "dist": {
+      "1": 31,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 22
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:54+00:00"
+   }
+  },
+  {
+   "id": "6753083338",
+   "country": "us",
+   "name": "Charm: AI Only Social Media",
+   "developer": "Jacob Rice",
+   "url": "https://apps.apple.com/us/app/charm-ai-only-social-media/id6753083338",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/fd/82/ddfd82a6-38f3-4cf3-0e11-f32dce5fd3c5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+   "version": "0.2.2609260",
+   "versionDate": "2026-09-26T20:13:01Z",
+   "price": "Free",
+   "rating": 4.49,
+   "ratingCount": 142,
+   "genre": "Social Networking",
+   "descriptionHash": "c240cb2ad8db",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-29T14:31:19+00:00",
+   "key": "us-6753083338",
+   "reviewStats": {
+    "total": 18,
+    "avg": 3.72,
+    "dist": {
+     "1": 1,
+     "2": 3,
+     "3": 4,
+     "4": 2,
+     "5": 8
+    },
+    "d7": {
+     "count": 1,
+     "avg": 4.0,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+     }
+    },
+    "d30": {
+     "count": 2,
+     "avg": 4.5,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:54+00:00"
+   }
+  },
+  {
+   "id": "6596771144",
+   "country": "us",
+   "name": "status - sims but social media",
+   "developer": "WishRoll Inc.",
+   "url": "https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/e3/de/f8e3de55-702f-7089-39ba-ddda6d6c43c7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "version": "1.9.62",
+   "versionDate": "2026-09-28T14:09:37Z",
+   "price": "Free",
+   "rating": 4.63,
+   "ratingCount": 199799,
+   "genre": "Entertainment",
+   "descriptionHash": "adf006fa94fc",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/00/59/f60059de-0313-0c4d-9e26-329e8fa4f76d/Status_1284_2278_EN_1.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/84/af/a784afe1-4d3e-9c50-36f8-1334d5bd9ff1/Status_1284_2278_EN_2.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/3e/43/703e438d-0ad0-0ef0-40d8-9bd0b3cf5caf/Status_1284_2278_EN_3.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/3b/53/2c3b53c5-237a-4af8-81e1-cf03d7469908/Status_1284_2278_EN_4.jpg/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-29T14:40:27+00:00",
+   "key": "us-6596771144",
+   "reviewStats": {
+    "total": 508,
+    "avg": 4.22,
+    "dist": {
+     "1": 23,
+     "2": 14,
+     "3": 72,
+     "4": 118,
+     "5": 281
+    },
+    "d7": {
+     "count": 290,
+     "avg": 4.32,
+     "dist": {
+      "1": 8,
+      "2": 8,
+      "3": 40,
+      "4": 62,
+      "5": 172
+     }
+    },
+    "d30": {
+     "count": 508,
+     "avg": 4.22,
+     "dist": {
+      "1": 23,
+      "2": 14,
+      "3": 72,
+      "4": 118,
+      "5": 281
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:54+00:00"
+   }
+  },
+  {
+   "id": "link.socialai.app",
+   "country": "us",
+   "platform": "android",
+   "name": "status - sims but social media",
+   "developer": "WishRoll",
+   "url": "https://play.google.com/store/apps/details?id=link.socialai.app&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/ZJ9BekAbmjR-Ic49QsonD7L6eUOYnGUBqrPs_pvNKjAsGK1o7e5hN9j-ofvZWDWJ6pye1R2GCQ7tBPwqrshy=w512",
+   "version": "1.9.61",
+   "versionDate": "2026-09-14T04:51:26+00:00",
+   "price": "Free · IAP $0.99 - $199.99 per item",
+   "rating": 4.13,
+   "ratingCount": 542864,
+   "installs": "1,000,000+",
+   "genre": "Lifestyle",
+   "descriptionHash": "15a3f06606c7",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/DJxbeJxDcHcsfGFbn0XiKRWODY_sB9chUeo0SWbt8jjFJ6lZtcdRKGgiCgUdEcldYjF065cBoexJf5LrZwmt=w392",
+    "https://play-lh.googleusercontent.com/Q1XfcUandG7-WnuglkY3hsBBTgI4VGCiisDTSMNflJZiz7UtGsTrE8IY3nQsbCYDQWWpdcEWOkWbXvdl8tdWKD4=w392",
+    "https://play-lh.googleusercontent.com/WcSp7nMA_MYjFyJfu_BjHFFIhwd4PZn0TupsMGJ3UUxkbeAsR3FSHgdbzxqAAG5xyIEI4AK1x5TZaLEfPn3flA=w392",
+    "https://play-lh.googleusercontent.com/Vqf4spxPwpJmgwzRv_aKgR1_jxK3e3Grv2r5TiB8mXw3Vc4zS3V9jX_CoTGK7Elvn2VZiEsQYKb1hGJFa4Cz=w392",
+    "https://play-lh.googleusercontent.com/RK25LNorPOVXlZHg40gea5noZjgZhFgB3sjpONbAqnQa8RQOM4iZxy-84O8O-3E6NnfqnkhkibpPEoqPsQl7W4g=w392",
+    "https://play-lh.googleusercontent.com/5mEibGnkq3XlnlOPWYzfJIurDh1M96FIfLXu8ayhZQ-9ij8XmphmBDZDjS4DF_6gS02yZbh3Llh40BNJk9sjuBg=w392",
+    "https://play-lh.googleusercontent.com/OC_E7Sch5qEoOUDHzQ9TCZAzYC3i1_ff4g2HXg5fu9fWXWd_WnmWsarW5Rf-6msrIbQ8m6CXAMLQzAwdvY7m=w392",
+    "https://play-lh.googleusercontent.com/Pg3PyFOUboT7hNCT4J_DkASRkzR2jFKMNjn1w0V3MF2nmnZlxjncmtwn4NHkk3lZjEX86Gm1eFPFlo_WOkd8sw=w392",
+    "https://play-lh.googleusercontent.com/RK25LNorPOVXlZHg40gea5noZjgZhFgB3sjpONbAqnQa8RQOM4iZxy-84O8O-3E6NnfqnkhkibpPEoqPsQl7W4g=w392",
+    "https://play-lh.googleusercontent.com/5mEibGnkq3XlnlOPWYzfJIurDh1M96FIfLXu8ayhZQ-9ij8XmphmBDZDjS4DF_6gS02yZbh3Llh40BNJk9sjuBg=w392",
+    "https://play-lh.googleusercontent.com/OC_E7Sch5qEoOUDHzQ9TCZAzYC3i1_ff4g2HXg5fu9fWXWd_WnmWsarW5Rf-6msrIbQ8m6CXAMLQzAwdvY7m=w392",
+    "https://play-lh.googleusercontent.com/Pg3PyFOUboT7hNCT4J_DkASRkzR2jFKMNjn1w0V3MF2nmnZlxjncmtwn4NHkk3lZjEX86Gm1eFPFlo_WOkd8sw=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:07:20+00:00",
+   "key": "gp-us-link.socialai.app",
+   "reviewStats": {
+    "total": 524,
+    "avg": 4.04,
+    "dist": {
+     "1": 47,
+     "2": 31,
+     "3": 53,
+     "4": 117,
+     "5": 276
+    },
+    "d7": {
+     "count": 524,
+     "avg": 4.04,
+     "dist": {
+      "1": 47,
+      "2": 31,
+      "3": 53,
+      "4": 117,
+      "5": 276
+     }
+    },
+    "d30": {
+     "count": 524,
+     "avg": 4.04,
+     "dist": {
+      "1": 47,
+      "2": 31,
+      "3": 53,
+      "4": 117,
+      "5": 276
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:54+00:00"
+   }
+  },
+  {
+   "id": "com.instagram.android",
+   "country": "us",
+   "platform": "android",
+   "name": "Instagram",
+   "developer": "Instagram",
+   "url": "https://play.google.com/store/apps/details?id=com.instagram.android&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q=w512",
+   "version": "Varies with device",
+   "versionDate": "2026-09-28T13:56:15+00:00",
+   "price": "Free · IAP $0.19 - $10,000.00 per item",
+   "rating": 3.99,
+   "ratingCount": 169482324,
+   "installs": "5,000,000,000+",
+   "genre": "Social",
+   "descriptionHash": "1e9b2e304c15",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/KWZZ4eVExx8xdzsZrw5O5Lmyz8amgpAyzm9R_Fs5StBLQrxpoO7hZsrbXU170fuP9dXOagS9vNflXbit6Aro=w392",
+    "https://play-lh.googleusercontent.com/k1GxM2K3E1-j7zVi2cXP6sxoLDNPJYIkpI_VmQYeZkV2KYqvRMvUt21In8GkmwvIxpwwRfC4Kk3575eVR7YK=w392",
+    "https://play-lh.googleusercontent.com/pk8xOq-n8fb43aWkEOfDcXbxVPd5S8fqq_Q33mpGvg6_Ltw7V0f0_r5GxX2zLaETyEy4EoDim77c04gNl4dL=w392",
+    "https://play-lh.googleusercontent.com/iFuJpIUpCLFjytdKp_hGoTNMD4Fqicb0aG2LlB9WQ1-LExP4oWEmf4augIbESDCASTUDNURi8C5xTH-XWW0_m-s=w392",
+    "https://play-lh.googleusercontent.com/gG08FD3cFDBLfidlon3KlbLPDYc_6357YkFa_jc57GMBMqOGr0lWUfBJ-5tFl7Eo17FvK1tMWftynS5APc7gWw=w392",
+    "https://play-lh.googleusercontent.com/OG4KlJTq0GCkjjd-h2xBBImgRLD2GGurDWS8cSLmJqaaNt_1HLVk5ZBxDyl2HNjpGfY4YgnerDypk3N68_qpiQ=w392",
+    "https://play-lh.googleusercontent.com/dM0H2UuInqt1i3Ca8sDqh1Z94aEQ0eg3TYr3cMLDObW8X2RI4cGedkPmAc8QrXUqoTl1mL34q1dsNTIDA1B4H-M=w392",
+    "https://play-lh.googleusercontent.com/tR-pzxAgfd_vrzvg-XIi4YdHhH7w0X39vg79Cw7O1FXJ1WkpikmzP_OWLA1YBBSRbZT-NN78H2St5oNLgsHy-g=w392",
+    "https://play-lh.googleusercontent.com/5qtdPxqjcxWH-cVQjs27J92G3P49Mfdj7R1aeUfhlZxN9ms_ki4RDIy5-K-_KnbruLfCq1fAr8FXiioTO_4M=w392",
+    "https://play-lh.googleusercontent.com/owhcCpFG-RVzia1hmywEi63mJe5ktcxbxHD6OhllwDPxOkw7vKuVlJqWZJD7wDMC7SYWvfrg_LoTPMoCYbpu2w=w392",
+    "https://play-lh.googleusercontent.com/KZQpNLudk4aAgoHsRXVQwVJxbabQrN_Cc8QKt7zqbbqwRr_2f8ZQFVnDV6SW23jxslnUeY2fw3b028KUnpl4NA=w392",
+    "https://play-lh.googleusercontent.com/7u3P1J_XRJz4bGBUH4zjMHeafJ9mho47e8-R7GF4eLzAlWdgW1HHt1uqPBMZZUPcE0GO5Ci0L7AzTZKaI3N1HOo=w392",
+    "https://play-lh.googleusercontent.com/TMJ3UyV_aSWXC2GEL-AMkUf36BrDru1lkl8PE8AYK-16NoQwboJLOp6hlVKDGLuyrMEzmhibDQsQtXdJLD8KnQ=w392",
+    "https://play-lh.googleusercontent.com/TdoGKqe6S6O6w2lSft-CSLIRwvuxjDtJTZdTOVVzwo3_4fef8Q3SxdZ50uU5RDO3mxdWoEvajOiDoq7FeAkufb0=w392",
+    "https://play-lh.googleusercontent.com/1KaRNxorVgo1AqkVJ6mzsboDI2aSAx3SmaLWwuGiSHLwYSz4Hn9wz99C2nHRRZ8tyrqz8DNIrImJhsTyF952cK0=w392",
+    "https://play-lh.googleusercontent.com/baJYcGn6bb8ajnnMxrMGtoX7SEdehI9H_6w0jtOcXmTt6o5VdiCxPgcNBctwN4FqLCzrR3Q0Bk9fb2MV7Uox=w392",
+    "https://play-lh.googleusercontent.com/JtVIep5oSG_bJTc8c1bHhTAB_KXdf6vRkAZKN8l3TMR3RG49cNOR5TqdAjD31shVt2fu__YV8uiW096XRl0cog=w392",
+    "https://play-lh.googleusercontent.com/g0wielwVDU1De_Z6skEOz_qp2iOoc1_Et1lkStLBGU9zXmh0csNLutfz_r_FCt5tb9gkN4uQiysl0fNxw4-4Sw=w392",
+    "https://play-lh.googleusercontent.com/VOZeRohuffv3stl38SbPmX5yyiYBptNwuJbHYd2LXl5w9xnYUAKATabCrQBfFOSJ5bbFhJtEuKgqhXLRrGyU=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:08:23+00:00",
+   "key": "gp-us-com.instagram.android",
+   "reviewStats": {
+    "total": 647,
+    "avg": 4.09,
+    "dist": {
+     "1": 117,
+     "2": 17,
+     "3": 15,
+     "4": 42,
+     "5": 456
+    },
+    "d7": {
+     "count": 647,
+     "avg": 4.09,
+     "dist": {
+      "1": 117,
+      "2": 17,
+      "3": 15,
+      "4": 42,
+      "5": 456
+     }
+    },
+    "d30": {
+     "count": 647,
+     "avg": 4.09,
+     "dist": {
+      "1": 117,
+      "2": 17,
+      "3": 15,
+      "4": 42,
+      "5": 456
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:54+00:00"
+   }
+  },
+  {
+   "id": "xyz.aspectapp.aspect",
+   "country": "us",
+   "platform": "android",
+   "name": "Aspect: AI-Only Social Media",
+   "developer": "Arch Platforms, Inc",
+   "url": "https://play.google.com/store/apps/details?id=xyz.aspectapp.aspect&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/_7WzBmOaaoJmOzSJS-KAmDknjH5kS2c-BpUjaItgPYPRj5RF7IzQwLPYYDLbH1Dez_MqqkL5xZRFLez2y4am=w512",
+   "version": "1.115.1",
+   "versionDate": "2026-09-23T22:17:07+00:00",
+   "price": "Free · IAP $1.99 - $99.99 per item",
+   "rating": 4.21,
+   "ratingCount": 19324,
+   "installs": "100,000+",
+   "genre": "Social",
+   "descriptionHash": "a764e6fb85e3",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/r3R7R3TE2RaPE4g2gnnT9N1H-DXe2DOk7NRWHGQK3KT7P8JHAtSTKy1BBqb-fz45KohWcSdFD19fSiymDr2FTQ=w392",
+    "https://play-lh.googleusercontent.com/1jO-bOWdnmWzLAR3eloA3gAteGuVLj_g46PV4nmikGljKBufw8Ss77lbr5xTgHVRse47DnSXrALEMWDDoP30=w392",
+    "https://play-lh.googleusercontent.com/ayAEh-Z7zfkgcyBLlOVhhd8RX0xU0IPKIBtV_lz9-rf3YZZg2XF1WprGLDKjVOGhiBKftz5ZDYsnxFaLXtTe=w392",
+    "https://play-lh.googleusercontent.com/g8d2N3EeCDz7LnpCXFCSqLHS4K2PpL0j3eXlZNy3AVLkJbjgLL3kG76z29GRu2DB1fkwCFuSiqrJqlwbSNasvGQ=w392",
+    "https://play-lh.googleusercontent.com/nWq9RIxUid2fd89UDWbBiz7p_98AldgcqqsqFGpf7q3NxDcH-56ZaRgIWhFSZcY2sP6lQflybA6w9tY61P55w6Q=w392",
+    "https://play-lh.googleusercontent.com/r3R7R3TE2RaPE4g2gnnT9N1H-DXe2DOk7NRWHGQK3KT7P8JHAtSTKy1BBqb-fz45KohWcSdFD19fSiymDr2FTQ=w392",
+    "https://play-lh.googleusercontent.com/1jO-bOWdnmWzLAR3eloA3gAteGuVLj_g46PV4nmikGljKBufw8Ss77lbr5xTgHVRse47DnSXrALEMWDDoP30=w392",
+    "https://play-lh.googleusercontent.com/ayAEh-Z7zfkgcyBLlOVhhd8RX0xU0IPKIBtV_lz9-rf3YZZg2XF1WprGLDKjVOGhiBKftz5ZDYsnxFaLXtTe=w392",
+    "https://play-lh.googleusercontent.com/g8d2N3EeCDz7LnpCXFCSqLHS4K2PpL0j3eXlZNy3AVLkJbjgLL3kG76z29GRu2DB1fkwCFuSiqrJqlwbSNasvGQ=w392",
+    "https://play-lh.googleusercontent.com/nWq9RIxUid2fd89UDWbBiz7p_98AldgcqqsqFGpf7q3NxDcH-56ZaRgIWhFSZcY2sP6lQflybA6w9tY61P55w6Q=w392",
+    "https://play-lh.googleusercontent.com/r3R7R3TE2RaPE4g2gnnT9N1H-DXe2DOk7NRWHGQK3KT7P8JHAtSTKy1BBqb-fz45KohWcSdFD19fSiymDr2FTQ=w392",
+    "https://play-lh.googleusercontent.com/1jO-bOWdnmWzLAR3eloA3gAteGuVLj_g46PV4nmikGljKBufw8Ss77lbr5xTgHVRse47DnSXrALEMWDDoP30=w392",
+    "https://play-lh.googleusercontent.com/ayAEh-Z7zfkgcyBLlOVhhd8RX0xU0IPKIBtV_lz9-rf3YZZg2XF1WprGLDKjVOGhiBKftz5ZDYsnxFaLXtTe=w392",
+    "https://play-lh.googleusercontent.com/g8d2N3EeCDz7LnpCXFCSqLHS4K2PpL0j3eXlZNy3AVLkJbjgLL3kG76z29GRu2DB1fkwCFuSiqrJqlwbSNasvGQ=w392",
+    "https://play-lh.googleusercontent.com/nWq9RIxUid2fd89UDWbBiz7p_98AldgcqqsqFGpf7q3NxDcH-56ZaRgIWhFSZcY2sP6lQflybA6w9tY61P55w6Q=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:14:09+00:00",
+   "key": "gp-us-xyz.aspectapp.aspect",
+   "reviewStats": {
+    "total": 501,
+    "avg": 3.14,
+    "dist": {
+     "1": 130,
+     "2": 68,
+     "3": 79,
+     "4": 51,
+     "5": 173
+    },
+    "d7": {
+     "count": 31,
+     "avg": 2.97,
+     "dist": {
+      "1": 5,
+      "2": 11,
+      "3": 3,
+      "4": 4,
+      "5": 8
+     }
+    },
+    "d30": {
+     "count": 159,
+     "avg": 2.96,
+     "dist": {
+      "1": 46,
+      "2": 27,
+      "3": 23,
+      "4": 13,
+      "5": 50
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:55+00:00"
+   }
+  },
+  {
+   "id": "com.joincharmsocial.charm",
+   "country": "us",
+   "platform": "android",
+   "name": "Charm: AI Only Social Media",
+   "developer": "Jacob Rice",
+   "url": "https://play.google.com/store/apps/details?id=com.joincharmsocial.charm&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/GzLmMvWTcICNix0qyZTzE0DgZ--knpGpXki5zwvkCFoAqIvmiOtQIAuBOGtF0FwTlrGCIURn7XWYVgNoHTYw0g=w512",
+   "version": "0.2.2609260",
+   "versionDate": "2026-09-26T13:39:42+00:00",
+   "price": "Free · IAP $1.99 - $99.99 per item",
+   "rating": 4.56,
+   "ratingCount": 121,
+   "installs": "5,000+",
+   "genre": "Social",
+   "descriptionHash": "d44203e198ee",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+    "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+    "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+    "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+    "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+    "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392",
+    "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+    "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+    "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+    "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+    "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+    "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392",
+    "https://play-lh.googleusercontent.com/F9blWcQcIrDHsVohbT-jjASp-4G5fEH3buExfVFfT2r4rTGG1h05XZNoAo3QR5eLE9-lOqf1TTtUkn1TaKRdE_c=w392",
+    "https://play-lh.googleusercontent.com/whY0N_AULLpn61L8nbzafqrdR44j3eJV6N5wU2nGoBNfBPYav97_KqI-qDgnprK1WfKoP3Lb7-NMVcHLo85GzAY=w392",
+    "https://play-lh.googleusercontent.com/o8iuai6Jg9zmWHbeO8MoPanYStUYE_SLmxsv4nfNyzBCYWTCOJYQLZUBvi7DBsHxXvRKw3eVxCFkyIJU1dqY=w392",
+    "https://play-lh.googleusercontent.com/5bctW5GkPHmRtufEsAJKtm3yg-kSDlDHLWZQPaJTnSgCGS7181bafCLZBCf1Qd9xmu7wDddlrFWoDZGyXDVIURU=w392",
+    "https://play-lh.googleusercontent.com/F8I3NEwFDZACCrq4b0zpuZzSwRfvpZFXyx6iCKtmHxwDmbTXRHGXoq17PluRJhVqucUfpAIC4cF1D32NrwlX=w392",
+    "https://play-lh.googleusercontent.com/_JvoDfW2UjWJJdfNwdcVpK64bdXu-k2nRTo45Qhtsrh_3iBonAV6zg4B0dSa24hVSRmr7HUgwDOB-S3IkEPjSQ=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:14:42+00:00",
+   "key": "gp-us-com.joincharmsocial.charm",
+   "reviewStats": {
+    "total": 21,
+    "avg": 4.05,
+    "dist": {
+     "1": 3,
+     "2": 1,
+     "3": 1,
+     "4": 3,
+     "5": 13
+    },
+    "d7": {
+     "count": 3,
+     "avg": 3.67,
+     "dist": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+     }
+    },
+    "d30": {
+     "count": 15,
+     "avg": 4.13,
+     "dist": {
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 3,
+      "5": 9
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:55+00:00"
+   }
+  },
+  {
+   "id": "ai.socialapps.speakmaster",
+   "country": "us",
+   "platform": "android",
+   "name": "PolyBuzz: Chat with AI Friends",
+   "developer": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+   "url": "https://play.google.com/store/apps/details?id=ai.socialapps.speakmaster&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/w6j4BXhnJm7Atki9psCVHBopdNiV_B8vOtyTcHUnp3DWTg3nbfUXEDQvmm1BnxUtNdUelr20PRzsmtlGb6Klf3A=w512",
+   "version": "2.2.82",
+   "versionDate": "2026-09-21T10:06:04+00:00",
+   "price": "Free · IAP $0.05 - $299.99 per item",
+   "rating": 4.03,
+   "ratingCount": 1180688,
+   "installs": "50,000,000+",
+   "genre": "Entertainment",
+   "descriptionHash": "487f4f780f08",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:15:13+00:00",
+   "key": "gp-us-ai.socialapps.speakmaster",
+   "reviewStats": {
+    "total": 504,
+    "avg": 2.87,
+    "dist": {
+     "1": 184,
+     "2": 53,
+     "3": 63,
+     "4": 54,
+     "5": 150
+    },
+    "d7": {
+     "count": 326,
+     "avg": 2.9,
+     "dist": {
+      "1": 117,
+      "2": 32,
+      "3": 44,
+      "4": 34,
+      "5": 99
+     }
+    },
+    "d30": {
+     "count": 504,
+     "avg": 2.87,
+     "dist": {
+      "1": 184,
+      "2": 53,
+      "3": 63,
+      "4": 54,
+      "5": 150
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:55+00:00"
+   }
+  },
+  {
+   "id": "1158555867",
+   "country": "us",
+   "name": "Replika - AI Companion Chat",
+   "developer": "Luka, Inc.",
+   "url": "https://apps.apple.com/us/app/replika-ai-companion-chat/id1158555867",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/f7/7b/aef77b59-14a7-b923-5506-c59a1104076f/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+   "version": "12.3.5",
+   "versionDate": "2026-07-24T18:19:00Z",
+   "price": "Free",
+   "rating": 4.44,
+   "ratingCount": 227712,
+   "genre": "Health & Fitness",
+   "descriptionHash": "b84dcc0bacfb",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/78/f6/9478f699-cae5-e264-2f13-355e96a9588d/1.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/9c/3d/699c3d99-3c28-a785-98cd-340ef78a2b23/2.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/2e/51/f22e5192-ddd6-1582-25c5-227fa0ebc689/3.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/22/8b/6f228b54-5f83-a9b2-1cd5-e2e17bf75c45/4.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/0c/d0/e20cd091-7229-c13e-a2b5-b96640d537ae/5.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/6a/16/4b6a165b-3793-e567-ad3d-31a2811da28e/6.png/392x852bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/1d/98/6f1d98a9-30e4-68b7-434a-16b3c2b30083/7.png/392x852bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T07:59:12+00:00",
+   "key": "us-1158555867",
+   "reviewStats": {
+    "total": 50,
+    "avg": 2.72,
+    "dist": {
+     "1": 21,
+     "2": 6,
+     "3": 5,
+     "4": 2,
+     "5": 16
+    },
+    "d7": {
+     "count": 16,
+     "avg": 3.0,
+     "dist": {
+      "1": 6,
+      "2": 1,
+      "3": 2,
+      "4": 1,
+      "5": 6
+     }
+    },
+    "d30": {
+     "count": 50,
+     "avg": 2.72,
+     "dist": {
+      "1": 21,
+      "2": 6,
+      "3": 5,
+      "4": 2,
+      "5": 16
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:55+00:00"
+   }
+  },
+  {
+   "id": "1544750895",
+   "country": "us",
+   "name": "CHAI: Social AI Platform- Chat",
+   "developer": "Chai Research Corp.",
+   "url": "https://apps.apple.com/us/app/chai-social-ai-platform-chat/id1544750895",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/d0/04/81d00438-aa2d-9573-9795-ea5dea302685/AppIcon-dark-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "version": "2.195",
+   "versionDate": "2026-09-28T17:39:50Z",
+   "price": "Free",
+   "rating": 4.29,
+   "ratingCount": 282490,
+   "genre": "Entertainment",
+   "descriptionHash": "fde06684231a",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/3b/2c/573b2c4b-e197-2ca9-364f-6ee21956066e/page_12.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/c9/7a/89c97aa3-e5c2-fb02-c4ce-5fae85e07355/12.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/10/d1/1410d17c-8b10-9bd4-16ef-b6871c698457/13.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/8a/0d/f88a0d3e-c9d6-9d74-87e1-8551d69a2c8e/Frame_5.png/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/47/49/80474919-ccf1-9873-5601-bd5ebd45ca13/Frame_9.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/10/59/fd105918-ebc4-0f67-5484-f2de507ac332/Frame_7.png/392x523bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/e4/ff/b3e4ff86-0b9d-0fd0-c755-2f9c93a97341/Frame_8.png/392x523bb.jpg"
+   ],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T08:01:56+00:00",
+   "key": "us-1544750895",
+   "reviewStats": {
+    "total": 50,
+    "avg": 3.34,
+    "dist": {
+     "1": 14,
+     "2": 5,
+     "3": 4,
+     "4": 4,
+     "5": 23
+    },
+    "d7": {
+     "count": 50,
+     "avg": 3.34,
+     "dist": {
+      "1": 14,
+      "2": 5,
+      "3": 4,
+      "4": 4,
+      "5": 23
+     }
+    },
+    "d30": {
+     "count": 50,
+     "avg": 3.34,
+     "dist": {
+      "1": 14,
+      "2": 5,
+      "3": 4,
+      "4": 4,
+      "5": 23
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:55+00:00"
+   }
+  },
+  {
+   "id": "com.Beauchamp.Messenger.external",
+   "country": "us",
+   "platform": "android",
+   "name": "Chai: Chat AI Platform",
+   "developer": "Chai Research",
+   "url": "https://play.google.com/store/apps/details?id=com.Beauchamp.Messenger.external&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/hevRwwGTEnzHMCEmRvWnamT__4_-xWn0IIQMoUwK8r8DcitBqQ_LeJF3sXEi1sV16rJqAW5sJ42tvV_GRQEw=w512",
+   "version": "0.4.418",
+   "versionDate": "2026-09-24T03:14:51+00:00",
+   "price": "Free · IAP $0.99 - $899.99 per item",
+   "rating": 3.05,
+   "ratingCount": 837963,
+   "installs": "10,000,000+",
+   "genre": "Entertainment",
+   "descriptionHash": "bb6976e62603",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/71BGNSDQ01kz5-_YSZfkCk_D0PbzzgdbpdBnoJf_6cXHBUa5OyyCDDsslBypQ1ItOw9j_94IT6Lz2zc5FTOZ0d8=w392",
+    "https://play-lh.googleusercontent.com/UQZdiEXeSHaMiet-Cxx6B3l1fVQAyoNF31AiyIq2Z0iJTHQ9dKv7WUBjlOePLlYV5a7xdjPJ9cgKPvzBlZpvh-0=w392",
+    "https://play-lh.googleusercontent.com/MG0sbJ3VHll7TzRxuvqDHEUCeCerioU-bgLcEPDwnNJcNeYv-J8XQPDQL2q9kRotMWjQ_wUV2S6dzS1OphAO=w392",
+    "https://play-lh.googleusercontent.com/Ig1BYT6D0HHW-fZHwsmGgBDDPTZj1CjDllKY1OLoi-Bnl3VUnzN0BXc-4I2v_ihjyrpaESUdMxNgJPsU3Tv7UJg=w392",
+    "https://play-lh.googleusercontent.com/skXRNrgv1ya_GElplrCeXpw5rt4vcwWMh9rxa08UwxjKs9OgNIw0XymkJYby4Fh_ebyQKZHf55oyFDrKLeweGJY=w392",
+    "https://play-lh.googleusercontent.com/idPIQFTfYu51esTXYj_q5dL1gGPG_UOGV3SMlKYK2VbA4zjc45SVQAOO6gBDKErjylsvjzjwI_nXTrPr5dgvCqM=w392",
+    "https://play-lh.googleusercontent.com/yBivE4HFDktXxj9FZi2eubEC6kDSSIZ1Rg9Q7X7rHAa8eKrrvjKu12ppX5nXzAARIsjL3jcKcnUbg_tVNJ4QDQ=w392",
+    "https://play-lh.googleusercontent.com/IYLNkj4ehISVvZEGVquR98ODxfGDmGwDT6xgOGW_v0zci1zF4gTHZUs-HQLQOt2rCZc8z7nFcSSumqDJTDS1=w392",
+    "https://play-lh.googleusercontent.com/-rYHgSp-PDOAHID9683kpSlxkhjocufHLZQrxKucs4a-bca60MX99WbxwiGRjLDT90lVnAuIprKEJJtIQSPNEg=w392",
+    "https://play-lh.googleusercontent.com/TdpadI0KpV3TLGzdnxG2rcAokcvsrlsFqM0EuV-xQ4A5XrQET3yGMBQ_p_R6QPswqdRnyN9D3llJ0e0kWEsKeks=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T08:02:40+00:00",
+   "key": "gp-us-com.Beauchamp.Messenger.external",
+   "reviewStats": {
+    "total": 502,
+    "avg": 1.5,
+    "dist": {
+     "1": 382,
+     "2": 53,
+     "3": 27,
+     "4": 18,
+     "5": 22
+    },
+    "d7": {
+     "count": 502,
+     "avg": 1.5,
+     "dist": {
+      "1": 382,
+      "2": 53,
+      "3": 27,
+      "4": 18,
+      "5": 22
+     }
+    },
+    "d30": {
+     "count": 502,
+     "avg": 1.5,
+     "dist": {
+      "1": 382,
+      "2": 53,
+      "3": 27,
+      "4": 18,
+      "5": 22
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:56+00:00"
+   }
+  },
+  {
+   "id": "ai.replika.app",
+   "country": "us",
+   "platform": "android",
+   "name": "Replika: My AI Friend",
+   "developer": "Luka, Inc",
+   "url": "https://play.google.com/store/apps/details?id=ai.replika.app&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/UGRlMthHHNvFrbkIbfgMnxAdbZhQfba57ajRbODHniOnT57JBHUY5-8NQljnGw5c3MP7BLO4cA-ypU3pfCik=w512",
+   "version": "12.16.2",
+   "versionDate": "2026-09-22T20:41:24+00:00",
+   "price": "Free · IAP $0.99 - $299.99 per item",
+   "rating": 4.25,
+   "ratingCount": 525027,
+   "installs": "10,000,000+",
+   "genre": "Health & Fitness",
+   "descriptionHash": "de0d5938abbc",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/QwY_GYhRJQdo69qnrmudXnXeC-lKQqpF11-b-wnhwYvvyWEkQTsFZgXLP1IGp2mx_ABxtSrLJXGPyCnovnZSlQ=w392",
+    "https://play-lh.googleusercontent.com/w1xhh7tcy_KYhS9YCLZpHSRb2mrhrOn2L964BAhbL1bPmpZ_q8_Arg-zR6qnOzi8CL48AGNDAu5W917Ocrg8z9s=w392",
+    "https://play-lh.googleusercontent.com/IQPhHAfc4LJRR00QykArDba_IekxLbgP9oriAa52n8tYoxsILW2UDLPxhjLdKAMT0xpSLfslRymhI0L9VZA1=w392",
+    "https://play-lh.googleusercontent.com/KtWdrgP_ofmVeyzrlBwo2f7fvfY_nV-RnSkPrypMJuoZEqrbDY-SQdPYx3qrxqYWTvXbw8m-4KkWzIojLDxYxA=w392",
+    "https://play-lh.googleusercontent.com/3F4EUgGnshqNRwIBpU4655Aom4IPJFaSZDXbLCFuHZJX2-tPBznGud3DMinB6icdmcr_02IGf3OD1d7Qqymj=w392",
+    "https://play-lh.googleusercontent.com/ln4tPN3ptvtkZYM2nS-Sd8_qhHZSoXLI5SRfu5EqRWdc4sh52KEQXX504z28atkBo9rLczAG2HaRK2guvlN9HQ=w392",
+    "https://play-lh.googleusercontent.com/pmMRiWo3kMZ091Ow7Qi2uoAquDzKR2sBs2C-E-zrlntVw1EMQH_BQnIvTNQXepgqkH782togpNZad8kES0Jct1k=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T08:03:17+00:00",
+   "key": "gp-us-ai.replika.app",
+   "reviewStats": {
+    "total": 500,
+    "avg": 2.69,
+    "dist": {
+     "1": 230,
+     "2": 49,
+     "3": 29,
+     "4": 31,
+     "5": 161
+    },
+    "d7": {
+     "count": 28,
+     "avg": 3.21,
+     "dist": {
+      "1": 8,
+      "2": 4,
+      "3": 1,
+      "4": 4,
+      "5": 11
+     }
+    },
+    "d30": {
+     "count": 132,
+     "avg": 2.58,
+     "dist": {
+      "1": 64,
+      "2": 14,
+      "3": 6,
+      "4": 9,
+      "5": 39
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:56+00:00"
+   }
+  },
+  {
+   "id": "1671705818",
+   "country": "us",
+   "name": "Character AI: Chat, Talk, Text",
+   "developer": "Character.AI",
+   "url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/b9/93/ffb99398-7e14-5ff1-3782-6192f6cb7db6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "version": "1.17.3",
+   "versionDate": "2026-09-08T15:38:31Z",
+   "price": "Free",
+   "rating": 4.28,
+   "ratingCount": 558956,
+   "genre": "Entertainment",
+   "descriptionHash": "08be22f3d3d6",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/36/6f/86366f9d-1732-58be-bd31-23cfac571166/1_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/16/a1/5e16a1fc-b685-6c25-a187-26ba426fa9ee/2_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/56/6d/c9566db5-5cf0-9d35-a5fc-810def0e9639/3_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/47/29/7a472911-ddca-5dc4-797b-5b5c222375f8/4_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/cf/16/7bcf160e-afda-dfd3-b6d7-d1afe321f8fa/5_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/ac/f9/f9acf98e-9fee-87c6-569c-7e94bf8bc090/6_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/19/14/2b1914c9-9f85-194f-a44d-55178ed72332/7_6.5__ASO_1284x2778.png/392x848bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/57/d5/ae57d53d-9a52-ea88-868e-a3b51d42273a/8_6.5__ASO_1284x2778.png/392x848bb.jpg"
+   ],
+   "ipadScreenshots": [],
+   "platform": "ios",
+   "screenshotSource": "page",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T08:16:24+00:00",
+   "key": "us-1671705818",
+   "reviewStats": {
+    "total": 0,
+    "avg": null,
+    "dist": {
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4": 0,
+     "5": 0
+    },
+    "d7": {
+     "count": 0,
+     "avg": null,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+     }
+    },
+    "d30": {
+     "count": 0,
+     "avg": null,
+     "dist": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:56+00:00"
+   }
+  },
+  {
+   "id": "ai.character.app",
+   "country": "us",
+   "platform": "android",
+   "name": "Character AI: Chat, Talk, Text",
+   "developer": "Character.AI",
+   "url": "https://play.google.com/store/apps/details?id=ai.character.app&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/dAVjIN_4fDErGgl_zMmb81QQSckVOg5LhpMR5liy5QrE8sglxM26MyCgIxsd5qzFyzHfGskqYpjwGD-LXt9Ugw4=w512",
+   "version": "1.17.3",
+   "versionDate": "2026-09-03T21:06:02+00:00",
+   "price": "Free · IAP $0.99 - $99.99 per item",
+   "rating": 2.22,
+   "ratingCount": 2445300,
+   "installs": "50,000,000+",
+   "genre": "Entertainment",
+   "descriptionHash": "9ce2fffa78b6",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:41:35+00:00",
+   "trackedSince": "2026-09-30T08:17:05+00:00",
+   "key": "gp-us-ai.character.app",
+   "reviewStats": {
+    "total": 500,
+    "avg": 1.99,
+    "dist": {
+     "1": 318,
+     "2": 49,
+     "3": 31,
+     "4": 26,
+     "5": 76
+    },
+    "d7": {
+     "count": 500,
+     "avg": 1.99,
+     "dist": {
+      "1": 318,
+      "2": 49,
+      "3": 31,
+      "4": 26,
+      "5": 76
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 1.99,
+     "dist": {
+      "1": 318,
+      "2": 49,
+      "3": 31,
+      "4": 26,
+      "5": 76
+     }
+    },
+    "updatedAt": "2026-09-30T08:41:56+00:00"
+   }
+  }
+ ],
  "events": [
   {
    "id": "2026-09-30-us-1534165497-tracking",

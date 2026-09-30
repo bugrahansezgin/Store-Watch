@@ -1,39 +1,50 @@
 {
  "stats": {
-  "total": 501,
-  "avg": 1.49,
+  "total": 502,
+  "avg": 1.5,
   "dist": {
    "1": 382,
    "2": 53,
-   "3": 26,
+   "3": 27,
    "4": 18,
    "5": 22
   },
   "d7": {
-   "count": 501,
-   "avg": 1.49,
+   "count": 502,
+   "avg": 1.5,
    "dist": {
     "1": 382,
     "2": 53,
-    "3": 26,
+    "3": 27,
     "4": 18,
     "5": 22
    }
   },
   "d30": {
-   "count": 501,
-   "avg": 1.49,
+   "count": 502,
+   "avg": 1.5,
    "dist": {
     "1": 382,
     "2": 53,
-    "3": 26,
+    "3": 27,
     "4": 18,
     "5": 22
    }
   },
-  "updatedAt": "2026-09-30T08:29:04+00:00"
+  "updatedAt": "2026-09-30T08:41:56+00:00"
  },
  "reviews": [
+  {
+   "id": "2d52e04e-c004-42a4-bb3c-42a5f7b5651b",
+   "rating": 3,
+   "title": "",
+   "body": "A brilliant AI program with incredible intelligence EDIT: Chai is now no longer free and requires paying for weekly subscriptions to use so I lowered my review down two stars as not everyone can afford the expensive prices per week..",
+   "author": "The Gamer's Grotto",
+   "version": "0.4.422",
+   "date": "2026-09-29T08:27:31+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "42456c7d-6b4d-4feb-9e2b-f342b56bb9f5",
    "rating": 1,
