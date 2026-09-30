@@ -24,6 +24,12 @@
       "id": "6596771144",
       "country": "us",
       "note": "status sims but social media"
+    },
+    {
+      "id": "link.socialai.app",
+      "country": "us",
+      "platform": "android",
+      "note": "link.socialai.app"
     }
   ]
 }

@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-09-30-gp-us-link.socialai.app-tracking",
+  "type": "tracking",
+  "app": "gp-us-link.socialai.app",
+  "ts": "2026-09-30T07:07:20+00:00",
+  "title": "Started tracking status - sims but social media",
+  "summary": "Baseline: 12 screenshots · v1.9.61",
+  "after": [
+   "https://play-lh.googleusercontent.com/DJxbeJxDcHcsfGFbn0XiKRWODY_sB9chUeo0SWbt8jjFJ6lZtcdRKGgiCgUdEcldYjF065cBoexJf5LrZwmt=w392",
+   "https://play-lh.googleusercontent.com/Q1XfcUandG7-WnuglkY3hsBBTgI4VGCiisDTSMNflJZiz7UtGsTrE8IY3nQsbCYDQWWpdcEWOkWbXvdl8tdWKD4=w392",
+   "https://play-lh.googleusercontent.com/WcSp7nMA_MYjFyJfu_BjHFFIhwd4PZn0TupsMGJ3UUxkbeAsR3FSHgdbzxqAAG5xyIEI4AK1x5TZaLEfPn3flA=w392",
+   "https://play-lh.googleusercontent.com/Vqf4spxPwpJmgwzRv_aKgR1_jxK3e3Grv2r5TiB8mXw3Vc4zS3V9jX_CoTGK7Elvn2VZiEsQYKb1hGJFa4Cz=w392",
+   "https://play-lh.googleusercontent.com/RK25LNorPOVXlZHg40gea5noZjgZhFgB3sjpONbAqnQa8RQOM4iZxy-84O8O-3E6NnfqnkhkibpPEoqPsQl7W4g=w392",
+   "https://play-lh.googleusercontent.com/5mEibGnkq3XlnlOPWYzfJIurDh1M96FIfLXu8ayhZQ-9ij8XmphmBDZDjS4DF_6gS02yZbh3Llh40BNJk9sjuBg=w392",
+   "https://play-lh.googleusercontent.com/OC_E7Sch5qEoOUDHzQ9TCZAzYC3i1_ff4g2HXg5fu9fWXWd_WnmWsarW5Rf-6msrIbQ8m6CXAMLQzAwdvY7m=w392",
+   "https://play-lh.googleusercontent.com/Pg3PyFOUboT7hNCT4J_DkASRkzR2jFKMNjn1w0V3MF2nmnZlxjncmtwn4NHkk3lZjEX86Gm1eFPFlo_WOkd8sw=w392",
+   "https://play-lh.googleusercontent.com/RK25LNorPOVXlZHg40gea5noZjgZhFgB3sjpONbAqnQa8RQOM4iZxy-84O8O-3E6NnfqnkhkibpPEoqPsQl7W4g=w392",
+   "https://play-lh.googleusercontent.com/5mEibGnkq3XlnlOPWYzfJIurDh1M96FIfLXu8ayhZQ-9ij8XmphmBDZDjS4DF_6gS02yZbh3Llh40BNJk9sjuBg=w392",
+   "https://play-lh.googleusercontent.com/OC_E7Sch5qEoOUDHzQ9TCZAzYC3i1_ff4g2HXg5fu9fWXWd_WnmWsarW5Rf-6msrIbQ8m6CXAMLQzAwdvY7m=w392",
+   "https://play-lh.googleusercontent.com/Pg3PyFOUboT7hNCT4J_DkASRkzR2jFKMNjn1w0V3MF2nmnZlxjncmtwn4NHkk3lZjEX86Gm1eFPFlo_WOkd8sw=w392"
+  ]
+ },
+ {
   "id": "2026-09-29-us-6596771144-tracking",
   "type": "tracking",
   "app": "us-6596771144",
@@ -7,10 +29,9 @@
   "title": "Started tracking status - sims but social media",
   "summary": "Baseline: 3 screenshots · v1.9.62",
   "after": [
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/00/59/f60059de-0313-0c4d-9e26-329e8fa4f76d/Status_1284_2278_EN_1.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/84/af/a784afe1-4d3e-9c50-36f8-1334d5bd9ff1/Status_1284_2278_EN_2.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/3e/43/703e438d-0ad0-0ef0-40d8-9bd0b3cf5caf/Status_1284_2278_EN_3.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/3b/53/2c3b53c5-237a-4af8-81e1-cf03d7469908/Status_1284_2278_EN_4.jpg/392x848bb.jpg"
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/b7/29ffb760-3eed-0ad5-2acb-e3e126086c34/Group_4.jpg/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/ea/5d/34ea5da3-9fa3-a302-54e9-ff8cf1fc17ea/Group_5.jpg/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/b8/41/39b84107-b484-40d8-bcf9-2ab6162dbbc4/Group_6.jpg/320x480bb.jpg"
   ]
  },
  {
@@ -21,12 +42,12 @@
   "title": "Started tracking Charm: AI Only Social Media",
   "summary": "Baseline: 6 screenshots · v0.2.2609260",
   "after": [
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/392x848bb.jpg",
-   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/392x848bb.jpg"
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/b9/57/58b957fd-8c09-2200-485d-2d03001dcc63/preview_1.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/68/69/8d686978-b05a-0a99-4fc6-aacc52642c3a/preview_2.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/52/49/56524933-db32-7d20-9b8b-4fab88147f3a/preview_3.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/1c/d1/981cd169-98ff-c0c4-1002-4902dd70c8e8/preview_4.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/8f/7a/f98f7a5f-1af1-17e6-3870-8d0305042aa4/preview_5.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/6b/c5/866bc5eb-155d-5747-ff82-f5bf10c330ab/preview_6.png/320x480bb.jpg"
   ]
  },
  {
