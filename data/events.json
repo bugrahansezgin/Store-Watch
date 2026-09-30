@@ -1,5 +1,33 @@
 [
  {
+  "id": "2026-09-30-gp-us-ai.socialapps.speakmaster-tracking",
+  "type": "tracking",
+  "app": "gp-us-ai.socialapps.speakmaster",
+  "ts": "2026-09-30T07:15:13+00:00",
+  "title": "Started tracking PolyBuzz: Chat with AI Friends",
+  "summary": "Baseline: 18 screenshots · v2.2.82",
+  "after": [
+   "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+   "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+   "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+   "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+   "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+   "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+   "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+   "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+   "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+   "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+   "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+   "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+   "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+   "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+   "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+   "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+   "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+   "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-com.joincharmsocial.charm-tracking",
   "type": "tracking",
   "app": "gp-us-com.joincharmsocial.charm",

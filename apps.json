@@ -48,6 +48,12 @@
       "country": "us",
       "platform": "android",
       "note": "com.joincharmsocial.charm"
+    },
+    {
+      "id": "ai.socialapps.speakmaster",
+      "country": "us",
+      "platform": "android",
+      "note": "ai.socialapps.speakmaster"
     }
   ]
 }

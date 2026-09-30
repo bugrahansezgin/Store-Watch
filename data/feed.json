@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T07:14:55+00:00",
+ "generatedAt": "2026-09-30T07:15:24+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -25,7 +25,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6502742786",
    "reviewStats": {
@@ -60,7 +60,7 @@
       "5": 7
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -95,7 +95,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6449190344",
    "reviewStats": {
@@ -130,7 +130,7 @@
       "5": 153
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -166,7 +166,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-389801252",
    "reviewStats": {
@@ -201,7 +201,7 @@
       "5": 22
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -229,7 +229,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-29T14:31:19+00:00",
    "key": "us-6753083338",
    "reviewStats": {
@@ -264,7 +264,7 @@
       "5": 1
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -290,7 +290,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-29T14:40:27+00:00",
    "key": "us-6596771144",
    "reviewStats": {
@@ -325,7 +325,7 @@
       "5": 281
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -360,42 +360,42 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-30T07:07:20+00:00",
    "key": "gp-us-link.socialai.app",
    "reviewStats": {
-    "total": 500,
-    "avg": 4.04,
+    "total": 501,
+    "avg": 4.03,
     "dist": {
      "1": 46,
-     "2": 29,
+     "2": 30,
      "3": 51,
      "4": 109,
      "5": 265
     },
     "d7": {
-     "count": 500,
-     "avg": 4.04,
+     "count": 501,
+     "avg": 4.03,
      "dist": {
       "1": 46,
-      "2": 29,
+      "2": 30,
       "3": 51,
       "4": 109,
       "5": 265
      }
     },
     "d30": {
-     "count": 500,
-     "avg": 4.04,
+     "count": 501,
+     "avg": 4.03,
      "dist": {
       "1": 46,
-      "2": 29,
+      "2": 30,
       "3": 51,
       "4": 109,
       "5": 265
      }
     },
-    "updatedAt": "2026-09-30T07:14:54+00:00"
+    "updatedAt": "2026-09-30T07:15:23+00:00"
    }
   },
   {
@@ -410,7 +410,7 @@
    "versionDate": "2026-09-28T13:56:15+00:00",
    "price": "Free · IAP $0.19 - $10,000.00 per item",
    "rating": 3.99,
-   "ratingCount": 169480571,
+   "ratingCount": 169480572,
    "installs": "5,000,000,000+",
    "genre": "Social",
    "descriptionHash": "1e9b2e304c15",
@@ -437,7 +437,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-30T07:08:23+00:00",
    "key": "gp-us-com.instagram.android",
    "reviewStats": {
@@ -472,7 +472,7 @@
       "5": 358
      }
     },
-    "updatedAt": "2026-09-30T07:14:55+00:00"
+    "updatedAt": "2026-09-30T07:15:24+00:00"
    }
   },
   {
@@ -510,7 +510,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-30T07:14:09+00:00",
    "key": "gp-us-xyz.aspectapp.aspect",
    "reviewStats": {
@@ -545,7 +545,7 @@
       "5": 49
      }
     },
-    "updatedAt": "2026-09-30T07:14:55+00:00"
+    "updatedAt": "2026-09-30T07:15:24+00:00"
    }
   },
   {
@@ -586,7 +586,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T07:14:42+00:00",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
    "trackedSince": "2026-09-30T07:14:42+00:00",
    "key": "gp-us-com.joincharmsocial.charm",
    "reviewStats": {
@@ -621,11 +621,115 @@
       "5": 9
      }
     },
-    "updatedAt": "2026-09-30T07:14:55+00:00"
+    "updatedAt": "2026-09-30T07:15:24+00:00"
+   }
+  },
+  {
+   "id": "ai.socialapps.speakmaster",
+   "country": "us",
+   "platform": "android",
+   "name": "PolyBuzz: Chat with AI Friends",
+   "developer": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+   "url": "https://play.google.com/store/apps/details?id=ai.socialapps.speakmaster&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/w6j4BXhnJm7Atki9psCVHBopdNiV_B8vOtyTcHUnp3DWTg3nbfUXEDQvmm1BnxUtNdUelr20PRzsmtlGb6Klf3A=w512",
+   "version": "2.2.82",
+   "versionDate": "2026-09-21T10:06:04+00:00",
+   "price": "Free · IAP $0.05 - $299.99 per item",
+   "rating": 4.03,
+   "ratingCount": 1180620,
+   "installs": "50,000,000+",
+   "genre": "Entertainment",
+   "descriptionHash": "487f4f780f08",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T07:15:13+00:00",
+   "trackedSince": "2026-09-30T07:15:13+00:00",
+   "key": "gp-us-ai.socialapps.speakmaster",
+   "reviewStats": {
+    "total": 500,
+    "avg": 2.88,
+    "dist": {
+     "1": 181,
+     "2": 52,
+     "3": 63,
+     "4": 54,
+     "5": 150
+    },
+    "d7": {
+     "count": 323,
+     "avg": 2.92,
+     "dist": {
+      "1": 114,
+      "2": 31,
+      "3": 44,
+      "4": 34,
+      "5": 100
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 2.88,
+     "dist": {
+      "1": 181,
+      "2": 52,
+      "3": 63,
+      "4": 54,
+      "5": 150
+     }
+    },
+    "updatedAt": "2026-09-30T07:15:24+00:00"
    }
   }
  ],
  "events": [
+  {
+   "id": "2026-09-30-gp-us-ai.socialapps.speakmaster-tracking",
+   "type": "tracking",
+   "app": "gp-us-ai.socialapps.speakmaster",
+   "ts": "2026-09-30T07:15:13+00:00",
+   "title": "Started tracking PolyBuzz: Chat with AI Friends",
+   "summary": "Baseline: 18 screenshots · v2.2.82",
+   "after": [
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392",
+    "https://play-lh.googleusercontent.com/u-vTKTeb53pIofIRlvf878DLeTxDiZ4ZqvNtFGM4iagOs_9bWrCE4ff6Tu-epLCETGbNlXCXlu2X_F2ivLVC=w392",
+    "https://play-lh.googleusercontent.com/qUg0j8cKcLbVAod37iS45HvJrLvJSjZDgNL2Fo7_uORbjdk-Ilo5O0ve6dBnkw1sLqnMCI6KJNjbTNXH12Ft6A=w392",
+    "https://play-lh.googleusercontent.com/c4NvOdPvzUNrXmThsXyfFtUqTRVMY5PMtdsBlL9FF-WSh3so5BYiJ0Kw8V2ofl1i-d1lOrhU5DKh2o3drPq5=w392",
+    "https://play-lh.googleusercontent.com/WoMS4uD0PGnAYb5Nc9K3RmVqUZgIlUEA-TlXmMJcfWAueXv18vEfYmXlJN9bJS2PXoxgTWVsZnhbDjJXkCXSEA=w392",
+    "https://play-lh.googleusercontent.com/pbwFy5W1vItfUhGPb7b8XrrViCW8BlYCkxpfKMEp1qhMhVXyiPDAlvxo1ytSI7qzGu12jRCJPSxHsgKzeq-x=w392",
+    "https://play-lh.googleusercontent.com/0KUoVWtethVLPzb00FlwNpusf63fjoLN1fQb1UZuAVS5YmMGbyIfNJ6QFtAjlGuoGkB1g7fsU4o8eQJwHdopMA=w392"
+   ]
+  },
   {
    "id": "2026-09-30-gp-us-com.joincharmsocial.charm-tracking",
    "type": "tracking",
