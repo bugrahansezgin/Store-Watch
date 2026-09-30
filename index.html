@@ -146,6 +146,12 @@ input[type=search]{min-width:200px;flex:1;max-width:280px}
 .app-actions{display:flex;gap:8px;margin-left:auto}
 
 
+.pill.store{display:inline-flex;align-items:center;gap:5px}
+.pill.store svg{opacity:.7}
+.app-dev .pill.store{margin-right:4px;font-size:11.5px;padding:1px 7px}
+.mini.play img,.strip.play .shot img{object-fit:contain;background:var(--surface-2)}
+.reply{margin:6px 0 8px;padding:8px 10px;border-radius:8px;background:var(--surface-2);font-size:13.5px;color:var(--text-2)}
+.reply b{display:block;color:var(--text);font-size:12px;margin-bottom:2px}
 /* app page */
 .subtabs{display:flex;gap:4px;padding:0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
 .subtab{padding:12px 12px 11px;text-decoration:none;color:var(--text-2);border-bottom:2px solid transparent;margin-bottom:-1px;font-weight:500;white-space:nowrap}
@@ -225,7 +231,7 @@ dialog::backdrop{background:rgba(10,10,10,.72);backdrop-filter:blur(4px)}
   <header class="top">
     <div>
       <h1>Store Watch</h1>
-      <p class="sub">Daily snapshots of competitor App Store listings — screenshots, icon, name, price, versions, description and reviews, with a weekly AI read on what users say. Changes land here as soon as they ship.</p>
+      <p class="sub">Daily snapshots of competitor App Store &amp; Google Play listings — screenshots, icon, name, price, versions, description and reviews, with a weekly AI read on what users say. Changes land here as soon as they ship.</p>
     </div>
     <div class="meta" id="lastRun"></div>
   </header>
@@ -258,7 +264,15 @@ const TYPES = {
   tracking:{label:"Tracking", icon:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="5.5"/><circle cx="8" cy="8" r="1.5"/></svg>'},
 };
 const FILTERS = [["all","All"],["screenshots","Screenshots"],["reviews","Reviews"],["icon","Icon"],["release","Release"],["price","Price"],["text","Text"],["rating","Rating"]];
-const S = {feed:null, apps:{}, tab:"activity", filter:"all", app:"all", q:""};
+const S = {feed:null, apps:{}, tab:"activity", filter:"all", app:"all", q:"", store:"all"};
+const isPlay = a => a && a.platform === "android";
+const appKey = a => a.key || (isPlay(a) ? `gp-${a.country}-${a.id}` : `${a.country}-${a.id}`);
+const storeName = a => isPlay(a) ? "Google Play" : "App Store";
+const storeIcon = a => isPlay(a)
+  ? '<svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M2.5 1.5l8 6.5-8 6.5z"/><path d="M10.5 8l2.8-2.2c.9.5.9 1.9 0 2.4z" opacity=".6"/></svg>'
+  : '<svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5.5 12.5l5-9M4 9.5h7.5M10 12.5l-1.5-2.7"/></svg>';
+const storeLabel = a => `${storeName(a)} ${(a?.country||"").toUpperCase()}`;
+const storePill = a => `<span class="pill store">${storeIcon(a)}${storeLabel(a)}</span>`;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const img = (src, attrs="", fb="") => src ? `<img src="${esc(src)}" loading="${attrs.includes("eager")?"eager":"lazy"}" referrerpolicy="no-referrer" alt="" ${fb?`onerror="this.onerror=null;this.src='${esc(fb)}'"`:""} ${attrs}>` : "";
@@ -290,7 +304,7 @@ async function load(){
     if (!r.ok) throw new Error(r.status);
     S.feed = await r.json();
   } catch(e) { S.feed = {apps:[], events:[], error:true}; }
-  S.apps = Object.fromEntries(S.feed.apps.map(a => [`${a.country}-${a.id}`, a]));
+  S.apps = Object.fromEntries(S.feed.apps.map(a => [appKey(a), a]));
   $("#cActivity").textContent = S.feed.events.filter(e => e.type !== "tracking").length;
   $("#cWatch").textContent = S.feed.apps.length;
   $("#lastRun").textContent = S.feed.generatedAt ? "Last check " + rel(S.feed.generatedAt) : "";
@@ -309,6 +323,7 @@ window.addEventListener("hashchange", route);
 document.querySelectorAll(".tab").forEach(t => t.onclick = () => { location.hash = t.dataset.tab; });
 
 function matches(e){
+  if (S.store !== "all" && (isPlay(S.apps[e.app]) ? "play" : "ios") !== S.store) return false;
   if (S.filter === "text" && !["title","description"].includes(e.type)) return false;
   if (!["all","text"].includes(S.filter) && e.type !== S.filter) return false;
   if (S.app !== "all" && e.app !== S.app) return false;
@@ -341,19 +356,21 @@ function renderActivity(){
       ${img(a.icon, 'class="icon"') || '<div class="icon"></div>'}
       <div><div class="row-title">${chip(e.type)}<span>${esc(e.title)}</span></div>
         <div class="row-sum">${esc(e.summary)}</div>${extra}</div>
-      <div class="row-right"><span class="pill">App Store ${esc((a.country||"").toUpperCase())}</span><span title="${esc(new Date(e.ts).toLocaleString())}">${rel(e.ts)}</span></div></a>`;
+      <div class="row-right">${storePill(a)}<span title="${esc(new Date(e.ts).toLocaleString())}">${rel(e.ts)}</span></div></a>`;
   }
   if (!evs.length) body = S.feed.error
     ? `<div class="empty"><b>No data yet</b>Run the “Daily check” workflow once to capture the first snapshot.</div>`
     : `<div class="empty"><b>Nothing matches</b>Try another filter — or wait for tomorrow's check.</div>`;
   $("#view").innerHTML = `<section class="card">
     <div class="toolbar">
+      <div class="seg" role="group" aria-label="Store">${[["all","All"],["ios","App Store"],["play","Google Play"]].map(([k,l]) => `<button data-s="${k}" aria-pressed="${S.store===k}">${l}</button>`).join("")}</div>
       <div class="seg" role="group">${FILTERS.map(([k,l]) => `<button data-f="${k}" aria-pressed="${S.filter===k}">${l}</button>`).join("")}</div>
       <select id="appSel" aria-label="App"><option value="all">All apps</option>${appOpts}</select>
       <span class="spacer"></span>
       <input type="search" id="q" placeholder="Search this feed" value="${esc(S.q)}">
     </div>${body}</section>`;
   $("#view").querySelectorAll("[data-f]").forEach(b => b.onclick = () => { S.filter = b.dataset.f; renderActivity(); });
+  $("#view").querySelectorAll("[data-s]").forEach(b => b.onclick = () => { S.store = b.dataset.s; renderActivity(); });
   $("#appSel").onchange = e => { S.app = e.target.value; renderActivity(); };
   const q = $("#q"); q.oninput = e => { S.q = e.target.value; const pos = q.selectionStart; renderActivity(); const n = $("#q"); n.focus(); n.setSelectionRange(pos,pos); };
 }
@@ -383,7 +400,7 @@ function renderDetail(id){
     <div class="dhead"><button class="back" aria-label="Back" onclick="history.length>1?history.back():location.hash='activity'">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button>
       ${img(a.icon,'class="icon lg"')}
-      <div><div class="dname">${esc(a.name)}</div><div class="meta">App Store ${esc((a.country||"").toUpperCase())} · ${rel(e.ts)} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Open listing ↗</a></div></div></div>
+      <div><div class="dname">${esc(a.name)}</div><div class="meta">${storeLabel(a)} · ${rel(e.ts)} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Open listing ↗</a></div></div></div>
     <div class="dbody"><h2 class="dtitle">${chip(e.type)}${esc(e.title)}</h2><p class="dsum">${esc(e.summary)}${e.device && e.device!=="iPhone" ? " · "+esc(e.device) : ""}</p>${content}</div></section>`;
   $("#view").querySelectorAll("[data-v]").forEach(b => b.onclick = () => { viewMode = b.dataset.v; renderDetail(id); });
   bindZoom();
@@ -463,12 +480,12 @@ async function renderApp(key, tab){
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button>
       ${img(a.icon,'class="icon lg"')}
       <div style="min-width:0"><div class="dname">${esc(a.name)}</div>
-        <div class="meta">${esc(a.developer)} · v${esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div></div>
+        <div class="meta">${storeLabel(a)} · ${esc(a.developer)} · ${isPlay(a)&&a.version==="Varies with device"?"updated "+esc((a.versionDate||"").slice(0,10)):"v"+esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div></div>
     <div class="subtabs">${APP_TABS.map(([k,l]) => `<a href="#app/${key}/${k}" class="subtab" aria-current="${k===tab}">${l}</a>`).join("")}</div>
     <div class="dbody" id="appBody"><div class="meta">Loading…</div></div></section>`;
   const body = $("#appBody");
   if (tab === "screens"){
-    body.innerHTML = `<div class="sect">iPhone · ${a.screenshots.length}</div><div class="strip">${a.screenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` +
+    body.innerHTML = `<div class="sect">${isPlay(a)?"Phone":"iPhone"} · ${a.screenshots.length}</div><div class="strip ${isPlay(a)?"play":""}">${a.screenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` +
       (a.ipadScreenshots?.length ? `<div class="sect">iPad · ${a.ipadScreenshots.length}</div><div class="strip">${a.ipadScreenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` : "") +
       `<p class="meta"><a href="#activity" onclick="S.app='${key}';S.filter='screenshots'">See every screenshot change →</a></p>`;
     bindZoom();
@@ -522,8 +539,8 @@ async function renderReviews(key, body){
         <div class="rv-tools"><input type="search" id="rq" placeholder="Search reviews" value="${esc(RV.q)}">
           <select id="rsort"><option value="new">Newest</option><option value="low" ${RV.sort==="low"?"selected":""}>Lowest rating</option><option value="votes" ${RV.sort==="votes"?"selected":""}>Most helpful</option></select>
           <span class="meta">${list.length} reviews</span></div>
-        ${shown.map(r => `<article class="rv" id="rv-${esc(r.id)}"><div class="rv-h">${stars(r.rating)}<b>${esc(r.title)}</b></div>
-          <p>${esc(r.body)}</p><div class="meta">${esc(r.author)} · v${esc(r.version)} · ${new Date(r.date).toLocaleDateString()}${r.votes?` · ${r.votes} helpful`:""}</div></article>`).join("") || `<p class="meta">No reviews match.</p>`}
+        ${shown.map(r => `<article class="rv" id="rv-${esc(r.id)}"><div class="rv-h">${stars(r.rating)}${r.title?`<b>${esc(r.title)}</b>`:""}</div>
+          <p>${esc(r.body)}</p>${r.reply?`<div class="reply"><b>Developer reply</b>${esc(r.reply)}</div>`:""}<div class="meta">${esc(r.author)} · v${esc(r.version)} · ${new Date(r.date).toLocaleDateString()}${r.votes?` · ${r.votes} helpful`:""}</div></article>`).join("") || `<p class="meta">No reviews match.</p>`}
         ${list.length > RV.limit ? `<button class="btn" id="more" style="margin-top:12px">Show more</button>` : ""}
       </div></div>`;
   const rerender = () => renderReviews(key, body);
@@ -543,7 +560,8 @@ const aiIcon = `<svg width="14" height="14" viewBox="0 0 16 16" fill="currentCol
 async function renderVersions(key, body){
   const h = await getJSON(`data/history/${key}.json`);
   if (!h || !h.versions?.length){ body.innerHTML = `<div class="empty"><b>No version history yet</b>It's collected on the next daily check.</div>`; return; }
-  const note = h.backfill && !h.backfill.ok ? `<p class="meta">Older versions couldn't be read from the App Store page, so history starts when tracking began. It retries daily.</p>` : "";
+  const a = S.apps[key];
+  const note = isPlay(a) ? `<p class="meta">Google Play doesn't publish version history, so it's built from the day tracking started. Many Play apps report “Varies with device” — updates are then tracked by release date.</p>` : h.backfill && !h.backfill.ok ? `<p class="meta">Older versions couldn't be read from the App Store page, so history starts when tracking began. It retries daily.</p>` : "";
   body.innerHTML = `<div class="meta" style="margin-bottom:14px">${h.versions.length} versions</div>${note}<ol class="timeline">${h.versions.map((v,i) => `
     <li><div class="tl-dot ${i===0?"now":""}"></div><div class="tl-body">
       <div class="tl-h"><b>v${esc(v.version)}</b>${i===0?`<span class="badge b-new">Current</span>`:""}<span class="meta">${v.date?new Date(v.date).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"}):""}</span></div>
@@ -565,13 +583,13 @@ function renderWatchlist(){
   const apps = S.feed.apps;
   const counts = {}; S.feed.events.forEach(e => { if (e.type!=="tracking") counts[e.app] = (counts[e.app]||0)+1; });
   const cards = apps.map(a => {
-    const k = `${a.country}-${a.id}`;
+    const k = appKey(a);
     return `<section class="card app">
       <div class="app-top">${img(a.icon,'class="icon lg"')}
-        <div><a class="app-name" href="#app/${k}">${esc(a.name)}</a><div class="app-dev">${esc(a.developer)} · ${esc(a.genre||"")}</div></div>
+        <div><a class="app-name" href="#app/${k}">${esc(a.name)}</a><div class="app-dev">${storePill(a)} ${esc(a.developer)} · ${esc(a.genre||"")}${a.installs?` · ${esc(a.installs)} installs`:""}</div></div>
         <div class="app-actions"><button class="btn" data-hist="${k}">Changes · ${counts[k]||0}</button><a class="btn primary" href="#app/${k}">Open</a></div></div>
       <div class="app-stats"><span>Version <b>${esc(a.version)}</b></span><span>Rating <b>${a.rating ? a.rating.toFixed(2) : "–"}</b>${a.ratingCount?` (${Number(a.ratingCount).toLocaleString()})`:""}</span><span>Price <b>${esc(a.price)}</b></span><span>Store <b>${esc(a.country.toUpperCase())}</b></span><span>Tracked since <b>${new Date(a.trackedSince).toLocaleDateString()}</b></span>${a.lastError?`<span style="color:var(--rem)">Last fetch failed ${rel(a.lastError)}</span>`:""}</div>
-      <div class="mini">${a.screenshots.map((u,i) => img(u, `data-zoom='${esc(JSON.stringify([u]))}' title="#${i+1}"`)).join("")}</div>
+      <div class="mini ${isPlay(a)?"play":""}">${a.screenshots.map((u,i) => img(u, `data-zoom='${esc(JSON.stringify([u]))}' title="#${i+1}"`)).join("")}</div>
       ${a.summaryHeadline ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span><b>Reviews:</b> ${esc(a.summaryHeadline)}</span><span class="meta">${a.reviewStats?.d30?.count ? `${a.reviewStats.d30.avg}★ · ${a.reviewStats.d30.count} in 30d` : ""}</span></a>`
         : a.reviewStats ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span>${a.reviewStats.total} reviews collected · ${a.reviewStats.d30?.avg ?? "–"}★ last 30d</span></a>` : ""}
     </section>`;
@@ -590,7 +608,7 @@ function openAdd(){
   $("#addBody").innerHTML = `<h3>Add an app</h3>
     <p class="meta" style="margin:0 0 12px">Adding runs through GitHub so the list stays in the repo. Takes ~30 seconds.</p>
     <ol><li>Open <b>Add app</b> in GitHub Actions${base?"":" (Actions tab → “Add app”)"}.</li>
-    <li>Click <b>Run workflow</b>, paste the App Store link. Country is read from the link (<code>/us/</code>, <code>/tr/</code>…) or type one.</li>
+    <li>Click <b>Run workflow</b>, paste an App Store <em>or</em> Google Play link. Country is read from the link (<code>/us/</code>, <code>&amp;gl=TR</code>…) or type one — Play links without <code>gl=</code> default to US.</li>
     <li>Refresh this page — the app shows up with its baseline screenshots.</li></ol>
     <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:18px">
       <button class="btn" onclick="this.closest('dialog').close()">Close</button>

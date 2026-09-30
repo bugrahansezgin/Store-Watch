@@ -16,7 +16,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from track import DATA, STATE, app_keys, fetch_page, load, now_iso, rebuild_feed, save, server_data  # noqa: E402
+from track import DATA, STATE, app_keys, is_play, fetch_page, load, now_iso, rebuild_feed, save, server_data  # noqa: E402
 
 HISTORY = os.path.join(DATA, "history")
 VERSION_KEYS = ("versionDisplay", "versionString", "version")
@@ -127,6 +127,8 @@ def main():
 
         # One-time backfill from the web page (retried next day if it found nothing)
         bf = h.get("backfill") or {}
+        if is_play(key):  # Google Play doesn't publish version history; we build it from today
+            bf = h["backfill"] = {"ok": True, "count": 0, "ts": now_iso(), "source": "none"}
         if not bf.get("ok") and (not bf.get("ts") or bf["ts"][:10] < now_iso()[:10]):
             page = fetch_history_page(app_id, country)
             scraped = parse_titled_paragraphs(server_data(page)) if page else []

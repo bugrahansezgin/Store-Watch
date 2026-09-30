@@ -15,7 +15,8 @@ import time
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from track import DATA, app_keys, load, now_iso, rebuild_feed, save  # noqa: E402
+import play  # noqa: E402
+from track import parse_ts, DATA, app_keys, is_play, load, now_iso, rebuild_feed, save  # noqa: E402
 
 REVIEWS = os.path.join(DATA, "reviews")
 MAX_KEEP = 3000
@@ -74,7 +75,7 @@ def stats(reviews):
 
     def window(days):
         cutoff = now - dt.timedelta(days=days)
-        rs = [r for r in reviews if r["date"] and dt.datetime.fromisoformat(r["date"]) >= cutoff]
+        rs = [r for r in reviews if r["date"] and parse_ts(r["date"]) >= cutoff]
         dist = {str(i): sum(1 for r in rs if r["rating"] == i) for i in range(1, 6)}
         avg = round(sum(r["rating"] for r in rs) / len(rs), 2) if rs else None
         return {"count": len(rs), "avg": avg, "dist": dist}
@@ -97,7 +98,10 @@ def main():
         store = load(path, {"reviews": []})
         known = {r["id"] for r in store["reviews"]}
         fresh = []
-        for page in range(1, MAX_PAGES + 1):
+        if is_play(key):
+            items = play.fetch_reviews(app_id, country, 200 if store["reviews"] else 500) or []
+            fresh = [r for r in items if r["id"] and r["id"] not in known]
+        for page in (range(1, MAX_PAGES + 1) if not is_play(key) else []):
             payload = fetch_page(app_id, country, page)
             if payload is None:
                 break

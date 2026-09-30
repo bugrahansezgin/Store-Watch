@@ -20,6 +20,9 @@ import sys
 import time
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import play  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 STATE = os.path.join(DATA, "state")
@@ -33,6 +36,12 @@ ID_RE = re.compile(r"id(\d{6,})")
 
 def now_iso():
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+
+
+def parse_ts(s):
+    """ISO string -> aware datetime (naive values are treated as UTC)."""
+    d = dt.datetime.fromisoformat(s)
+    return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
 
 
 def load(path, default):
@@ -52,18 +61,37 @@ def save(path, obj):
     os.replace(tmp, path)
 
 
+PLAY_RE = re.compile(r"play\.google\.com/store/apps/details\?(?:[^#]*&)?id=([A-Za-z0-9_.]+)")
+
+
 def parse_app(entry):
-    """Accept {id, country} or {url} entries."""
+    """Accept {id, country, platform} or {url} entries. Returns (id, country, platform)."""
     app_id = str(entry.get("id") or "")
     country = (entry.get("country") or "").lower()
+    platform = entry.get("platform") or ""
     url = entry.get("url") or ""
-    if not app_id and url:
-        m = ID_RE.search(url)
-        app_id = m.group(1) if m else ""
-    if not country and url:
-        m = re.search(r"apps\.apple\.com/([a-z]{2})/", url)
-        country = m.group(1) if m else "us"
-    return app_id, country or "us"
+    if url and not app_id:
+        m = PLAY_RE.search(url)
+        if m:
+            app_id, platform = m.group(1), "android"
+            g = re.search(r"[?&]gl=([A-Za-z]{2})", url)
+            country = country or (g.group(1).lower() if g else "")
+        else:
+            m = ID_RE.search(url)
+            app_id = m.group(1) if m else ""
+            c = re.search(r"apps\.apple\.com/([a-z]{2})/", url)
+            country = country or (c.group(1) if c else "")
+    if not platform:
+        platform = "ios" if app_id.isdigit() else "android"
+    return app_id, country or "us", platform
+
+
+def app_key(app_id, country, platform):
+    return f"gp-{country}-{app_id}" if platform == "android" else f"{country}-{app_id}"
+
+
+def is_play(key):
+    return key.startswith("gp-")
 
 
 def fetch(app_id, country):
@@ -154,6 +182,8 @@ def page_screenshots(data):
 def shot_key(url):
     """mzstatic URLs end with a size segment (…/392x696bb.png). Strip it so
     the same asset served at a different size isn't seen as a new image."""
+    if "googleusercontent.com" in url:
+        return url.split("=")[0]
     return url.rsplit("/", 1)[0] if url.count("/") > 3 else url
 
 
@@ -223,7 +253,13 @@ def shots_summary(d):
 def compare(old, new):
     """Yield (type, title, summary, extra) tuples."""
     name = new["name"]
-    if old["version"] != new["version"]:
+    varies = new.get("platform") == "android" and new["version"] == "Varies with device"
+    if varies and old.get("versionDate") and old.get("versionDate") != new.get("versionDate"):
+        yield ("release", f"{name} shipped an update",
+               f"Updated {new['versionDate'][:10]}",
+               {"before": old.get("versionDate", "")[:10], "after": new["versionDate"][:10],
+                "notes": new.get("releaseNotes")})
+    elif not varies and old["version"] != new["version"]:
         yield ("release", f"{name} shipped version {new['version']}",
                f"{old['version']} → {new['version']}",
                {"before": old["version"], "after": new["version"], "notes": new.get("releaseNotes")})
@@ -268,9 +304,9 @@ def app_keys():
     watch = load(os.path.join(ROOT, "apps.json"), {"apps": []})["apps"]
     keys = []
     for entry in watch:
-        app_id, country = parse_app(entry)
+        app_id, country, platform = parse_app(entry)
         if app_id:
-            keys.append((f"{country}-{app_id}", app_id, country))
+            keys.append((app_key(app_id, country, platform), app_id, country))
     return keys
 
 
@@ -283,6 +319,7 @@ def rebuild_feed():
         if not st:
             continue
         slim = {k: v for k, v in st.items() if k not in ("description", "releaseNotes")}
+        slim["key"] = key
         rv = load(os.path.join(DATA, "reviews", f"{key}.json"), None)
         if rv:
             slim["reviewStats"] = rv.get("stats")
@@ -302,28 +339,35 @@ def main():
     apps_out, new_events, failures = [], [], []
 
     for entry in watch:
-        app_id, country = parse_app(entry)
+        app_id, country, platform = parse_app(entry)
         if not app_id:
             print(f"skip: can't parse {entry}", file=sys.stderr)
             continue
-        key = f"{country}-{app_id}"
+        key = app_key(app_id, country, platform)
         print(f"→ {key}")
         state_path = os.path.join(STATE, f"{key}.json")
         old = load(state_path, None)
-        raw = fetch(app_id, country)
+        if platform == "android":
+            raw = play.fetch_app(app_id, country)
+        else:
+            raw = fetch(app_id, country)
         if not raw:
             failures.append(key)
             if old:
                 save(state_path, {**old, "lastError": ts})
                 apps_out.append({**old, "lastError": ts})
             continue
-        new = snapshot(raw, app_id, country)
-        new["screenshotSource"] = "lookup"
-        shots = page_screenshots(server_data(fetch_page(app_id, country)))
-        if shots["phone"]:
-            new["screenshots"], new["screenshotSource"] = shots["phone"], "page"
-        if shots["pad"]:
-            new["ipadScreenshots"] = shots["pad"]
+        if platform == "android":
+            new = play.snapshot(raw, app_id, country)
+        else:
+            new = snapshot(raw, app_id, country)
+            new["platform"] = "ios"
+            new["screenshotSource"] = "lookup"
+            shots = page_screenshots(server_data(fetch_page(app_id, country)))
+            if shots["phone"]:
+                new["screenshots"], new["screenshotSource"] = shots["phone"], "page"
+            if shots["pad"]:
+                new["ipadScreenshots"] = shots["pad"]
         new["lastChecked"] = ts
         new.pop("lastError", None)
         if old is None:
@@ -331,7 +375,7 @@ def main():
             new_events.append({
                 "id": f"{day}-{key}-tracking", "type": "tracking", "app": key, "ts": ts,
                 "title": f"Started tracking {new['name']}",
-                "summary": f"Baseline: {len(new['screenshots'])} screenshots · v{new['version']}",
+                "summary": f"Baseline: {len(new['screenshots'])} screenshots · " + (f"v{new['version']}" if new['version'] != play.VARIES else "version varies by device"),
                 "after": new["screenshots"],
             })
         else:

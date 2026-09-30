@@ -19,14 +19,14 @@ import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from track import DATA, STATE, add_events, app_keys, load, now_iso, rebuild_feed, save  # noqa: E402
+from track import parse_ts, DATA, STATE, add_events, app_keys, load, now_iso, rebuild_feed, save  # noqa: E402
 
 SUMMARIES = os.path.join(DATA, "summaries")
 MIN_GAP_DAYS = 6
 MAX_REVIEWS = 150
 KEEP = 52
 
-PROMPT = """You analyze App Store reviews of a competitor app for a product designer.
+PROMPT = """You analyze {store} reviews of a competitor app for a product designer.
 App: {name} ({genre}). Window: {window}. {n} reviews, average {avg}★.
 
 Reviews (id | stars | version | title — body):
@@ -48,7 +48,7 @@ Be specific (name features, flows, bugs). Write in English."""
 
 def recent_reviews(reviews, days):
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
-    return [r for r in reviews if r["date"] and dt.datetime.fromisoformat(r["date"]) >= cutoff]
+    return [r for r in reviews if r["date"] and parse_ts(r["date"]) >= cutoff]
 
 
 def call_llm(prompt):
@@ -109,7 +109,7 @@ def main():
         lines = "\n".join(
             f"{r['id']} | {r['rating']} | {r['version']} | {r['title'][:120]} — {r['body'][:600]}".replace("\n", " ")
             for r in pool)
-        prompt = PROMPT.format(name=st["name"], genre=st.get("genre"), window=window,
+        prompt = PROMPT.format(store="Google Play" if st.get("platform") == "android" else "App Store", name=st["name"], genre=st.get("genre"), window=window,
                                n=len(pool), avg=avg, reviews=lines)
         try:
             data, model = call_llm(prompt)
