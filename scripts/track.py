@@ -342,11 +342,13 @@ def rebuild_feed():
         rv = load(os.path.join(DATA, "reviews", f"{key}.json"), None)
         if rv:
             slim["reviewStats"] = rv.get("stats")
-        sm = load(os.path.join(DATA, "summaries", f"{key}.json"), None)
-        if sm and (sm.get("current") or sm.get("items")):
-            latest = sm.get("current") or sm["items"][0]
-            slim["summaryHeadline"] = latest.get("headline")
-            slim["summaryTs"] = latest.get("ts")
+        va = load(os.path.join(DATA, "versions_ai", f"{key}.json"), None)
+        if va:
+            cur = va.get("versions", {}).get(st.get("version") or "")
+            if cur and not cur.get("trivial"):
+                slim["releaseSummary"] = {"version": st.get("version"), "summary": cur.get("summary")}
+            if va.get("overview"):
+                slim["releaseHeadline"] = va["overview"].get("headline")
         apps.append(slim)
     save(FEED_FILE, {"generatedAt": now_iso(), "apps": apps, "events": load(EVENTS_FILE, [])})
 
