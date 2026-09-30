@@ -326,12 +326,19 @@ def rebuild_feed():
     """feed.json = what the panel loads first: slim app cards + the event log.
     Reviews, summaries and history live in their own files and load on demand."""
     apps = []
+    groups = {}
+    for entry in load(os.path.join(ROOT, "apps.json"), {"apps": []})["apps"]:
+        i, c, pf = parse_app(entry)
+        if entry.get("group"):
+            groups[app_key(i, c, pf)] = entry["group"]
     for key, _, _ in app_keys():
         st = load(os.path.join(STATE, f"{key}.json"), None)
         if not st:
             continue
         slim = {k: v for k, v in st.items() if k not in ("description", "releaseNotes")}
         slim["key"] = key
+        if key in groups:
+            slim["group"] = groups[key]
         rv = load(os.path.join(DATA, "reviews", f"{key}.json"), None)
         if rv:
             slim["reviewStats"] = rv.get("stats")
