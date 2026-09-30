@@ -1,19 +1,19 @@
 {
  "stats": {
-  "total": 586,
+  "total": 587,
   "avg": 4.1,
   "dist": {
-   "1": 104,
+   "1": 105,
    "2": 14,
    "3": 14,
    "4": 40,
    "5": 414
   },
   "d7": {
-   "count": 586,
+   "count": 587,
    "avg": 4.1,
    "dist": {
-    "1": 104,
+    "1": 105,
     "2": 14,
     "3": 14,
     "4": 40,
@@ -21,19 +21,30 @@
    }
   },
   "d30": {
-   "count": 586,
+   "count": 587,
    "avg": 4.1,
    "dist": {
-    "1": 104,
+    "1": 105,
     "2": 14,
     "3": 14,
     "4": 40,
     "5": 414
    }
   },
-  "updatedAt": "2026-09-30T08:02:14+00:00"
+  "updatedAt": "2026-09-30T08:02:55+00:00"
  },
  "reviews": [
+  {
+   "id": "717fa220-b55c-4082-bf57-186e9a7b41f0",
+   "rating": 1,
+   "title": "",
+   "body": "ye kabhi bhi aapka account hata denge , jo bhi video pics Dali Hui hai sab mit jayegi . koi matalab nhi hai instagram ka",
+   "author": "Kanu Sharma",
+   "version": "",
+   "date": "2026-09-29T08:02:53+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "6cb0687c-b266-4d6d-a001-7bb9d30aa5a3",
    "rating": 5,

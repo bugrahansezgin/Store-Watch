@@ -66,6 +66,12 @@
       "country": "us",
       "platform": "ios",
       "note": "chai social ai platform chat"
+    },
+    {
+      "id": "com.Beauchamp.Messenger.external",
+      "country": "us",
+      "platform": "android",
+      "note": "com.Beauchamp.Messenger.external"
     }
   ]
 }

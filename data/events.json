@@ -1,5 +1,25 @@
 [
  {
+  "id": "2026-09-30-gp-us-com.Beauchamp.Messenger.external-tracking",
+  "type": "tracking",
+  "app": "gp-us-com.Beauchamp.Messenger.external",
+  "ts": "2026-09-30T08:02:40+00:00",
+  "title": "Started tracking Chai: Chat AI Platform",
+  "summary": "Baseline: 10 screenshots · v0.4.418",
+  "after": [
+   "https://play-lh.googleusercontent.com/71BGNSDQ01kz5-_YSZfkCk_D0PbzzgdbpdBnoJf_6cXHBUa5OyyCDDsslBypQ1ItOw9j_94IT6Lz2zc5FTOZ0d8=w392",
+   "https://play-lh.googleusercontent.com/UQZdiEXeSHaMiet-Cxx6B3l1fVQAyoNF31AiyIq2Z0iJTHQ9dKv7WUBjlOePLlYV5a7xdjPJ9cgKPvzBlZpvh-0=w392",
+   "https://play-lh.googleusercontent.com/MG0sbJ3VHll7TzRxuvqDHEUCeCerioU-bgLcEPDwnNJcNeYv-J8XQPDQL2q9kRotMWjQ_wUV2S6dzS1OphAO=w392",
+   "https://play-lh.googleusercontent.com/Ig1BYT6D0HHW-fZHwsmGgBDDPTZj1CjDllKY1OLoi-Bnl3VUnzN0BXc-4I2v_ihjyrpaESUdMxNgJPsU3Tv7UJg=w392",
+   "https://play-lh.googleusercontent.com/skXRNrgv1ya_GElplrCeXpw5rt4vcwWMh9rxa08UwxjKs9OgNIw0XymkJYby4Fh_ebyQKZHf55oyFDrKLeweGJY=w392",
+   "https://play-lh.googleusercontent.com/idPIQFTfYu51esTXYj_q5dL1gGPG_UOGV3SMlKYK2VbA4zjc45SVQAOO6gBDKErjylsvjzjwI_nXTrPr5dgvCqM=w392",
+   "https://play-lh.googleusercontent.com/yBivE4HFDktXxj9FZi2eubEC6kDSSIZ1Rg9Q7X7rHAa8eKrrvjKu12ppX5nXzAARIsjL3jcKcnUbg_tVNJ4QDQ=w392",
+   "https://play-lh.googleusercontent.com/IYLNkj4ehISVvZEGVquR98ODxfGDmGwDT6xgOGW_v0zci1zF4gTHZUs-HQLQOt2rCZc8z7nFcSSumqDJTDS1=w392",
+   "https://play-lh.googleusercontent.com/-rYHgSp-PDOAHID9683kpSlxkhjocufHLZQrxKucs4a-bca60MX99WbxwiGRjLDT90lVnAuIprKEJJtIQSPNEg=w392",
+   "https://play-lh.googleusercontent.com/TdpadI0KpV3TLGzdnxG2rcAokcvsrlsFqM0EuV-xQ4A5XrQET3yGMBQ_p_R6QPswqdRnyN9D3llJ0e0kWEsKeks=w392"
+  ]
+ },
+ {
   "id": "2026-09-30-us-1544750895-tracking",
   "type": "tracking",
   "app": "us-1544750895",
