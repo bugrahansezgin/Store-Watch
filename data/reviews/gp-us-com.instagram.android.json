@@ -1,39 +1,303 @@
 {
  "stats": {
-  "total": 623,
-  "avg": 4.08,
+  "total": 647,
+  "avg": 4.09,
   "dist": {
-   "1": 114,
+   "1": 117,
    "2": 17,
-   "3": 14,
-   "4": 40,
-   "5": 438
+   "3": 15,
+   "4": 42,
+   "5": 456
   },
   "d7": {
-   "count": 623,
-   "avg": 4.08,
+   "count": 647,
+   "avg": 4.09,
    "dist": {
-    "1": 114,
+    "1": 117,
     "2": 17,
-    "3": 14,
-    "4": 40,
-    "5": 438
+    "3": 15,
+    "4": 42,
+    "5": 456
    }
   },
   "d30": {
-   "count": 623,
-   "avg": 4.08,
+   "count": 647,
+   "avg": 4.09,
    "dist": {
-    "1": 114,
+    "1": 117,
     "2": 17,
-    "3": 14,
-    "4": 40,
-    "5": 438
+    "3": 15,
+    "4": 42,
+    "5": 456
    }
   },
-  "updatedAt": "2026-09-30T08:23:54+00:00"
+  "updatedAt": "2026-09-30T08:26:52+00:00"
  },
  "reviews": [
+  {
+   "id": "80110d22-f445-4220-b082-57e26c05eef0",
+   "rating": 5,
+   "title": "",
+   "body": "❤️",
+   "author": "Gita Devi",
+   "version": "",
+   "date": "2026-09-29T08:25:56+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0a2932b4-63cd-462e-b976-c64a78d01ce8",
+   "rating": 5,
+   "title": "",
+   "body": "love instagram",
+   "author": "Sarmad Khan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:25:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "fecc1adc-8df4-4ea5-a94b-46bd4f36e69c",
+   "rating": 5,
+   "title": "",
+   "body": "best",
+   "author": "Harmanjeet Singh Sagoo",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:25:35+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "41a8487a-d7a1-4660-a4f6-b01b3014dd6c",
+   "rating": 5,
+   "title": "",
+   "body": "Very good",
+   "author": "Ayyankhan Khan",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:25:15+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "7d86511e-b981-4053-a973-93081f73aa41",
+   "rating": 5,
+   "title": "",
+   "body": "yessss boyz",
+   "author": "Arti Ratnani",
+   "version": "",
+   "date": "2026-09-29T08:25:10+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "8dc98286-c0fa-4663-ac81-ec1b5f56c485",
+   "rating": 5,
+   "title": "",
+   "body": "I have always loved it",
+   "author": "Real talks and giggles",
+   "version": "",
+   "date": "2026-09-29T08:24:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "046d92d0-26f2-4aa8-a67f-ae565b52d735",
+   "rating": 5,
+   "title": "",
+   "body": "good 😊",
+   "author": "Rohit Kushwaha",
+   "version": "",
+   "date": "2026-09-29T08:24:15+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0eb3aee5-0233-4262-b7d4-c1828d887798",
+   "rating": 5,
+   "title": "",
+   "body": "awesome 👍",
+   "author": "nindia rani",
+   "version": "445.0.0.45.83",
+   "date": "2026-09-29T08:24:14+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "82c824af-40ef-4c62-b552-eca542dde7a8",
+   "rating": 3,
+   "title": "",
+   "body": "Outstanding app! Instagram is easy to use, the features are amazing, and the overall experience is excellent. One of the best social media apps.",
+   "author": "Raza The Climber",
+   "version": "",
+   "date": "2026-09-29T08:24:13+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c4cdb368-de63-48b6-9570-cab043b0ff6a",
+   "rating": 1,
+   "title": "",
+   "body": "worst app tbh they suspended my account many times how many time would I make my account after giving so much efforts also so disappointing 💔💔💔",
+   "author": "Riya Mahato",
+   "version": "",
+   "date": "2026-09-29T08:23:29+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "024820d3-206f-4495-b6de-349e270c904a",
+   "rating": 5,
+   "title": "",
+   "body": "this is my love 💘",
+   "author": "Surender Aswal",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:22:54+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "5e1a9ede-5cf0-4b67-98e0-e2dd0d56f8d5",
+   "rating": 5,
+   "title": "",
+   "body": "it is the best but something is wrong with my I'd 😭",
+   "author": "Meenu Sharma",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:22:53+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "3d7848c3-f3e0-41c9-a92a-da46dcbff2d7",
+   "rating": 4,
+   "title": "",
+   "body": "best , even than tik tok",
+   "author": "Ababio Pride",
+   "version": "",
+   "date": "2026-09-29T08:22:39+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "2a7428e4-162e-45f8-a6ba-19de9314c3c2",
+   "rating": 5,
+   "title": "",
+   "body": "I love this appp so much 💓💓",
+   "author": "Pratik Rajput",
+   "version": "",
+   "date": "2026-09-29T08:21:08+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "7f0baae7-3ab6-4ad0-94fb-47629c98bd56",
+   "rating": 1,
+   "title": "",
+   "body": "very bad for students",
+   "author": "Abhishek Abhishek",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:20:20+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "52f451ec-ad2a-4a93-8b31-2453b574d44f",
+   "rating": 5,
+   "title": "",
+   "body": "good",
+   "author": "Yohannes Tilahun",
+   "version": "398.1.0.53.77",
+   "date": "2026-09-29T08:19:39+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "df10086f-af9e-48f0-bb00-639142405131",
+   "rating": 5,
+   "title": "",
+   "body": "that was a great platform I ever used",
+   "author": "Tanveer Hussain",
+   "version": "443.0.0.48.82",
+   "date": "2026-09-29T08:19:12+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6f7154d2-3b2f-4204-ace1-50e492e0603e",
+   "rating": 5,
+   "title": "",
+   "body": "good",
+   "author": "chiluveru venumadhav",
+   "version": "395.0.0.56.165",
+   "date": "2026-09-29T08:18:38+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "8a47bd7b-8e65-43c3-8cc5-de1bea148429",
+   "rating": 1,
+   "title": "",
+   "body": "very unusable application",
+   "author": "Thirdeye Spiritual",
+   "version": "440.1.0.46.86",
+   "date": "2026-09-29T08:18:33+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c715dbcf-b3c6-499c-96ec-9da108d80b99",
+   "rating": 5,
+   "title": "",
+   "body": "good",
+   "author": "deepak k",
+   "version": "443.0.0.48.82",
+   "date": "2026-09-29T08:18:18+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "669221c7-6555-43c1-87ff-4e7076247f15",
+   "rating": 5,
+   "title": "",
+   "body": "Gaurav singh",
+   "author": "Saurabh Singh",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:18:00+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "2728e624-cba7-4d91-bc4a-6660aabd6736",
+   "rating": 5,
+   "title": "",
+   "body": "𝓷𝓲𝓬𝓮 𝓪𝓹𝓹👌 𝓽𝓱𝓲𝓼 𝓲𝓼 𝓼𝓸 𝓮𝓷𝓳𝓸𝔂𝓶𝓮𝓷𝓽 𝓲 𝓵𝓲𝓴𝓮 𝓽𝓱𝓲𝓼 𝓪𝓹𝓹",
+   "author": "Senthil ESS tex",
+   "version": "445.0.0.45.83",
+   "date": "2026-09-29T08:17:42+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "69c0d4f9-fcc0-4c30-be67-412770e27efa",
+   "rating": 5,
+   "title": "",
+   "body": "perfect",
+   "author": "Koorosh",
+   "version": "444.0.0.46.85",
+   "date": "2026-09-29T08:17:33+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "49ce29f8-feb3-4541-980a-02d32657658a",
+   "rating": 4,
+   "title": "",
+   "body": "Instagram is great for entertainment, and if you follow the right creators, you can also learn a lot and gain useful knowledge. The UI is really good and easy to use. The only major problem is that it can lead to mindless/dumb scrolling, where you keep scrolling without even realizing how much time has passed. Other than that, pretty good overall",
+   "author": "Mohit Sahu",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T08:17:28+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "ed46a92d-936c-4045-b0b4-45f96c4c0492",
    "rating": 5,
