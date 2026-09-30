@@ -90,6 +90,12 @@
       "country": "us",
       "platform": "android",
       "note": "ai.character.app"
+    },
+    {
+      "id": "com.bigbrain.parallellive",
+      "country": "us",
+      "platform": "android",
+      "note": "com.bigbrain.parallellive"
     }
   ]
 }

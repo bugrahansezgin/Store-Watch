@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-09-30-gp-us-com.bigbrain.parallellive-tracking",
+  "type": "tracking",
+  "app": "gp-us-com.bigbrain.parallellive",
+  "ts": "2026-09-30T08:23:23+00:00",
+  "title": "Started tracking Parallel Live Simulator",
+  "summary": "Baseline: 12 screenshots · v1.73",
+  "after": [
+   "https://play-lh.googleusercontent.com/M6-sv0IJBaWCQEx2Hhf0ZnY9sJ6PSQavs89V_XKF4On0-8LuI8wuhJpJFFeqDCSZA8u0rvE6TNWNn0wBcWzRZV8=w392",
+   "https://play-lh.googleusercontent.com/xAiWmQnejK6Duv_3NOydG-1s3TqEYLwiGHcvOE-gF_a28fdciY6rbO404oFg4P7CkeJv16PR-_65VZueUrciuBc=w392",
+   "https://play-lh.googleusercontent.com/xbATdDcrEHHx1N7ZgzXoBbR6puPnnt8qA7-tUWV8nqCSlBKPyMgX71Qj8Ei8PKsMAWv6SYRNaLMumgnz1-o_=w392",
+   "https://play-lh.googleusercontent.com/DncCphlxy80rW6PYh8qbQess1iqMzwK1mgnECQURbvs-0O9qBdTn-16_aXBlFingszAKdTP5FZVPlgMI8cKWZw4=w392",
+   "https://play-lh.googleusercontent.com/M6-sv0IJBaWCQEx2Hhf0ZnY9sJ6PSQavs89V_XKF4On0-8LuI8wuhJpJFFeqDCSZA8u0rvE6TNWNn0wBcWzRZV8=w392",
+   "https://play-lh.googleusercontent.com/xAiWmQnejK6Duv_3NOydG-1s3TqEYLwiGHcvOE-gF_a28fdciY6rbO404oFg4P7CkeJv16PR-_65VZueUrciuBc=w392",
+   "https://play-lh.googleusercontent.com/xbATdDcrEHHx1N7ZgzXoBbR6puPnnt8qA7-tUWV8nqCSlBKPyMgX71Qj8Ei8PKsMAWv6SYRNaLMumgnz1-o_=w392",
+   "https://play-lh.googleusercontent.com/DncCphlxy80rW6PYh8qbQess1iqMzwK1mgnECQURbvs-0O9qBdTn-16_aXBlFingszAKdTP5FZVPlgMI8cKWZw4=w392",
+   "https://play-lh.googleusercontent.com/M6-sv0IJBaWCQEx2Hhf0ZnY9sJ6PSQavs89V_XKF4On0-8LuI8wuhJpJFFeqDCSZA8u0rvE6TNWNn0wBcWzRZV8=w392",
+   "https://play-lh.googleusercontent.com/DncCphlxy80rW6PYh8qbQess1iqMzwK1mgnECQURbvs-0O9qBdTn-16_aXBlFingszAKdTP5FZVPlgMI8cKWZw4=w392",
+   "https://play-lh.googleusercontent.com/xbATdDcrEHHx1N7ZgzXoBbR6puPnnt8qA7-tUWV8nqCSlBKPyMgX71Qj8Ei8PKsMAWv6SYRNaLMumgnz1-o_=w392",
+   "https://play-lh.googleusercontent.com/xAiWmQnejK6Duv_3NOydG-1s3TqEYLwiGHcvOE-gF_a28fdciY6rbO404oFg4P7CkeJv16PR-_65VZueUrciuBc=w392"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-ai.character.app-tracking",
   "type": "tracking",
   "app": "gp-us-ai.character.app",

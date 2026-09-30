@@ -1,0 +1,22 @@
+{
+ "versions": [
+  {
+   "version": "1.73",
+   "date": "2026-07-23T22:04:36+00:00",
+   "notes": "",
+   "source": "tracked"
+  }
+ ],
+ "descriptions": [
+  {
+   "ts": "2026-09-30T08:23:23+00:00",
+   "text": "Parallel Live lets you experience the thrill of live streaming while helping you practice speaking, storytelling, and building confidence in a fun, supportive, simulated environment. Step into your own virtual stage and go live to thousands of AI-generated fans who react, comment, and cheer you on in real time.\r\n\r\nFEATURES\r\n\r\n- Practice Public Speaking: Build confidence by talking to a virtual audience that feels alive.\r\n\r\n- Improve Storytelling: Tell stories, share ideas, and watch your virtual fans react with likes and comments.\r\n\r\n- Build Confidence: Overcome stage fright and anxiety by streaming in a private, safe, and playful environment.\r\n\r\n- Record & Reflect: Capture your live sessions to track your progress and see how your delivery improves.\r\n\r\n- Gamified Motivation: Keep your streak alive and climb your way to virtual fame.\r\n\r\nParallel Live is a simulation and entertainment application. All simulated viewers are AI-generated characters and do not represent real people."
+  }
+ ],
+ "backfill": {
+  "ok": true,
+  "count": 0,
+  "ts": "2026-09-30T08:23:56+00:00",
+  "source": "none"
+ }
+}
