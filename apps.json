@@ -96,6 +96,12 @@
       "country": "us",
       "platform": "android",
       "note": "com.bigbrain.parallellive"
+    },
+    {
+      "id": "1534165497",
+      "country": "us",
+      "platform": "ios",
+      "note": "parallel live fake live"
     }
   ]
 }

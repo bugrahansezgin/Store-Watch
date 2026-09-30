@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-30-us-1534165497-tracking",
+  "type": "tracking",
+  "app": "us-1534165497",
+  "ts": "2026-09-30T08:28:40+00:00",
+  "title": "Started tracking Parallel Live: Fake Live",
+  "summary": "Baseline: 4 screenshots · v2.3.47",
+  "after": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/1b/b2/ee1bb26b-3615-9a79-2ac6-2e071ec2d6df/screenshot3.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/97/c6/9397c647-e4f5-a1fb-96c9-e0d9eead2633/screenshot2__U00281_U0029.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/5d/15/7d5d151c-2f7b-830a-8bc3-84a41f2e8603/screenshot4__U00281_U0029.png/392x848bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/32/4a/fd324a8c-1728-6cb1-fb2e-609e97e50886/screenshot1.png/392x848bb.jpg"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-com.bigbrain.parallellive-tracking",
   "type": "tracking",
   "app": "gp-us-com.bigbrain.parallellive",
