@@ -1,5 +1,22 @@
 [
  {
+  "id": "2026-09-30-gp-us-ai.replika.app-tracking",
+  "type": "tracking",
+  "app": "gp-us-ai.replika.app",
+  "ts": "2026-09-30T08:03:17+00:00",
+  "title": "Started tracking Replika: My AI Friend",
+  "summary": "Baseline: 7 screenshots · v12.16.2",
+  "after": [
+   "https://play-lh.googleusercontent.com/QwY_GYhRJQdo69qnrmudXnXeC-lKQqpF11-b-wnhwYvvyWEkQTsFZgXLP1IGp2mx_ABxtSrLJXGPyCnovnZSlQ=w392",
+   "https://play-lh.googleusercontent.com/w1xhh7tcy_KYhS9YCLZpHSRb2mrhrOn2L964BAhbL1bPmpZ_q8_Arg-zR6qnOzi8CL48AGNDAu5W917Ocrg8z9s=w392",
+   "https://play-lh.googleusercontent.com/IQPhHAfc4LJRR00QykArDba_IekxLbgP9oriAa52n8tYoxsILW2UDLPxhjLdKAMT0xpSLfslRymhI0L9VZA1=w392",
+   "https://play-lh.googleusercontent.com/KtWdrgP_ofmVeyzrlBwo2f7fvfY_nV-RnSkPrypMJuoZEqrbDY-SQdPYx3qrxqYWTvXbw8m-4KkWzIojLDxYxA=w392",
+   "https://play-lh.googleusercontent.com/3F4EUgGnshqNRwIBpU4655Aom4IPJFaSZDXbLCFuHZJX2-tPBznGud3DMinB6icdmcr_02IGf3OD1d7Qqymj=w392",
+   "https://play-lh.googleusercontent.com/ln4tPN3ptvtkZYM2nS-Sd8_qhHZSoXLI5SRfu5EqRWdc4sh52KEQXX504z28atkBo9rLczAG2HaRK2guvlN9HQ=w392",
+   "https://play-lh.googleusercontent.com/pmMRiWo3kMZ091Ow7Qi2uoAquDzKR2sBs2C-E-zrlntVw1EMQH_BQnIvTNQXepgqkH782togpNZad8kES0Jct1k=w392"
+  ]
+ },
+ {
   "id": "2026-09-30-gp-us-com.Beauchamp.Messenger.external-tracking",
   "type": "tracking",
   "app": "gp-us-com.Beauchamp.Messenger.external",

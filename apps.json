@@ -72,6 +72,12 @@
       "country": "us",
       "platform": "android",
       "note": "com.Beauchamp.Messenger.external"
+    },
+    {
+      "id": "ai.replika.app",
+      "country": "us",
+      "platform": "android",
+      "note": "ai.replika.app"
     }
   ]
 }
