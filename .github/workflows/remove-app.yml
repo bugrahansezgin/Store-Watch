@@ -1,0 +1,37 @@
+name: Remove app
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "App Store or Google Play link (or App Store id / package name)"
+        required: true
+      country:
+        description: "Only remove this store country (leave empty to remove every country)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: store-watch
+  cancel-in-progress: false
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/remove_app.py "$APP_URL" "$APP_COUNTRY"
+        env:
+          APP_URL: ${{ inputs.url }}
+          APP_COUNTRY: ${{ inputs.country }}
+      - run: |
+          git config user.name  "store-watch-bot"
+          git config user.email "store-watch-bot@users.noreply.github.com"
+          git add -A apps.json data
+          git diff --cached --quiet || git commit -m "watch: remove app"
+          git push
