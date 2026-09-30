@@ -158,6 +158,17 @@ input[type=search]{min-width:200px;flex:1;max-width:280px}
 .ai-delta b{display:block;color:var(--chip-shots);font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
 .ai-err{margin:10px 0 0;font-size:13px;color:var(--rem);background:var(--rem-soft);border-radius:8px;padding:8px 10px;word-break:break-word}
 .ai-err b{margin-right:4px}
+.store-logo{width:14px;height:14px;border-radius:3px;flex:none}
+.pill.store .store-logo{width:12px;height:12px}
+.store-seg{flex:none}
+.seg .with-logo{display:inline-flex;align-items:center;gap:6px}
+.store-seg a,.store-seg span{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:8px;font-size:13.5px;text-decoration:none;color:var(--text-2);white-space:nowrap}
+.store-seg a[aria-pressed="true"]{background:var(--surface);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.store-seg a:not([aria-pressed="true"]):hover{color:var(--text)}
+.store-seg .off{opacity:.4;cursor:not-allowed}
+.store-seg .off .store-logo{filter:grayscale(1)}
+.dhead-right{margin-left:auto;flex:none}
+@media (max-width:720px){ .dhead{flex-wrap:wrap} .dhead-right{margin-left:0;width:100%} .app-actions{flex-wrap:wrap;margin-left:0;width:100%} .app-top{flex-wrap:wrap} }
 /* app page */
 .subtabs{display:flex;gap:4px;padding:0 20px;box-shadow:inset 0 -1px 0 var(--line);overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
 .subtabs::-webkit-scrollbar,.seg::-webkit-scrollbar{display:none}
@@ -275,9 +286,26 @@ const S = {feed:null, apps:{}, tab:"activity", filter:"all", app:"all", q:"", st
 const isPlay = a => a && a.platform === "android";
 const appKey = a => a.key || (isPlay(a) ? `gp-${a.country}-${a.id}` : `${a.country}-${a.id}`);
 const storeName = a => isPlay(a) ? "Google Play" : "App Store";
-const storeIcon = a => isPlay(a)
-  ? '<svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M2.5 1.5l8 6.5-8 6.5z"/><path d="M10.5 8l2.8-2.2c.9.5.9 1.9 0 2.4z" opacity=".6"/></svg>'
-  : '<svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5.5 12.5l5-9M4 9.5h7.5M10 12.5l-1.5-2.7"/></svg>';
+const STORE_LOGO = {
+  ios: "https://www.google.com/s2/favicons?domain=apps.apple.com&sz=64",
+  android: "https://www.google.com/s2/favicons?domain=play.google.com&sz=64",
+};
+const storeIcon = a => `<img class="store-logo" src="${STORE_LOGO[isPlay(a) ? "android" : "ios"]}" alt="" onerror="this.remove()">`;
+const productKey = a => a.group || String(a.name || a.id).split(/\s[-–—|:]\s|:\s|\s-\s/)[0].toLowerCase().replace(/[^a-z0-9]+/g, "");
+function productGroups(){
+  const g = {};
+  for (const a of S.feed.apps){ const pk = productKey(a); (g[pk] ||= {}); g[pk][isPlay(a) ? "android" : "ios"] ||= appKey(a); }
+  return g;
+}
+const siblings = key => productGroups()[productKey(S.apps[key])] || {};
+function storeSwitch(key, onHref){
+  const sib = siblings(key), cur = isPlay(S.apps[key]) ? "android" : "ios";
+  return `<div class="seg store-seg" role="group" aria-label="Store">${[["ios","App Store"],["android","Google Play"]].map(([p,l]) => {
+    const k = sib[p]; const logo = `<img class="store-logo" src="${STORE_LOGO[p]}" alt="" onerror="this.remove()">`;
+    return k ? `<a href="${onHref(k)}" aria-pressed="${p===cur}" data-k="${k}">${logo}${l}</a>`
+             : `<span class="off" title="Not tracked on ${l} yet — add it from the Watchlist">${logo}${l}</span>`;
+  }).join("")}</div>`;
+}
 const storeLabel = a => `${storeName(a)} ${(a?.country||"").toUpperCase()}`;
 const storePill = a => `<span class="pill store">${storeIcon(a)}${storeLabel(a)}</span>`;
 const $ = s => document.querySelector(s);
@@ -370,8 +398,7 @@ function renderActivity(){
     : `<div class="empty"><b>Nothing matches</b>Try another filter — or wait for tomorrow's check.</div>`;
   $("#view").innerHTML = `<section class="card">
     <div class="toolbar">
-      <div class="seg" role="group" aria-label="Store">${[["all","All"],["ios","App Store"],["play","Google Play"]].map(([k,l]) => `<button data-s="${k}" aria-pressed="${S.store===k}">${l}</button>`).join("")}</div>
-      <div class="seg" role="group">${FILTERS.map(([k,l]) => `<button data-f="${k}" aria-pressed="${S.filter===k}">${l}</button>`).join("")}</div>
+      <div class="seg" role="group" aria-label="Store">${[["all","All",""],["ios","App Store","ios"],["play","Google Play","android"]].map(([k,l,p]) => `<button data-s="${k}" aria-pressed="${S.store===k}" class="with-logo">${p?`<img class="store-logo" src="${STORE_LOGO[p]}" alt="" onerror="this.remove()">`:""}${l}</button>`).join("")}</div>
       <select id="appSel" aria-label="App"><option value="all">All apps</option>${appOpts}</select>
       <span class="spacer"></span>
       <input type="search" id="q" placeholder="Search this feed" value="${esc(S.q)}">
@@ -487,7 +514,8 @@ async function renderApp(key, tab){
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 3L5 8l5 5"/></svg></button>
       ${img(a.icon,'class="icon lg"')}
       <div style="min-width:0"><div class="dname">${esc(a.name)}</div>
-        <div class="meta">${storeLabel(a)} · ${esc(a.developer)} · ${isPlay(a)&&a.version==="Varies with device"?"updated "+esc((a.versionDate||"").slice(0,10)):"v"+esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div></div>
+        <div class="meta">${storeLabel(a)} · ${esc(a.developer)} · ${isPlay(a)&&a.version==="Varies with device"?"updated "+esc((a.versionDate||"").slice(0,10)):"v"+esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div>
+      <div class="dhead-right">${storeSwitch(key, k => `#app/${k}/${tab}`)}</div></div>
     <div class="subtabs">${APP_TABS.map(([k,l]) => `<a href="#app/${key}/${k}" class="subtab" aria-current="${k===tab}">${l}</a>`).join("")}</div>
     <div class="dbody" id="appBody"><div class="meta">Loading…</div></div></section>`;
   const body = $("#appBody");
@@ -593,25 +621,37 @@ async function renderDescriptions(key, body, idx=0){
   $("#dsel").onchange = e => renderDescriptions(key, body, +e.target.value);
 }
 
+S.cardStore = {};
 function renderWatchlist(){
-  const apps = S.feed.apps;
   const counts = {}; S.feed.events.forEach(e => { if (e.type!=="tracking") counts[e.app] = (counts[e.app]||0)+1; });
-  const cards = apps.map(a => {
-    const k = appKey(a);
-    return `<section class="card app">
+  const groups = Object.entries(productGroups());
+  const card = (pk, g) => {
+    const k = S.cardStore[pk] && Object.values(g).includes(S.cardStore[pk]) ? S.cardStore[pk] : (g.ios || g.android);
+    const a = S.apps[k];
+    return `<section class="card app" data-pk="${esc(pk)}">
       <div class="app-top">${img(a.icon,'class="icon lg"')}
-        <div><a class="app-name" href="#app/${k}">${esc(a.name)}</a><div class="app-dev">${storePill(a)} ${esc(a.developer)} · ${esc(a.genre||"")}${a.installs?` · ${esc(a.installs)} installs`:""}</div></div>
-        <div class="app-actions"><button class="btn" data-hist="${k}">Changes · ${counts[k]||0}</button><a class="btn primary" href="#app/${k}">Open</a></div></div>
-      <div class="app-stats"><span>Version <b>${esc(a.version)}</b></span><span>Rating <b>${a.rating ? a.rating.toFixed(2) : "–"}</b>${a.ratingCount?` (${Number(a.ratingCount).toLocaleString()})`:""}</span><span>Price <b>${esc(a.price)}</b></span><span>Store <b>${esc(a.country.toUpperCase())}</b></span><span>Tracked since <b>${new Date(a.trackedSince).toLocaleDateString()}</b></span>${a.lastError?`<span style="color:var(--rem)">Last fetch failed ${rel(a.lastError)}</span>`:""}</div>
+        <div style="min-width:0"><a class="app-name" href="#app/${k}">${esc(a.name)}</a><div class="app-dev">${esc(a.developer)} · ${esc(a.genre||"")}${a.installs?` · ${esc(a.installs)} installs`:""}</div></div>
+        <div class="app-actions">${storeSwitch(k, x => "#")}<button class="btn" data-hist="${k}">Changes · ${counts[k]||0}</button><a class="btn primary" href="#app/${k}">Open</a></div></div>
+      <div class="app-stats"><span>Version <b>${esc(isPlay(a)&&a.version==="Varies with device" ? "varies" : a.version)}</b></span><span>Rating <b>${a.rating ? a.rating.toFixed(2) : "–"}</b>${a.ratingCount?` (${Number(a.ratingCount).toLocaleString()})`:""}</span><span>Price <b>${esc(a.price)}</b></span><span>Store <b>${esc(storeLabel(a))}</b></span><span>Tracked since <b>${new Date(a.trackedSince).toLocaleDateString()}</b></span>${a.lastError?`<span style="color:var(--rem)">Last fetch failed ${rel(a.lastError)}</span>`:""}</div>
       <div class="mini ${isPlay(a)?"play":""}">${a.screenshots.map((u,i) => img(u, `data-zoom='${esc(JSON.stringify([u]))}' title="#${i+1}"`)).join("")}</div>
       ${a.summaryHeadline ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span><b>Reviews:</b> ${esc(a.summaryHeadline)}</span><span class="meta">${a.reviewStats?.d30?.count ? `${a.reviewStats.d30.avg}★ · ${a.reviewStats.d30.count} in 30d` : ""}</span></a>`
         : a.reviewStats ? `<a class="app-ai" href="#app/${k}/reviews">${aiIcon}<span>${a.reviewStats.total} reviews collected · ${a.reviewStats.d30?.avg ?? "–"}★ last 30d</span></a>` : ""}
     </section>`;
-  }).join("");
+  };
+  const bind = root => {
+    root.querySelectorAll("[data-hist]").forEach(b => b.onclick = () => { S.app = b.dataset.hist; S.filter = "all"; location.hash = "activity"; });
+    root.querySelectorAll(".store-seg a[data-k]").forEach(el => el.onclick = ev => {
+      ev.preventDefault();
+      const sec = el.closest("[data-pk]"), pk = sec.dataset.pk;
+      S.cardStore[pk] = el.dataset.k;
+      sec.outerHTML = card(pk, productGroups()[pk]);
+      const fresh = $("#view").querySelector(`[data-pk="${CSS.escape(pk)}"]`); bind(fresh); bindZoom();
+    });
+  };
   $("#view").innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:12px;flex-wrap:wrap">
-      <div class="meta">${apps.length} apps · checked daily</div><button class="btn primary" id="addBtn">+ Add app</button></div>
-    <div class="grid">${cards || `<section class="card"><div class="empty"><b>No apps yet</b>Add one to start tracking.</div></section>`}</div>`;
-  $("#view").querySelectorAll("[data-hist]").forEach(b => b.onclick = () => { S.app = b.dataset.hist; S.filter = "all"; location.hash = "activity"; });
+      <div class="meta">${groups.length} products · ${S.feed.apps.length} store listings · checked daily</div><button class="btn primary" id="addBtn">+ Add app</button></div>
+    <div class="grid">${groups.map(([pk, g]) => card(pk, g)).join("") || `<section class="card"><div class="empty"><b>No apps yet</b>Add one to start tracking.</div></section>`}</div>`;
+  bind($("#view"));
   $("#addBtn").onclick = openAdd;
   bindZoom();
 }
