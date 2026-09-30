@@ -1,39 +1,171 @@
 {
  "stats": {
-  "total": 611,
+  "total": 623,
   "avg": 4.08,
   "dist": {
-   "1": 111,
+   "1": 114,
    "2": 17,
    "3": 14,
    "4": 40,
-   "5": 429
+   "5": 438
   },
   "d7": {
-   "count": 611,
+   "count": 623,
    "avg": 4.08,
    "dist": {
-    "1": 111,
+    "1": 114,
     "2": 17,
     "3": 14,
     "4": 40,
-    "5": 429
+    "5": 438
    }
   },
   "d30": {
-   "count": 611,
+   "count": 623,
    "avg": 4.08,
    "dist": {
-    "1": 111,
+    "1": 114,
     "2": 17,
     "3": 14,
     "4": 40,
-    "5": 429
+    "5": 438
    }
   },
-  "updatedAt": "2026-09-30T08:16:39+00:00"
+  "updatedAt": "2026-09-30T08:17:27+00:00"
  },
  "reviews": [
+  {
+   "id": "ed46a92d-936c-4045-b0b4-45f96c4c0492",
+   "rating": 5,
+   "title": "",
+   "body": "go and study don't rate now",
+   "author": "Narcineva",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:17:26+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "33881cdb-6418-464f-8eb5-049fe5223a6e",
+   "rating": 5,
+   "title": "",
+   "body": "Super",
+   "author": "Mohan Das T",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:17:10+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b46bbdcc-a272-4922-95cf-9ed59768f4ce",
+   "rating": 5,
+   "title": "",
+   "body": "bahut acha",
+   "author": "Krishna sen Sen",
+   "version": "",
+   "date": "2026-09-29T08:16:23+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "bc6c4feb-b2d7-4bea-b68d-fd77ed39b687",
+   "rating": 1,
+   "title": "",
+   "body": "Nandini Kumari",
+   "author": "Santosh Kumar",
+   "version": "446.0.0.49.77",
+   "date": "2026-09-29T08:15:50+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "d074bd9c-34eb-4c9f-afba-7f05ede5283d",
+   "rating": 1,
+   "title": "",
+   "body": "good but .. for some reason, I kept getting ads (presumably from facebook) uncensored ai corn that can't even get reported",
+   "author": "Kevin",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:15:37+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "04a3d88e-5ae9-4088-b4d0-effffccaefe7",
+   "rating": 1,
+   "title": "",
+   "body": "my account was suspended today without any reason it was totally unfair for safety issues and technical issues i suppose to solve those id suspend problem as soon as possible many ids were facing this problem without any reason it may take serious issue against instagram for unfair suspend",
+   "author": "Bshoiab Shoiab",
+   "version": "",
+   "date": "2026-09-29T08:15:01+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "50772c80-6f1e-486a-ad38-504c9797e804",
+   "rating": 5,
+   "title": "",
+   "body": "great app",
+   "author": "amit",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T08:12:54+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "54fa8dff-69db-4924-b6fc-4e1c56b4d3ea",
+   "rating": 5,
+   "title": "",
+   "body": "its amazing 😍",
+   "author": "Aabid Ahmed",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:12:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "2dfa7e45-0cb4-49f7-99f6-7e426bb737f8",
+   "rating": 5,
+   "title": "",
+   "body": "thanks barbad karne ke liye 😂",
+   "author": "Ankit Kumar",
+   "version": "334.0.0.42.95",
+   "date": "2026-09-29T08:12:36+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "68e018b8-7ea2-4ab2-8af3-2d9e301ed89d",
+   "rating": 5,
+   "title": "",
+   "body": "very very very excellent app",
+   "author": "Leelawati",
+   "version": "",
+   "date": "2026-09-29T08:12:05+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0760be69-6b1a-40a1-a342-8afd9144ed42",
+   "rating": 5,
+   "title": "",
+   "body": "over-all it's good socialmedia app",
+   "author": "Orangeproperties",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:11:37+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "d1e0197e-f541-42e2-9911-9cba04812a08",
+   "rating": 5,
+   "title": "",
+   "body": "nice aap I like it. Ah, perfect! So, vou could keep it pretty flexible. For example, something like: \"1 iust had to share my experience-this totally blew ... 35 people found this helpful",
+   "author": "Khushi",
+   "version": "",
+   "date": "2026-09-29T08:11:22+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "a1e0b78b-4044-42a9-bde3-7aea2c682362",
    "rating": 2,

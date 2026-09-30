@@ -84,6 +84,12 @@
       "country": "us",
       "platform": "ios",
       "note": "character ai chat talk text"
+    },
+    {
+      "id": "ai.character.app",
+      "country": "us",
+      "platform": "android",
+      "note": "ai.character.app"
     }
   ]
 }

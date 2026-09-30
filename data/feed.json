@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T08:16:45+00:00",
+ "generatedAt": "2026-09-30T08:17:29+00:00",
  "apps": [
   {
    "id": "6502742786",
@@ -12,7 +12,7 @@
    "versionDate": "2026-09-24T05:51:07Z",
    "price": "Free",
    "rating": 4.48,
-   "ratingCount": 9875,
+   "ratingCount": 9869,
    "genre": "Social Networking",
    "descriptionHash": "ca67ea567c4c",
    "screenshots": [
@@ -25,7 +25,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6502742786",
    "reviewStats": {
@@ -60,7 +60,7 @@
       "5": 7
      }
     },
-    "updatedAt": "2026-09-30T08:16:38+00:00"
+    "updatedAt": "2026-09-30T08:17:25+00:00"
    }
   },
   {
@@ -74,7 +74,7 @@
    "versionDate": "2026-09-19T05:41:00Z",
    "price": "Free",
    "rating": 4.45,
-   "ratingCount": 479000,
+   "ratingCount": 479034,
    "genre": "Entertainment",
    "descriptionHash": "494145d3daaf",
    "screenshots": [
@@ -95,7 +95,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-6449190344",
    "reviewStats": {
@@ -130,7 +130,7 @@
       "5": 153
      }
     },
-    "updatedAt": "2026-09-30T08:16:38+00:00"
+    "updatedAt": "2026-09-30T08:17:25+00:00"
    }
   },
   {
@@ -166,7 +166,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-29T14:28:27+00:00",
    "key": "us-389801252",
    "reviewStats": {
@@ -201,7 +201,7 @@
       "5": 22
      }
     },
-    "updatedAt": "2026-09-30T08:16:38+00:00"
+    "updatedAt": "2026-09-30T08:17:26+00:00"
    }
   },
   {
@@ -229,7 +229,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-29T14:31:19+00:00",
    "key": "us-6753083338",
    "reviewStats": {
@@ -264,7 +264,7 @@
       "5": 1
      }
     },
-    "updatedAt": "2026-09-30T08:16:38+00:00"
+    "updatedAt": "2026-09-30T08:17:26+00:00"
    }
   },
   {
@@ -278,7 +278,7 @@
    "versionDate": "2026-09-28T14:09:37Z",
    "price": "Free",
    "rating": 4.63,
-   "ratingCount": 199719,
+   "ratingCount": 199744,
    "genre": "Entertainment",
    "descriptionHash": "adf006fa94fc",
    "screenshots": [
@@ -290,7 +290,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-29T14:40:27+00:00",
    "key": "us-6596771144",
    "reviewStats": {
@@ -325,7 +325,7 @@
       "5": 281
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:26+00:00"
    }
   },
   {
@@ -340,7 +340,7 @@
    "versionDate": "2026-09-14T04:51:26+00:00",
    "price": "Free · IAP $0.99 - $199.99 per item",
    "rating": 4.13,
-   "ratingCount": 542863,
+   "ratingCount": 542862,
    "installs": "1,000,000+",
    "genre": "Lifestyle",
    "descriptionHash": "15a3f06606c7",
@@ -360,7 +360,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:07:20+00:00",
    "key": "gp-us-link.socialai.app",
    "reviewStats": {
@@ -395,7 +395,7 @@
       "5": 273
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:27+00:00"
    }
   },
   {
@@ -410,7 +410,7 @@
    "versionDate": "2026-09-28T13:56:15+00:00",
    "price": "Free · IAP $0.19 - $10,000.00 per item",
    "rating": 3.99,
-   "ratingCount": 169482289,
+   "ratingCount": 169481416,
    "installs": "5,000,000,000+",
    "genre": "Social",
    "descriptionHash": "1e9b2e304c15",
@@ -437,42 +437,42 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:08:23+00:00",
    "key": "gp-us-com.instagram.android",
    "reviewStats": {
-    "total": 611,
+    "total": 623,
     "avg": 4.08,
     "dist": {
-     "1": 111,
+     "1": 114,
      "2": 17,
      "3": 14,
      "4": 40,
-     "5": 429
+     "5": 438
     },
     "d7": {
-     "count": 611,
+     "count": 623,
      "avg": 4.08,
      "dist": {
-      "1": 111,
+      "1": 114,
       "2": 17,
       "3": 14,
       "4": 40,
-      "5": 429
+      "5": 438
      }
     },
     "d30": {
-     "count": 611,
+     "count": 623,
      "avg": 4.08,
      "dist": {
-      "1": 111,
+      "1": 114,
       "2": 17,
       "3": 14,
       "4": 40,
-      "5": 429
+      "5": 438
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:27+00:00"
    }
   },
   {
@@ -487,7 +487,7 @@
    "versionDate": "2026-09-23T22:17:07+00:00",
    "price": "Free · IAP $1.99 - $99.99 per item",
    "rating": 4.21,
-   "ratingCount": 19317,
+   "ratingCount": 19322,
    "installs": "100,000+",
    "genre": "Social",
    "descriptionHash": "a764e6fb85e3",
@@ -510,7 +510,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:14:09+00:00",
    "key": "gp-us-xyz.aspectapp.aspect",
    "reviewStats": {
@@ -545,7 +545,7 @@
       "5": 49
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:27+00:00"
    }
   },
   {
@@ -586,7 +586,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:14:42+00:00",
    "key": "gp-us-com.joincharmsocial.charm",
    "reviewStats": {
@@ -621,7 +621,7 @@
       "5": 9
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:27+00:00"
    }
   },
   {
@@ -636,7 +636,7 @@
    "versionDate": "2026-09-21T10:06:04+00:00",
    "price": "Free · IAP $0.05 - $299.99 per item",
    "rating": 4.03,
-   "ratingCount": 1180686,
+   "ratingCount": 1180662,
    "installs": "50,000,000+",
    "genre": "Entertainment",
    "descriptionHash": "487f4f780f08",
@@ -662,7 +662,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:15:13+00:00",
    "key": "gp-us-ai.socialapps.speakmaster",
    "reviewStats": {
@@ -697,7 +697,7 @@
       "5": 150
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
    }
   },
   {
@@ -726,7 +726,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T07:59:12+00:00",
    "key": "us-1158555867",
    "reviewStats": {
@@ -761,7 +761,7 @@
       "5": 16
      }
     },
-    "updatedAt": "2026-09-30T08:16:39+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
    }
   },
   {
@@ -775,7 +775,7 @@
    "versionDate": "2026-09-28T17:39:50Z",
    "price": "Free",
    "rating": 4.29,
-   "ratingCount": 282536,
+   "ratingCount": 282343,
    "genre": "Entertainment",
    "descriptionHash": "fde06684231a",
    "screenshots": [
@@ -791,7 +791,7 @@
    ],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T08:01:56+00:00",
    "key": "us-1544750895",
    "reviewStats": {
@@ -826,7 +826,7 @@
       "5": 23
      }
     },
-    "updatedAt": "2026-09-30T08:16:40+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
    }
   },
   {
@@ -859,7 +859,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T08:02:40+00:00",
    "key": "gp-us-com.Beauchamp.Messenger.external",
    "reviewStats": {
@@ -894,7 +894,7 @@
       "5": 22
      }
     },
-    "updatedAt": "2026-09-30T08:16:40+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
    }
   },
   {
@@ -924,7 +924,7 @@
    ],
    "ipadScreenshots": [],
    "screenshotSource": "play",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T08:03:17+00:00",
    "key": "gp-us-ai.replika.app",
    "reviewStats": {
@@ -959,7 +959,7 @@
       "5": 39
      }
     },
-    "updatedAt": "2026-09-30T08:16:40+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
    }
   },
   {
@@ -973,7 +973,7 @@
    "versionDate": "2026-09-08T15:38:31Z",
    "price": "Free",
    "rating": 4.28,
-   "ratingCount": 558945,
+   "ratingCount": 558956,
    "genre": "Entertainment",
    "descriptionHash": "08be22f3d3d6",
    "screenshots": [
@@ -989,7 +989,7 @@
    "ipadScreenshots": [],
    "platform": "ios",
    "screenshotSource": "page",
-   "lastChecked": "2026-09-30T08:16:24+00:00",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
    "trackedSince": "2026-09-30T08:16:24+00:00",
    "key": "us-1671705818",
    "reviewStats": {
@@ -1024,11 +1024,127 @@
       "5": 0
      }
     },
-    "updatedAt": "2026-09-30T08:16:40+00:00"
+    "updatedAt": "2026-09-30T08:17:28+00:00"
+   }
+  },
+  {
+   "id": "ai.character.app",
+   "country": "us",
+   "platform": "android",
+   "name": "Character AI: Chat, Talk, Text",
+   "developer": "Character.AI",
+   "url": "https://play.google.com/store/apps/details?id=ai.character.app&gl=us",
+   "icon": "https://play-lh.googleusercontent.com/dAVjIN_4fDErGgl_zMmb81QQSckVOg5LhpMR5liy5QrE8sglxM26MyCgIxsd5qzFyzHfGskqYpjwGD-LXt9Ugw4=w512",
+   "version": "1.17.3",
+   "versionDate": "2026-09-03T21:06:02+00:00",
+   "price": "Free · IAP $0.99 - $99.99 per item",
+   "rating": 2.22,
+   "ratingCount": 2445302,
+   "installs": "50,000,000+",
+   "genre": "Entertainment",
+   "descriptionHash": "9ce2fffa78b6",
+   "screenshots": [
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392"
+   ],
+   "ipadScreenshots": [],
+   "screenshotSource": "play",
+   "lastChecked": "2026-09-30T08:17:05+00:00",
+   "trackedSince": "2026-09-30T08:17:05+00:00",
+   "key": "gp-us-ai.character.app",
+   "reviewStats": {
+    "total": 500,
+    "avg": 1.99,
+    "dist": {
+     "1": 318,
+     "2": 49,
+     "3": 31,
+     "4": 26,
+     "5": 76
+    },
+    "d7": {
+     "count": 500,
+     "avg": 1.99,
+     "dist": {
+      "1": 318,
+      "2": 49,
+      "3": 31,
+      "4": 26,
+      "5": 76
+     }
+    },
+    "d30": {
+     "count": 500,
+     "avg": 1.99,
+     "dist": {
+      "1": 318,
+      "2": 49,
+      "3": 31,
+      "4": 26,
+      "5": 76
+     }
+    },
+    "updatedAt": "2026-09-30T08:17:29+00:00"
    }
   }
  ],
  "events": [
+  {
+   "id": "2026-09-30-gp-us-ai.character.app-tracking",
+   "type": "tracking",
+   "app": "gp-us-ai.character.app",
+   "ts": "2026-09-30T08:17:05+00:00",
+   "title": "Started tracking Character AI: Chat, Talk, Text",
+   "summary": "Baseline: 24 screenshots · v1.17.3",
+   "after": [
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392",
+    "https://play-lh.googleusercontent.com/z65VyfpVtcAN356HofPcBuASx8kRl4-0STFDdKfuyMyZmQKFa0BcocEqEo865JXSFVsgANlLgnCQ5esnGk0DUA=w392",
+    "https://play-lh.googleusercontent.com/2WfvvRmyzIa08NAkpPkixL23Vl9afpAoG1zxLEKiF__fP2KwWEqyLsx2qkb6xYrN3IbQ5nbPdZ8wCsdWziLomQ=w392",
+    "https://play-lh.googleusercontent.com/TpzXx1hBi5N3VYzgVicr5a--HEYdtSDclG1Je-CMThTxKi4-zLaqppKbGIpxAvm-6izdu8LHRgRUXNTfbXOSwDM=w392",
+    "https://play-lh.googleusercontent.com/KDgqsE14IgK1oRLs04CEdVvLtNnmWxW1Tc0gwFFbB_FvdYbstEMYo8wpPOoojhpwz3mr485ph1rbp8Yhdpmfrg=w392",
+    "https://play-lh.googleusercontent.com/OMwkpufpBifuo6wCSARHc3Q7JhcKixIPzQRQxPLkArcc4Hu8V2xT1CHpQtfyMLjOQGqWsgJBNPqzun-0SiOaiA=w392",
+    "https://play-lh.googleusercontent.com/e2w0-ASj3-9J9XZi2KkSZXaqd-bNngbSIHJAJjuosZAT8pUTejCgDSrrBK4eEXqwmIv5SAZMbRyYr9V__d_C7A=w392",
+    "https://play-lh.googleusercontent.com/o7TqF1sRdBi8Dccc4MIPU3o9t1cMxiivBXJIVglQWevHcxAH3sa1C9fbnpph24eUZgnxMjksei0398-s4JDg=w392",
+    "https://play-lh.googleusercontent.com/VQRMD97ZI6N27Og_Q4jTw3IjvhGvaS8vMwKLpJvoMEdzTPNx-uL6guspx5H_O1TuNrZO2sVdOs7bVCZILTSfww=w392"
+   ]
+  },
   {
    "id": "2026-09-30-us-1671705818-tracking",
    "type": "tracking",
