@@ -336,8 +336,8 @@ def rebuild_feed():
         if rv:
             slim["reviewStats"] = rv.get("stats")
         sm = load(os.path.join(DATA, "summaries", f"{key}.json"), None)
-        if sm and sm.get("items"):
-            latest = sm["items"][0]
+        if sm and (sm.get("current") or sm.get("items")):
+            latest = sm.get("current") or sm["items"][0]
             slim["summaryHeadline"] = latest.get("headline")
             slim["summaryTs"] = latest.get("ts")
         apps.append(slim)
