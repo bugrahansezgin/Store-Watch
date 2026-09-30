@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force_summary:
-        description: "Rebuild AI summaries from scratch (re-reads all reviews)"
+        description: "Rebuild AI release analysis from scratch"
         type: boolean
         default: false
 
@@ -38,8 +38,8 @@ jobs:
         run: python scripts/history.py
         continue-on-error: true
 
-      - name: AI review summary (new reviews only)
-        run: python scripts/summarize.py
+      - name: AI release analysis (new versions only)
+        run: python scripts/versions_ai.py
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
