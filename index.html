@@ -249,7 +249,7 @@ dialog::backdrop{background:rgba(10,10,10,.72);backdrop-filter:blur(4px)}
   <header class="top">
     <div>
       <h1>Store Watch</h1>
-      <p class="sub">Daily snapshots of competitor App Store &amp; Google Play listings — screenshots, icon, name, price, versions, description and reviews, with an AI read on what users say that updates as new reviews arrive. Changes land here as soon as they ship.</p>
+      <p class="sub">Weekly snapshots of competitor App Store &amp; Google Play listings — screenshots, icon, name, price, versions, description and reviews, with an AI read on what users say that updates as new reviews arrive. Changes land here as soon as they ship.</p>
     </div>
     <div class="meta" id="lastRun"></div>
   </header>
@@ -394,7 +394,7 @@ function renderActivity(){
       <div class="row-right">${storePill(a)}<span title="${esc(new Date(e.ts).toLocaleString())}">${rel(e.ts)}</span></div></a>`;
   }
   if (!evs.length) body = S.feed.error
-    ? `<div class="empty"><b>No data yet</b>Run the “Daily check” workflow once to capture the first snapshot.</div>`
+    ? `<div class="empty"><b>No data yet</b>Run the “Weekly check” workflow once to capture the first snapshot.</div>`
     : `<div class="empty"><b>Nothing matches</b>Try another filter — or wait for tomorrow's check.</div>`;
   $("#view").innerHTML = `<section class="card">
     <div class="toolbar">
@@ -538,7 +538,7 @@ function distBars(dist){
 
 async function renderReviews(key, body){
   const [rv, sm] = await Promise.all([getJSON(`data/reviews/${key}.json`), getJSON(`data/summaries/${key}.json`)]);
-  if (!rv || !rv.reviews?.length){ body.innerHTML = `<div class="empty"><b>No reviews yet</b>They're collected on the next daily check.</div>`; return; }
+  if (!rv || !rv.reviews?.length){ body.innerHTML = `<div class="empty"><b>No reviews yet</b>They're collected on the next Monday check.</div>`; return; }
   const byId = Object.fromEntries(rv.reviews.map(r => [r.id, r]));
   const items = sm?.items || [];
   const s = items[RV.sIdx] || sm?.current || items[0];
@@ -546,7 +546,7 @@ async function renderReviews(key, body){
   const pendingCount = rv.reviews.length - (sm?.processed?.length || 0);
   let summary = `<div class="ai empty-ai"><div class="ai-label">${aiIcon}AI summary</div>
     ${err ? `<p class="ai-err"><b>Last attempt failed</b> ${rel(err.ts)} — ${esc(err.message)}</p>` : ""}
-    <p class="meta" style="margin:6px 0 0">Summaries update on every daily check, reading only reviews that arrived since the last run. To run it now: Actions → Daily check → Run workflow.</p></div>`;
+    <p class="meta" style="margin:6px 0 0">Summaries update on every Monday check, reading only reviews that arrived since the last run. To run it now: Actions → Weekly check → Run workflow.</p></div>`;
   if (s){
     const quote = id => { const r = byId[id]; if (!r) return "";
       const t = (r.title ? r.title + " — " : "") + r.body; return `<a class="q" href="#" data-goto="${esc(id)}">“${esc(t.length>110?t.slice(0,110)+"…":t)}” <b>${r.rating}★</b></a>`; };
@@ -601,9 +601,9 @@ const aiIcon = `<svg width="14" height="14" viewBox="0 0 16 16" fill="currentCol
 
 async function renderVersions(key, body){
   const h = await getJSON(`data/history/${key}.json`);
-  if (!h || !h.versions?.length){ body.innerHTML = `<div class="empty"><b>No version history yet</b>It's collected on the next daily check.</div>`; return; }
+  if (!h || !h.versions?.length){ body.innerHTML = `<div class="empty"><b>No version history yet</b>It's collected on the next Monday check.</div>`; return; }
   const a = S.apps[key];
-  const note = isPlay(a) ? `<p class="meta">Google Play doesn't publish version history, so it's built from the day tracking started. Many Play apps report “Varies with device” — updates are then tracked by release date.</p>` : h.backfill && !h.backfill.ok ? `<p class="meta">Older versions couldn't be read from the App Store page, so history starts when tracking began. It retries daily.</p>` : "";
+  const note = isPlay(a) ? `<p class="meta">Google Play doesn't publish version history, so it's built from the day tracking started. Many Play apps report “Varies with device” — updates are then tracked by release date.</p>` : h.backfill && !h.backfill.ok ? `<p class="meta">Older versions couldn't be read from the App Store page, so history starts when tracking began. It retries on every check.</p>` : "";
   body.innerHTML = `<div class="meta" style="margin-bottom:14px">${h.versions.length} versions</div>${note}<ol class="timeline">${h.versions.map((v,i) => `
     <li><div class="tl-dot ${i===0?"now":""}"></div><div class="tl-body">
       <div class="tl-h"><b>v${esc(v.version)}</b>${i===0?`<span class="badge b-new">Current</span>`:""}<span class="meta">${v.date?new Date(v.date).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"}):""}</span></div>
@@ -613,7 +613,7 @@ async function renderVersions(key, body){
 async function renderDescriptions(key, body, idx=0){
   const h = await getJSON(`data/history/${key}.json`);
   const d = h?.descriptions || [];
-  if (!d.length){ body.innerHTML = `<div class="empty"><b>No description history yet</b>It's collected on the next daily check.</div>`; return; }
+  if (!d.length){ body.innerHTML = `<div class="empty"><b>No description history yet</b>It's collected on the next Monday check.</div>`; return; }
   const cur = d[idx], prev = d[idx+1];
   body.innerHTML = `<div class="rv-tools"><select id="dsel">${d.map((x,i)=>`<option value="${i}" ${i===idx?"selected":""}>${i===0?"Current · ":""}${new Date(x.ts).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"})}</option>`).join("")}</select>
     <span class="meta">${d.length} version${d.length>1?"s":""} tracked${prev?" · showing changes vs the one before":""}</span></div>
@@ -649,7 +649,7 @@ function renderWatchlist(){
     });
   };
   $("#view").innerHTML = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:12px;flex-wrap:wrap">
-      <div class="meta">${groups.length} products · ${S.feed.apps.length} store listings · checked daily</div><button class="btn primary" id="addBtn">+ Add app</button></div>
+      <div class="meta">${groups.length} products · ${S.feed.apps.length} store listings · checked every Monday</div><button class="btn primary" id="addBtn">+ Add app</button></div>
     <div class="grid">${groups.map(([pk, g]) => card(pk, g)).join("") || `<section class="card"><div class="empty"><b>No apps yet</b>Add one to start tracking.</div></section>`}</div>`;
   bind($("#view"));
   $("#addBtn").onclick = openAdd;
