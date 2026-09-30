@@ -196,6 +196,9 @@ ul.plain{margin:0;padding-left:18px;color:var(--text-2);font-size:14px;display:g
 .app-id .app-name,.app-id .app-dev{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .app-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .btn.ghost{background:transparent}
+.btn.danger{color:var(--rem);border-color:var(--rem-line)}
+.btn.danger-fill{background:var(--rem);border-color:var(--rem);color:#fff}
+.dhead-right{display:flex;gap:8px;align-items:center}
 .grid.wl .app-stats{margin:0;gap:6px 14px}
 .grid.wl .mini{padding:0}
 .grid.wl .mini img{height:128px}
@@ -551,9 +554,10 @@ async function renderApp(key, tab){
       ${img(a.icon,'class="icon lg"')}
       <div style="min-width:0"><div class="dname">${esc(a.name)}</div>
         <div class="meta">${storeLabel(a)} · ${esc(a.developer)} · ${isPlay(a)&&a.version==="Varies with device"?"updated "+esc((a.versionDate||"").slice(0,10)):"v"+esc(a.version)} · ${a.rating?a.rating.toFixed(2)+"★":""}${rs&&rs.count?` · 30d ${rs.avg}★ from ${rs.count} reviews`:""} · <a href="${esc(a.url)}" target="_blank" rel="noopener">Listing ↗</a></div></div>
-      <div class="dhead-right">${storeSwitch(key, k => `#app/${k}/${tab}`)}</div></div>
+      <div class="dhead-right">${storeSwitch(key, k => `#app/${k}/${tab}`)}<button class="btn ghost danger" id="rmBtn" title="Stop tracking this listing">Remove</button></div></div>
     <div class="subtabs">${APP_TABS.map(([k,l]) => `<a href="#app/${key}/${k}" class="subtab" aria-current="${k===tab}">${l}</a>`).join("")}</div>
     <div class="dbody" id="appBody"><div class="meta">Loading…</div></div></section>`;
+  $("#rmBtn").onclick = () => openRemove(a);
   const body = $("#appBody");
   if (tab === "screens"){
     body.innerHTML = `<div class="sect">${isPlay(a)?"Phone":"iPhone"} · ${a.screenshots.length}</div><div class="strip ${isPlay(a)?"play":""}">${a.screenshots.map((u,i) => shot(u,"",`#${i+1}`,[u])).join("")}</div>` +
@@ -692,6 +696,19 @@ function renderWatchlist(){
   bind($("#view"));
   $("#addBtn").onclick = openAdd;
   bindZoom();
+}
+
+function openRemove(a){
+  const r = repoInfo(), base = r ? `https://github.com/${r.user}/${r.repo}` : null;
+  $("#addBody").innerHTML = `<h3>Remove ${esc(a.name)}</h3>
+    <p class="meta" style="margin:0 0 12px">Stops tracking the <b>${esc(storeLabel(a))}</b> listing and deletes its history, reviews and changes. Other stores of the same app stay.</p>
+    <ol><li>Copy this link: <code style="user-select:all;word-break:break-all">${esc(a.url)}</code></li>
+    <li>Open <b>Remove app</b> → <b>Run workflow</b>, paste it${a.country?` and type <code>${esc(a.country)}</code> as country`:""}.</li>
+    <li>Refresh this page after ~30 seconds.</li></ol>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:18px">
+      <button class="btn" onclick="this.closest('dialog').close()">Cancel</button>
+      ${base?`<a class="btn primary danger-fill" target="_blank" rel="noopener" href="${base}/actions/workflows/remove-app.yml">Open “Remove app” ↗</a>`:""}</div>`;
+  $("#addModal").showModal();
 }
 
 function openAdd(){
