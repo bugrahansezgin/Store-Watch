@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force_summary:
-        description: "Regenerate AI review summaries now"
+        description: "Rebuild AI summaries from scratch (re-reads all reviews)"
         type: boolean
         default: false
 
@@ -38,7 +38,7 @@ jobs:
         run: python scripts/history.py
         continue-on-error: true
 
-      - name: AI review summary (weekly)
+      - name: AI review summary (new reviews only)
         run: python scripts/summarize.py
         continue-on-error: true
         env:
