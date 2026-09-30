@@ -1,39 +1,94 @@
 {
  "stats": {
-  "total": 516,
-  "avg": 4.04,
+  "total": 521,
+  "avg": 4.03,
   "dist": {
-   "1": 46,
+   "1": 47,
    "2": 31,
-   "3": 52,
-   "4": 116,
-   "5": 271
+   "3": 53,
+   "4": 117,
+   "5": 273
   },
   "d7": {
-   "count": 516,
-   "avg": 4.04,
+   "count": 521,
+   "avg": 4.03,
    "dist": {
-    "1": 46,
+    "1": 47,
     "2": 31,
-    "3": 52,
-    "4": 116,
-    "5": 271
+    "3": 53,
+    "4": 117,
+    "5": 273
    }
   },
   "d30": {
-   "count": 516,
-   "avg": 4.04,
+   "count": 521,
+   "avg": 4.03,
    "dist": {
-    "1": 46,
+    "1": 47,
     "2": 31,
-    "3": 52,
-    "4": 116,
-    "5": 271
+    "3": 53,
+    "4": 117,
+    "5": 273
    }
   },
-  "updatedAt": "2026-09-30T08:03:32+00:00"
+  "updatedAt": "2026-09-30T08:11:06+00:00"
  },
  "reviews": [
+  {
+   "id": "35b176c4-3618-419a-9b24-96fa05bd035c",
+   "rating": 3,
+   "title": "",
+   "body": "the world feels real",
+   "author": "Tivani Gladness",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:09:48+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "58da0f0c-faa1-4724-a1c9-0070155c8527",
+   "rating": 5,
+   "title": "",
+   "body": "i love itttt",
+   "author": "shyne rhian",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:09:43+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e960ffbe-1533-45ff-b669-a38ddaa42684",
+   "rating": 5,
+   "title": "",
+   "body": "I love it! the bots are quite interesting and funny too,but I will love it more when you remove apps and make energy more without disturbance and make the game more fun,overall the app is good",
+   "author": "Alfred F.Jones",
+   "version": "",
+   "date": "2026-09-29T08:08:53+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f8636ddb-c3d4-458a-a482-fcc634ad6063",
+   "rating": 4,
+   "title": "",
+   "body": "it's entertaining to say the least",
+   "author": "Black Renamon",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:06:43+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "7a1544e7-2100-4610-b672-e6acc0cdf557",
+   "rating": 1,
+   "title": "",
+   "body": "I can't get in the app. It's stuck. There's so many bugs in the app.",
+   "author": "ChanSomphors Phun",
+   "version": "1.9.61",
+   "date": "2026-09-29T08:03:18+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "7609d4e6-f5eb-4103-9d59-8bb0a000d79d",
    "rating": 2,

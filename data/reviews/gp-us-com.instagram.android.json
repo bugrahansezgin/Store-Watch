@@ -1,39 +1,303 @@
 {
  "stats": {
-  "total": 587,
-  "avg": 4.1,
+  "total": 611,
+  "avg": 4.08,
   "dist": {
-   "1": 105,
-   "2": 14,
+   "1": 111,
+   "2": 17,
    "3": 14,
    "4": 40,
-   "5": 414
+   "5": 429
   },
   "d7": {
-   "count": 587,
-   "avg": 4.1,
+   "count": 611,
+   "avg": 4.08,
    "dist": {
-    "1": 105,
-    "2": 14,
+    "1": 111,
+    "2": 17,
     "3": 14,
     "4": 40,
-    "5": 414
+    "5": 429
    }
   },
   "d30": {
-   "count": 587,
-   "avg": 4.1,
+   "count": 611,
+   "avg": 4.08,
    "dist": {
-    "1": 105,
-    "2": 14,
+    "1": 111,
+    "2": 17,
     "3": 14,
     "4": 40,
-    "5": 414
+    "5": 429
    }
   },
-  "updatedAt": "2026-09-30T08:03:33+00:00"
+  "updatedAt": "2026-09-30T08:11:06+00:00"
  },
  "reviews": [
+  {
+   "id": "a1e0b78b-4044-42a9-bde3-7aea2c682362",
+   "rating": 2,
+   "title": "",
+   "body": "Instagram takes baseless comments and has unfairly restricted my account.",
+   "author": "farniam ahmadi",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:11:02+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e95947b3-af31-4db7-b1a5-3c264b0687a1",
+   "rating": 1,
+   "title": "",
+   "body": "they keep banning my new accounts without any reason 😡",
+   "author": "Saqlain Haider gaming",
+   "version": "349.3.0.42.104",
+   "date": "2026-09-29T08:10:39+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "b2f99c06-264b-4d9e-9e2e-1bc3aef1bac7",
+   "rating": 5,
+   "title": "",
+   "body": "nice 👍👍",
+   "author": "Rahul Ruidas",
+   "version": "",
+   "date": "2026-09-29T08:10:35+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c6244a71-8575-46db-95c2-73b07923eaf1",
+   "rating": 5,
+   "title": "",
+   "body": "crazyyyyyy",
+   "author": "SAYMA BEGUM",
+   "version": "387.1.0.34.85",
+   "date": "2026-09-29T08:10:31+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ddb42e54-fdc2-4a0e-9c16-ecc37e5f1fd2",
+   "rating": 5,
+   "title": "",
+   "body": "🤗🤗🤗🤗🤗🤗",
+   "author": "Vijay manjhi",
+   "version": "",
+   "date": "2026-09-29T08:10:30+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "d049b14a-4cb5-409d-9465-107efcf26fb8",
+   "rating": 5,
+   "title": "",
+   "body": "follow or like comment and share please please sopot✨🥺",
+   "author": "Hatim Khan",
+   "version": "",
+   "date": "2026-09-29T08:10:11+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "c19d8369-d399-48ea-9009-52c3900932e3",
+   "rating": 2,
+   "title": "",
+   "body": "Do you guys ever get anything right? Month after month when you update this app, there are new issues. Aside from the countless other glitches I've been encountering, why am I seeing a heart floating animation coming up from the bottom of the screen on everyone of my stories when no one has liked my story? All my stories are like that. I'm on a google Pixel 7 Pro on Android.",
+   "author": "_ Justin Miller",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:10:01+00:00",
+   "votes": 45,
+   "reply": ""
+  },
+  {
+   "id": "e47b6cae-1d17-4eac-85b9-83b15177faef",
+   "rating": 1,
+   "title": "",
+   "body": "very dangerous app",
+   "author": "Md. Rijwan",
+   "version": "259.1.0.29.104",
+   "date": "2026-09-29T08:09:44+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "f7480cdb-0323-4349-89c3-b44a17fb6be0",
+   "rating": 1,
+   "title": "",
+   "body": "Every time my app is so buggy that I want to throw my phone through the wall, I check for an update and sure enough they've written a new version with different bugs",
+   "author": "S Smith",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:09:12+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "1bfda2c0-763c-47b2-a1df-dc984da0366f",
+   "rating": 5,
+   "title": "",
+   "body": "ok",
+   "author": "lotu srk",
+   "version": "",
+   "date": "2026-09-29T08:08:17+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "dd71cac3-85e2-416f-9ee0-7fe46866677f",
+   "rating": 1,
+   "title": "",
+   "body": "distract appp",
+   "author": "Dhanjay Kumar",
+   "version": "",
+   "date": "2026-09-29T08:08:16+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "e57302cf-caf4-4829-bf8c-2bf8100161b3",
+   "rating": 5,
+   "title": "",
+   "body": "Instagram iss very good my self also a contact creater it's very nice",
+   "author": "Aradhya Banarse",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:07:37+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "0e75d1ad-37bd-476a-974b-27a3cba37e74",
+   "rating": 5,
+   "title": "",
+   "body": "very useful",
+   "author": "khushbu kumari",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:07:36+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "086b1f94-2caa-4d0b-a3a1-33ee8a7da0fd",
+   "rating": 1,
+   "title": "",
+   "body": "no this is not good app because My account gets suspended by this app every second day so that's why this is not good app",
+   "author": "Kiran Kaur",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:07:31+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "6705f16f-f470-4b4e-be8d-0b7c34a0a0c6",
+   "rating": 5,
+   "title": "",
+   "body": "good",
+   "author": "Ian Tanui",
+   "version": "449.0.0.52.84",
+   "date": "2026-09-29T08:06:53+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "49d4fd93-9a4d-415e-ba05-d28a04385362",
+   "rating": 5,
+   "title": "",
+   "body": "the best",
+   "author": "Kathy D Ramirez",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T08:06:32+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "cf3e7776-59be-4a89-87b3-a2491ab32aa6",
+   "rating": 5,
+   "title": "",
+   "body": "bestest entertainment",
+   "author": "Rohit Gadri",
+   "version": "444.0.0.46.85",
+   "date": "2026-09-29T08:05:41+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "69b38117-4e38-41a0-80a3-00a0cba06bf6",
+   "rating": 1,
+   "title": "",
+   "body": "my account is suspended yesterday. I don't know was this a technical glitch or what and the instagram team written that I had not followed the terms and regulations of the community so please recheck and review this problem... 🥺🙏🏻",
+   "author": "Aditya Kumar Jaiswal (ADITYA.A_KJ)",
+   "version": "411.0.0.23.257",
+   "date": "2026-09-29T08:05:21+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "ff365b39-03ce-4287-ac58-8ec2ea1ba2c5",
+   "rating": 2,
+   "title": "",
+   "body": "I really feel like I'm going back to relax",
+   "author": "Prabha Sahu Gupta",
+   "version": "",
+   "date": "2026-09-29T08:05:21+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "23e0cbe5-33e5-45b7-80a5-1337b88fff6b",
+   "rating": 5,
+   "title": "",
+   "body": "nice 👍",
+   "author": "Rahul Behera",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T08:05:13+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "bd86e77d-4ecb-4700-b513-4c4b42d826e8",
+   "rating": 5,
+   "title": "",
+   "body": "reels viral nahin Hoti",
+   "author": "Akshu Rajput",
+   "version": "447.0.0.55.81",
+   "date": "2026-09-29T08:04:52+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "50a5b43b-b22a-4d65-bd13-c10e5a4413a3",
+   "rating": 5,
+   "title": "",
+   "body": "very nice Instagram thnks for Instagram 🙏🏻🌼🌼",
+   "author": "Malkeet Sandhu Sandhu",
+   "version": "",
+   "date": "2026-09-29T08:04:49+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "9181c068-d7e1-42cc-9181-8c90ebfe23f4",
+   "rating": 5,
+   "title": "",
+   "body": "very nice aap",
+   "author": "Harsh Verma",
+   "version": "",
+   "date": "2026-09-29T08:04:02+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "22a9e757-482f-40c2-a4d7-aa5df6190ba8",
+   "rating": 5,
+   "title": "",
+   "body": "it is a very good app tell us about current affairs....never use this app in wrong way....",
+   "author": "Sai Chouhan",
+   "version": "",
+   "date": "2026-09-29T08:03:14+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "717fa220-b55c-4082-bf57-186e9a7b41f0",
    "rating": 1,
