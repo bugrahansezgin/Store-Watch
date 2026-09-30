@@ -5,6 +5,150 @@
    "date": "2026-09-24T05:51:07Z",
    "notes": "bug fixes",
    "source": "tracked"
+  },
+  {
+   "version": "1.114",
+   "notes": "bug fixes",
+   "date": "2026-08-14T12:43:21+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.113",
+   "notes": "bug fixes",
+   "date": "2026-07-31T14:06:42+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.112",
+   "notes": "bug fixes",
+   "date": "2026-07-23T17:39:26+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.111",
+   "notes": "bug fixes",
+   "date": "2026-07-09T15:53:55+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.110",
+   "notes": "bug fixes",
+   "date": "2026-05-29T13:38:42+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.109",
+   "notes": "bug fixes",
+   "date": "2026-05-19T13:50:18+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.108",
+   "notes": "bug fixes",
+   "date": "2026-04-11T11:09:24+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.107",
+   "notes": "bug fixes",
+   "date": "2026-04-05T15:03:09+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.106",
+   "notes": "bug fixes",
+   "date": "2026-04-01T10:58:27+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.105",
+   "notes": "bug fixes",
+   "date": "2026-03-31T10:44:03+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.104",
+   "notes": "bug fixes",
+   "date": "2026-03-28T16:26:00+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.103",
+   "notes": "bug fixes",
+   "date": "2026-03-22T15:54:32+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.102",
+   "notes": "bug fixes",
+   "date": "2026-03-19T18:34:50+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.101",
+   "notes": "bug fixes",
+   "date": "2026-03-16T07:57:06+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.100",
+   "notes": "bug fixes",
+   "date": "2026-03-01T15:50:18+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.99",
+   "notes": "bug fixes",
+   "date": "2026-02-20T10:09:47+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.98",
+   "notes": "bug fixes",
+   "date": "2026-02-17T09:52:34+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.97",
+   "notes": "bug fixes",
+   "date": "2026-02-16T17:33:50+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.96",
+   "notes": "bug fixes",
+   "date": "2026-02-13T17:40:45+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.95",
+   "notes": "bug fixes",
+   "date": "2026-02-10T18:18:55+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.94",
+   "notes": "bug fixes",
+   "date": "2026-01-29T10:50:30+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.93",
+   "notes": "bug fixes",
+   "date": "2026-01-26T15:07:54+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.92",
+   "notes": "bug fixes",
+   "date": "2026-01-23T09:41:40+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.91",
+   "notes": "bug fixes",
+   "date": "2025-12-19T19:22:13+00:00",
+   "source": "appstore"
   }
  ],
  "descriptions": [
@@ -14,8 +158,8 @@
   }
  ],
  "backfill": {
-  "ok": false,
-  "count": 0,
-  "ts": "2026-09-29T15:09:54+00:00"
+  "ok": true,
+  "count": 26,
+  "ts": "2026-09-30T07:01:47+00:00"
  }
 }

@@ -1,39 +1,169 @@
 {
  "stats": {
-  "total": 50,
-  "avg": 2.54,
+  "total": 63,
+  "avg": 2.68,
   "dist": {
-   "1": 27,
-   "2": 3,
-   "3": 2,
+   "1": 31,
+   "2": 4,
+   "3": 4,
    "4": 2,
-   "5": 16
+   "5": 22
   },
   "d7": {
-   "count": 50,
-   "avg": 2.54,
+   "count": 63,
+   "avg": 2.68,
    "dist": {
-    "1": 27,
-    "2": 3,
-    "3": 2,
+    "1": 31,
+    "2": 4,
+    "3": 4,
     "4": 2,
-    "5": 16
+    "5": 22
    }
   },
   "d30": {
-   "count": 50,
-   "avg": 2.54,
+   "count": 63,
+   "avg": 2.68,
    "dist": {
-    "1": 27,
-    "2": 3,
-    "3": 2,
+    "1": 31,
+    "2": 4,
+    "3": 4,
     "4": 2,
-    "5": 16
+    "5": 22
    }
   },
-  "updatedAt": "2026-09-29T15:09:46+00:00"
+  "updatedAt": "2026-09-30T07:01:45+00:00"
  },
  "reviews": [
+  {
+   "id": "14603227178",
+   "rating": 1,
+   "title": "wtf",
+   "body": "And it’s not just happening too me either and I got screenshots too prove it too",
+   "author": "activebutler2.0",
+   "version": "448.0.0",
+   "date": "2026-09-28T05:41:04-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603173973",
+   "rating": 3,
+   "title": "Fallas",
+   "body": "Instagram es la mejor app que eh probado pero últimamente se la vive dando problemas quita las instantáneas sin razón algún quita el poder comentar en alguna vistos quita los comentarios de tus historias es un asco",
+   "author": "Kristal gtz",
+   "version": "448.0.0",
+   "date": "2026-09-28T05:24:05-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603072940",
+   "rating": 5,
+   "title": "State of Art work",
+   "body": "Great job super TEAM! The garage looks outstanding…. I cannot wait to get done the back yard!",
+   "author": "Manny 1278",
+   "version": "448.0.0",
+   "date": "2026-09-28T04:50:40-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603054664",
+   "rating": 5,
+   "title": "Thank you",
+   "body": "Thanks for everything and virefied my account",
+   "author": "nuri gardi",
+   "version": "448.0.0",
+   "date": "2026-09-28T04:44:32-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14603030705",
+   "rating": 5,
+   "title": "Positivity",
+   "body": "Help IG pages that are spreading real positivity. Unlock the content that promotes real love, intellect, greatness, health, and truth in order to help humanity.",
+   "author": "LBL LLC",
+   "version": "448.0.0",
+   "date": "2026-09-28T04:36:16-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602958885",
+   "rating": 5,
+   "title": "Mi preferida",
+   "body": "Optima calidad imagen, sonido, everything!",
+   "author": "Jimmydelcaribe",
+   "version": "448.0.0",
+   "date": "2026-09-28T04:10:43-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602946437",
+   "rating": 1,
+   "title": "No instant option in iPhone 7 plus",
+   "body": "Still don’t have that instagram instant option. Please upgrade it & I’ll give 5 star",
+   "author": "gtulffsj",
+   "version": "410.1.0",
+   "date": "2026-09-28T04:06:08-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602854963",
+   "rating": 1,
+   "title": "Trash",
+   "body": "Say using the search will make you agree to the AI terms and conditions-> doesn’t give you an option to use a regular search\nThey’ve viciously removed stopping cues to promote unhealthy obsessive doom scrolling. \nThey’ve programmed their app to antagonize people into more engagement. \n\nI hate it. I literally JUST downloaded it again because some babe from a dating app gave me their handle. It’s not worth it. Capitalism is a regressive model that destroys their own product iteration after iteration making it worse at every turn. Planned obsolescence demands that quality be sacrificed for money every time. \nThis app is [the worst smelling excrement you’ve ever had the unfortunate displeasure of smelling]",
+   "author": "GEHXRT",
+   "version": "448.0.0",
+   "date": "2026-09-28T03:30:40-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602850894",
+   "rating": 3,
+   "title": "Improve ads reach",
+   "body": "It would improve my business if Instagram could help increase my reach and show my products to those with the capacity to make a purchase. In essence make the meta ads filter easy such that all I have to do is type my niche and the algorithm pushes it to potential buyers.",
+   "author": "Qaddcg",
+   "version": "448.0.0",
+   "date": "2026-09-28T03:29:00-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602626163",
+   "rating": 1,
+   "title": "So bad",
+   "body": "اولا مفيش احترام لاي من حقوق او قانون او اتفاقات دوليه موثقه ومصيونه بعقود وفواتير .. المنصه بتحجب الارقام عن عمد بغرض الدفع المالي .. ومفيش احترام لا لقانون الملكيه الفكريه حتي لو موقعزفي الاتحاد الاروبي ولكن مفيش حاجه اسمها اتفاقيه بيرن ١٩٤٠  . تاني نقطه في عقود رسميه بمشركات دوليه وتكريم دولي وبتعملو بان .. تالت نقطه في فواتير بنكيه مع بنوك معتمده  والحوالات مثبوت فيها اسم المشاركات  .. سواء art expo Milan 2026 - Monaco art fair 2026 … وغير كل ده في كتالوجات وفي الف دليل آخر وفي تعنت من المنصه ومن شركه ميتا وده قانونا اسمه ضرر مادي مباشر .. وكمان في ضرر معنوي  ممكن يكلف الشركه ملاين وتم مخاطبه ميتا وتم التجاهل .. وتم إرسال كافه المستندات للدعم وبرضو المنصه نايمه",
+   "author": "Sheetoos aslan",
+   "version": "448.0.0",
+   "date": "2026-09-28T01:49:49-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602611917",
+   "rating": 5,
+   "title": "enjoy!$$:)",
+   "body": "new vibe ✌🏽✌🏽👌🏽",
+   "author": "papi.emerson",
+   "version": "448.0.0",
+   "date": "2026-09-28T01:43:09-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602588247",
+   "rating": 5,
+   "title": "Love it",
+   "body": "Good",
+   "author": "Goldvickie",
+   "version": "448.0.0",
+   "date": "2026-09-28T01:32:04-07:00",
+   "votes": 0
+  },
+  {
+   "id": "14602572882",
+   "rating": 2,
+   "title": "Problem",
+   "body": "All they do is ban you",
+   "author": "1 Star rating bro",
+   "version": "448.0.0",
+   "date": "2026-09-28T01:24:54-07:00",
+   "votes": 0
+  },
   {
    "id": "14602478107",
    "rating": 1,

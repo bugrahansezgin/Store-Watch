@@ -5,6 +5,150 @@
    "date": "2026-09-28T14:09:37Z",
    "notes": "- viral,clout boosts effects improved \n- minor bug fixes",
    "source": "tracked"
+  },
+  {
+   "version": "1.9.61",
+   "notes": "- mute public stories\n- activity log redesign\n- other bug fixes",
+   "date": "2026-09-14T07:57:03+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.60",
+   "notes": "- rewind system refactored\n- fixed infinite loading issue for first time landing on app \n- story tray enhancements \n- minor bug fixes",
+   "date": "2026-09-07T07:16:39+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.59",
+   "notes": "Bug fixes",
+   "date": "2026-08-31T11:31:03+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.58",
+   "notes": "Bug fixes",
+   "date": "2026-08-27T10:57:09+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.57",
+   "notes": "-new feature : stories\n-bug fixes",
+   "date": "2026-08-25T14:44:31+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.55",
+   "notes": "- follow us on Instagram to get more energy feature\n- minor bug fixes",
+   "date": "2026-08-22T05:30:27+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.54",
+   "notes": "bug fixes",
+   "date": "2026-08-12T15:01:08+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.53",
+   "notes": "-mute news/media outlet under customise scenario \n-keyboard issues in activities\n-minor bug fixes",
+   "date": "2026-08-10T02:03:51+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.52",
+   "notes": "Bug fixes",
+   "date": "2026-08-05T05:45:29+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.51",
+   "notes": "-Redesigned Activities flow\n-Undo support for moves in Activity\n-Fixed flicker on the Create My Own Presets screen\n-Stricter moderation for public presets/fandoms \n-Other minor  bug fixes",
+   "date": "2026-08-03T05:04:46+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.50",
+   "notes": "-Bug fixes",
+   "date": "2026-07-28T14:42:45+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.49",
+   "notes": "- Minor bug fixes",
+   "date": "2026-07-17T13:01:32+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.48",
+   "notes": "- Gift subscriptions (in item shop)\n- Minor bug fixes",
+   "date": "2026-07-15T07:10:00+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.46",
+   "notes": "-redesigned notification screen\n-redesigned outcome banner & upgrade skills \n-on app launch app static status screen bug fixed\n-other fixes",
+   "date": "2026-07-07T14:25:22+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.45",
+   "notes": "-new feature (localisation)\n-chat refill experience made better \n-small animations on chat screen for score/desc changes.\n-minor bug fixes",
+   "date": "2026-06-30T08:18:54+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.44",
+   "notes": "-chars profile redesigned\n-new posts/replies loads faster\n-minor fixes",
+   "date": "2026-06-18T13:32:05+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.43",
+   "notes": "-bug fixes",
+   "date": "2026-06-17T15:01:32+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.42",
+   "notes": "- Events animations\n- Multiplayer fixes\n- New onboarding\n- Other bug fixes",
+   "date": "2026-06-11T14:20:48+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.41",
+   "notes": "- DM auto energy drain fix \n- Achievements page design fixes \n- Custom char description upto 1500 \n- Other improvements",
+   "date": "2026-06-04T14:51:57+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.40",
+   "notes": "- Custom characters library in settings \n- DMs UX improved\n- Preset & Create from scratch flow redesigned \n- MP join server bug fixed \n- Other design changes and bug fixes",
+   "date": "2026-05-29T13:49:36+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.39",
+   "notes": "- Achievement & Dms page fonts redesigned\n- Scenario Madness scale (customise world)\n- Other bug fixes",
+   "date": "2026-05-21T19:36:17+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.38",
+   "notes": "-multiplayer URL link fix \n-multiplayer join using invite-code option\n-multiplayer small design fixes",
+   "date": "2026-05-11T14:54:22+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.37",
+   "notes": "-custom settings control for proactive characters \n-streaks & daily reward claims redesigned\n-minor bug fixes",
+   "date": "2026-05-07T13:35:00+00:00",
+   "source": "appstore"
+  },
+  {
+   "version": "1.9.35",
+   "notes": "- New feature! Proactive activities — characters can invite you into activities when it fits the story\n- Auto refill energy using gems when you're running low\n- Added new chemistry types! \n- Customize world from a character profile, including converting to multiplayer without leaving that flow\n- Bio suggestions when you build a scenario from scratch\n- Use your custom characters when creating scenarios from scratch\n- Events redesign\n- Fixed the keyboard glitch when editing a character description\n- Various bug fixes and improvements",
+   "date": "2026-04-29T22:06:54+00:00",
+   "source": "appstore"
   }
  ],
  "descriptions": [
@@ -14,8 +158,8 @@
   }
  ],
  "backfill": {
-  "ok": false,
-  "count": 0,
-  "ts": "2026-09-29T15:09:58+00:00"
+  "ok": true,
+  "count": 26,
+  "ts": "2026-09-30T07:01:48+00:00"
  }
 }
