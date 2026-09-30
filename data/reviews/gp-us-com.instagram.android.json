@@ -1,39 +1,116 @@
 {
  "stats": {
-  "total": 536,
+  "total": 543,
   "avg": 4.12,
   "dist": {
-   "1": 92,
-   "2": 13,
+   "1": 93,
+   "2": 14,
    "3": 13,
-   "4": 36,
-   "5": 382
+   "4": 37,
+   "5": 386
   },
   "d7": {
-   "count": 536,
+   "count": 543,
    "avg": 4.12,
    "dist": {
-    "1": 92,
-    "2": 13,
+    "1": 93,
+    "2": 14,
     "3": 13,
-    "4": 36,
-    "5": 382
+    "4": 37,
+    "5": 386
    }
   },
   "d30": {
-   "count": 536,
+   "count": 543,
    "avg": 4.12,
    "dist": {
-    "1": 92,
-    "2": 13,
+    "1": 93,
+    "2": 14,
     "3": 13,
-    "4": 36,
-    "5": 382
+    "4": 37,
+    "5": 386
    }
   },
-  "updatedAt": "2026-09-30T07:34:50+00:00"
+  "updatedAt": "2026-09-30T07:36:38+00:00"
  },
  "reviews": [
+  {
+   "id": "f32c06ea-6d2c-40dd-ba83-e05cc8f2eb5b",
+   "rating": 5,
+   "title": "",
+   "body": "Super mind blowing fentastic ekdam saras",
+   "author": "biren J.D.",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:36:26+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "d20efbe2-4265-4396-a3ec-372b6454153e",
+   "rating": 2,
+   "title": "",
+   "body": "Why doesn't Instagram have a dislike button? Right now, junk and clickbait content can only be rewarded with likes, never penalized. Silence just reads as indifference, so the algorithm keeps boosting whatever gets the most reactions. A private dislike option (with counts hidden, like YouTube) would give users a way to say \"this isn't for me\" and help push low-quality content down. Please consider it.",
+   "author": "Peyman Matan",
+   "version": "",
+   "date": "2026-09-29T07:34:05+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "8de583b5-c5c2-460f-84bc-60914bf7b2d6",
+   "rating": 5,
+   "title": "",
+   "body": "பிபிபிபிபிபிபிஆஃப்",
+   "author": "ACK CK",
+   "version": "",
+   "date": "2026-09-29T07:33:18+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "11c1dab6-75a2-473c-baca-241e4e141b0f",
+   "rating": 5,
+   "title": "",
+   "body": "waste kine huiyya",
+   "author": "Md Arman",
+   "version": "",
+   "date": "2026-09-29T07:32:29+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "8e658fc6-d605-40a9-985d-84ed911fb745",
+   "rating": 1,
+   "title": "",
+   "body": "Bro, they said I committed sexual acts against a child, even though I only sent a photo of a bald person to my friend and that wasn't even harassment or anything, you're weird.",
+   "author": "Asyifa Salsabila",
+   "version": "448.0.0.52.84",
+   "date": "2026-09-29T07:32:08+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "db83355c-4e13-47a0-8356-299c7b36699f",
+   "rating": 5,
+   "title": "",
+   "body": "super entertainment",
+   "author": "Sri",
+   "version": "",
+   "date": "2026-09-29T07:31:27+00:00",
+   "votes": 0,
+   "reply": ""
+  },
+  {
+   "id": "2bf4ab8c-df10-4c97-821c-3bca50a68fb5",
+   "rating": 4,
+   "title": "",
+   "body": "cukup bagus",
+   "author": "Boerhan Sapoetra",
+   "version": "442.0.0.46.79",
+   "date": "2026-09-29T07:31:11+00:00",
+   "votes": 0,
+   "reply": ""
+  },
   {
    "id": "c170be95-b8a8-40ce-a524-2258edc48db9",
    "rating": 5,
